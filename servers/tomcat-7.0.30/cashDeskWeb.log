@@ -1,0 +1,529 @@
+2012-09-17 12:57:27.0056 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-09-17 12:57:27.0056 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? Creating new DataLocalConnector
+2012-09-17 12:57:27.0056 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from file system
+2012-09-17 12:57:27.0056 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-09-17 12:57:27.0056 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-09-17 12:57:27.0072 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-09-17 12:57:27.0072 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-09-17 12:57:27.0072 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from file system
+2012-09-17 12:57:27.0088 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource is null: creating a new one
+2012-09-17 12:57:27.0253 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.MySqlConnector ? Connecting to jdbc:mysql://10.0.12.2:3306/PTM_GR
+2012-09-17 12:57:27.0253 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-09-17 12:57:27.0644 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-09-17 12:57:27.0644 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-09-17 12:57:27.0644 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.GET_GAMING_ROOM_LOCATION
+2012-09-17 12:57:27.0707 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Gaming room location successfully retrieved! Location ID: 306; Location name: HAPPY GAMES CLUB BOCCEA
+2012-09-17 12:57:27.0714 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 1: BOCCEA 246
+2012-09-17 12:57:27.0714 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 2: ROMA - RM
+2012-09-17 12:57:27.0714 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? debit title: CASHOUT TICKET
+2012-09-17 12:57:27.0714 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? restricted title: PLAYABLE ONLY
+2012-09-17 12:59:23.0050 DEBUG http-bio-8080-exec-7 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-09-17 12:59:23.0066 DEBUG http-bio-8080-exec-7 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-09-17 12:59:23.0066 DEBUG http-bio-8080-exec-7 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from cache
+2012-09-17 12:59:23.0066 DEBUG http-bio-8080-exec-7 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-09-17 12:59:23.0066 DEBUG http-bio-8080-exec-7 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-09-17 12:59:23.0066 DEBUG http-bio-8080-exec-7 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-09-17 12:59:23.0066 DEBUG http-bio-8080-exec-7 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.GET_EMPLOYEE_AUTHENTICATION
+2012-09-28 18:12:19.0783 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-09-28 18:12:19.0791 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? Creating new DataLocalConnector
+2012-09-28 18:12:19.0793 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from file system
+2012-09-28 18:12:19.0797 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-09-28 18:12:19.0797 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-09-28 18:12:19.0797 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-09-28 18:12:19.0797 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-09-28 18:12:19.0798 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from file system
+2012-09-28 18:12:19.0798 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource is null: creating a new one
+2012-09-28 18:12:19.0941 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.MySqlConnector ? Connecting to jdbc:mysql://10.0.12.2:3306/PTM_GR
+2012-09-28 18:12:19.0943 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-09-28 18:12:20.0390 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-09-28 18:12:20.0390 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-09-28 18:12:20.0390 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.GET_GAMING_ROOM_LOCATION
+2012-09-28 18:12:20.0462 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Gaming room location successfully retrieved! Location ID: 306; Location name: HAPPY GAMES CLUB BOCCEA
+2012-09-28 18:12:20.0462 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 1: BOCCEA 246
+2012-09-28 18:12:20.0463 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 2: ROMA - RM
+2012-09-28 18:12:20.0463 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? debit title: CASHOUT TICKET
+2012-09-28 18:12:20.0463 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? restricted title: PLAYABLE ONLY
+2012-09-28 18:13:57.0900 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-09-28 18:13:57.0900 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-09-28 18:13:57.0900 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from cache
+2012-09-28 18:13:57.0901 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-09-28 18:13:57.0902 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-09-28 18:13:57.0903 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-09-28 18:13:57.0903 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.GET_EMPLOYEE_AUTHENTICATION
+2012-09-28 18:13:58.0236 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? User Succesfully authenticated, name: SYSTEM, SYSTEM_B
+2012-09-28 18:13:58.0261 INFO http-bio-8080-exec-3 it.betplus.web.framework.managedbeans.LoginBean ? User nlogin logged into applicaiton 
+2012-09-28 18:14:00.0248 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-09-28 18:14:00.0249 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-09-28 18:14:00.0249 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from cache
+2012-09-28 18:14:00.0249 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-09-28 18:14:00.0253 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-09-28 18:14:00.0254 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-09-28 18:14:00.0254 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.SET_CAGE_SHIFT
+2012-09-28 18:14:00.0528 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-09-28 18:14:00.0528 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-09-28 18:14:00.0528 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from cache
+2012-09-28 18:14:00.0528 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-09-28 18:14:00.0529 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-09-28 18:14:00.0530 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-09-28 18:14:00.0530 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.CAGE_GET_SHIFT_TRANSACTIONS
+2012-09-28 18:14:05.0750 INFO http-bio-8080-exec-1 it.betplus.web.framework.managedbeans.LoginBean ? User  logged out from application
+2012-10-01 11:32:00.0295 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-10-01 11:32:00.0311 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.local.DataLocalConnector ? Creating new DataLocalConnector
+2012-10-01 11:32:00.0321 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from file system
+2012-10-01 11:32:00.0329 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 11:32:00.0329 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 11:32:00.0329 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 11:32:00.0329 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-10-01 11:32:00.0329 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from file system
+2012-10-01 11:32:00.0329 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource is null: creating a new one
+2012-10-01 11:32:00.0482 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.common.MySqlConnector ? Connecting to jdbc:mysql://10.0.12.2:3306/PTM_GR
+2012-10-01 11:32:00.0482 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-10-01 11:32:00.0940 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-10-01 11:32:00.0940 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-10-01 11:32:00.0940 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.GET_GAMING_ROOM_LOCATION
+2012-10-01 11:32:01.0006 INFO http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Gaming room location successfully retrieved! Location ID: 306; Location name: HAPPY GAMES CLUB BOCCEA
+2012-10-01 11:32:01.0006 INFO http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 1: BOCCEA 246
+2012-10-01 11:32:01.0006 INFO http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 2: ROMA - RM
+2012-10-01 11:32:01.0007 INFO http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? debit title: CASHOUT TICKET
+2012-10-01 11:32:01.0007 INFO http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? restricted title: PLAYABLE ONLY
+2012-10-01 14:15:04.0060 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-10-01 14:15:04.0068 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? Creating new DataLocalConnector
+2012-10-01 14:15:04.0070 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from file system
+2012-10-01 14:15:04.0075 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:15:04.0075 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:15:04.0075 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:15:04.0077 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-10-01 14:15:04.0077 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from file system
+2012-10-01 14:15:04.0077 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource is null: creating a new one
+2012-10-01 14:15:04.0204 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.MySqlConnector ? Connecting to jdbc:mysql://10.0.12.2:3306/PTM_GR
+2012-10-01 14:15:04.0204 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-10-01 14:15:04.0565 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-10-01 14:15:04.0565 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-10-01 14:15:04.0565 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.GET_GAMING_ROOM_LOCATION
+2012-10-01 14:15:04.0627 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Gaming room location successfully retrieved! Location ID: 306; Location name: HAPPY GAMES CLUB BOCCEA
+2012-10-01 14:15:04.0627 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 1: BOCCEA 246
+2012-10-01 14:15:04.0627 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 2: ROMA - RM
+2012-10-01 14:15:04.0627 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? debit title: CASHOUT TICKET
+2012-10-01 14:15:04.0627 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? restricted title: PLAYABLE ONLY
+2012-10-01 14:24:36.0313 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-10-01 14:24:36.0317 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.data.local.DataLocalConnector ? Creating new DataLocalConnector
+2012-10-01 14:24:36.0317 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from file system
+2012-10-01 14:24:36.0321 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:24:36.0321 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:24:36.0321 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:24:36.0321 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-10-01 14:24:36.0321 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from file system
+2012-10-01 14:24:36.0321 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource is null: creating a new one
+2012-10-01 14:24:36.0360 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.data.common.MySqlConnector ? Connecting to jdbc:mysql://10.0.12.2:3306/PTM_GR
+2012-10-01 14:24:36.0360 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-10-01 14:24:36.0389 ERROR http-bio-8080-exec-1 it.betplus.playertracker.data.common.AbstractDBConnector ? ERROR opening connection to the DB
+java.sql.SQLException: Impossibile avviare Universal Connection Pool: oracle.ucp.UniversalConnectionPoolException: Errore interno di Universal Connection Pool: java.security.PrivilegedActionException: javax.management.InstanceAlreadyExistsException: oracle.ucp.admin:name=UniversalConnectionPoolManagerMBean
+	at oracle.ucp.util.UCPErrorHandler.newSQLException(UCPErrorHandler.java:488)
+	at oracle.ucp.util.UCPErrorHandler.throwSQLException(UCPErrorHandler.java:163)
+	at oracle.ucp.jdbc.PoolDataSourceImpl.startPool(PoolDataSourceImpl.java:643)
+	at oracle.ucp.jdbc.PoolDataSourceImpl.getConnection(PoolDataSourceImpl.java:878)
+	at oracle.ucp.jdbc.PoolDataSourceImpl.getConnection(PoolDataSourceImpl.java:845)
+	at oracle.ucp.jdbc.PoolDataSourceImpl.getConnection(PoolDataSourceImpl.java:839)
+	at it.betplus.playertracker.data.common.AbstractDBConnector.connection(AbstractDBConnector.java:55)
+	at it.betplus.playertracker.data.local.DataLocalConnector.connection(DataLocalConnector.java:45)
+	at it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql.executeSP(PTMLocalFacadeMySql.java:312)
+	at it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql.executeSP(PTMLocalFacadeMySql.java:652)
+	at it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql.getGamingRoomLocation(PTMLocalFacadeMySql.java:715)
+	at it.betplus.cashdesk.beans.LoginBeanCashDesk.<init>(LoginBeanCashDesk.java:54)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:188)
+	at com.sun.faces.mgbean.BeanBuilder.build(BeanBuilder.java:102)
+	at com.sun.faces.mgbean.BeanManager.createAndPush(BeanManager.java:409)
+	at com.sun.faces.mgbean.BeanManager.create(BeanManager.java:269)
+	at com.sun.faces.el.ManagedBeanELResolver.resolveBean(ManagedBeanELResolver.java:244)
+	at com.sun.faces.el.ManagedBeanELResolver.getValue(ManagedBeanELResolver.java:116)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstIdentifier.getValue(AstIdentifier.java:99)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:158)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:219)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIOutput.getValue(UIOutput.java:169)
+	at org.primefaces.component.calendar.CalendarUtils.getValueAsString(CalendarUtils.java:35)
+	at org.primefaces.component.calendar.CalendarRenderer.encodeEnd(CalendarRenderer.java:58)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:875)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1786)
+	at org.primefaces.component.toolbar.ToolbarRenderer.encodeEnd(ToolbarRenderer.java:61)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:875)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1786)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1782)
+	at org.primefaces.component.tabview.TabViewRenderer.encodeTabContent(TabViewRenderer.java:280)
+	at org.primefaces.component.tabview.TabViewRenderer.encodeContents(TabViewRenderer.java:238)
+	at org.primefaces.component.tabview.TabViewRenderer.encodeMarkup(TabViewRenderer.java:128)
+	at org.primefaces.component.tabview.TabViewRenderer.encodeEnd(TabViewRenderer.java:69)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:875)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1786)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:168)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:845)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1779)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1782)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1782)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:424)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:125)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:121)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:139)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:594)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1002)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: oracle.ucp.UniversalConnectionPoolException: Errore interno di Universal Connection Pool: java.security.PrivilegedActionException: javax.management.InstanceAlreadyExistsException: oracle.ucp.admin:name=UniversalConnectionPoolManagerMBean
+	at oracle.ucp.util.UCPErrorHandler.newUniversalConnectionPoolException(UCPErrorHandler.java:368)
+	at oracle.ucp.util.UCPErrorHandler.throwUniversalConnectionPoolException(UCPErrorHandler.java:49)
+	at oracle.ucp.util.UCPErrorHandler.throwUniversalConnectionPoolException(UCPErrorHandler.java:80)
+	at oracle.ucp.util.UCPErrorHandler.throwUniversalConnectionPoolException(UCPErrorHandler.java:146)
+	at oracle.ucp.admin.UniversalConnectionPoolManagerMBeanImpl.getUniversalConnectionPoolManagerMBean(UniversalConnectionPoolManagerMBeanImpl.java:169)
+	at oracle.ucp.jdbc.PoolDataSourceImpl.startPool(PoolDataSourceImpl.java:617)
+	... 74 more
+2012-10-01 14:24:36.0391 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.data.common.AbstractDBConnector ? 1th attempt to get a valid connection to the DB FAILED!
+2012-10-01 14:24:36.0391 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.data.common.AbstractDBConnector ? Next attempt in 1 second...
+2012-10-01 14:24:37.0392 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-10-01 14:24:37.0732 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-10-01 14:24:37.0732 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-10-01 14:24:37.0732 DEBUG http-bio-8080-exec-1 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.GET_GAMING_ROOM_LOCATION
+2012-10-01 14:24:37.0787 INFO http-bio-8080-exec-1 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Gaming room location successfully retrieved! Location ID: 306; Location name: HAPPY GAMES CLUB BOCCEA
+2012-10-01 14:24:37.0787 INFO http-bio-8080-exec-1 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 1: BOCCEA 246
+2012-10-01 14:24:37.0787 INFO http-bio-8080-exec-1 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 2: ROMA - RM
+2012-10-01 14:24:37.0787 INFO http-bio-8080-exec-1 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? debit title: CASHOUT TICKET
+2012-10-01 14:24:37.0787 INFO http-bio-8080-exec-1 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? restricted title: PLAYABLE ONLY
+2012-10-01 14:43:45.0911 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-10-01 14:43:45.0913 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? Creating new DataLocalConnector
+2012-10-01 14:43:45.0915 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from file system
+2012-10-01 14:43:45.0918 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:43:45.0918 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:43:45.0920 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:43:45.0920 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-10-01 14:43:45.0920 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from file system
+2012-10-01 14:43:45.0921 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource is null: creating a new one
+2012-10-01 14:43:46.0064 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.MySqlConnector ? Connecting to jdbc:mysql://10.0.12.2:3306/PTM_GR
+2012-10-01 14:43:46.0064 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-10-01 14:43:46.0392 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-10-01 14:43:46.0392 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-10-01 14:43:46.0392 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.GET_GAMING_ROOM_LOCATION
+2012-10-01 14:43:46.0462 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Gaming room location successfully retrieved! Location ID: 306; Location name: HAPPY GAMES CLUB BOCCEA
+2012-10-01 14:43:46.0464 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 1: BOCCEA 246
+2012-10-01 14:43:46.0464 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 2: ROMA - RM
+2012-10-01 14:43:46.0464 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? debit title: CASHOUT TICKET
+2012-10-01 14:43:46.0464 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? restricted title: PLAYABLE ONLY
+2012-10-01 14:44:56.0756 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-10-01 14:44:56.0760 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? Creating new DataLocalConnector
+2012-10-01 14:44:56.0760 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from file system
+2012-10-01 14:44:56.0769 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:44:56.0769 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:44:56.0769 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:44:56.0773 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-10-01 14:44:56.0773 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from file system
+2012-10-01 14:44:56.0773 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource is null: creating a new one
+2012-10-01 14:44:56.0901 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.MySqlConnector ? Connecting to jdbc:mysql://10.0.12.2:3306/PTM_GR
+2012-10-01 14:44:56.0901 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-10-01 14:44:57.0233 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-10-01 14:44:57.0233 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-10-01 14:44:57.0233 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.GET_GAMING_ROOM_LOCATION
+2012-10-01 14:44:57.0292 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Gaming room location successfully retrieved! Location ID: 306; Location name: HAPPY GAMES CLUB BOCCEA
+2012-10-01 14:44:57.0293 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 1: BOCCEA 246
+2012-10-01 14:44:57.0293 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 2: ROMA - RM
+2012-10-01 14:44:57.0293 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? debit title: CASHOUT TICKET
+2012-10-01 14:44:57.0293 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? restricted title: PLAYABLE ONLY
+2012-10-01 14:45:48.0042 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-10-01 14:45:48.0046 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.local.DataLocalConnector ? Creating new DataLocalConnector
+2012-10-01 14:45:48.0046 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from file system
+2012-10-01 14:45:48.0056 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:45:48.0056 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:45:48.0056 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:45:48.0056 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-10-01 14:45:48.0056 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from file system
+2012-10-01 14:45:48.0056 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource is null: creating a new one
+2012-10-01 14:45:48.0091 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.common.MySqlConnector ? Connecting to jdbc:mysql://10.0.12.2:3306/PTM_GR
+2012-10-01 14:45:48.0091 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-10-01 14:45:48.0109 ERROR http-bio-8080-exec-9 it.betplus.playertracker.data.common.AbstractDBConnector ? ERROR opening connection to the DB
+java.sql.SQLException: Impossibile avviare Universal Connection Pool: oracle.ucp.UniversalConnectionPoolException: Errore interno di Universal Connection Pool: java.security.PrivilegedActionException: javax.management.InstanceAlreadyExistsException: oracle.ucp.admin:name=UniversalConnectionPoolManagerMBean
+	at oracle.ucp.util.UCPErrorHandler.newSQLException(UCPErrorHandler.java:488)
+	at oracle.ucp.util.UCPErrorHandler.throwSQLException(UCPErrorHandler.java:163)
+	at oracle.ucp.jdbc.PoolDataSourceImpl.startPool(PoolDataSourceImpl.java:643)
+	at oracle.ucp.jdbc.PoolDataSourceImpl.getConnection(PoolDataSourceImpl.java:878)
+	at oracle.ucp.jdbc.PoolDataSourceImpl.getConnection(PoolDataSourceImpl.java:845)
+	at oracle.ucp.jdbc.PoolDataSourceImpl.getConnection(PoolDataSourceImpl.java:839)
+	at it.betplus.playertracker.data.common.AbstractDBConnector.connection(AbstractDBConnector.java:55)
+	at it.betplus.playertracker.data.local.DataLocalConnector.connection(DataLocalConnector.java:45)
+	at it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql.executeSP(PTMLocalFacadeMySql.java:312)
+	at it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql.executeSP(PTMLocalFacadeMySql.java:652)
+	at it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql.getGamingRoomLocation(PTMLocalFacadeMySql.java:715)
+	at it.betplus.cashdesk.beans.LoginBeanCashDesk.<init>(LoginBeanCashDesk.java:55)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:188)
+	at com.sun.faces.mgbean.BeanBuilder.build(BeanBuilder.java:102)
+	at com.sun.faces.mgbean.BeanManager.createAndPush(BeanManager.java:409)
+	at com.sun.faces.mgbean.BeanManager.create(BeanManager.java:269)
+	at com.sun.faces.el.ManagedBeanELResolver.resolveBean(ManagedBeanELResolver.java:244)
+	at com.sun.faces.el.ManagedBeanELResolver.getValue(ManagedBeanELResolver.java:116)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstIdentifier.getValue(AstIdentifier.java:99)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:158)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:219)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIOutput.getValue(UIOutput.java:169)
+	at org.primefaces.component.calendar.CalendarUtils.getValueAsString(CalendarUtils.java:35)
+	at org.primefaces.component.calendar.CalendarRenderer.encodeEnd(CalendarRenderer.java:58)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:875)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1786)
+	at org.primefaces.component.toolbar.ToolbarRenderer.encodeEnd(ToolbarRenderer.java:61)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:875)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1786)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1782)
+	at org.primefaces.component.tabview.TabViewRenderer.encodeTabContent(TabViewRenderer.java:280)
+	at org.primefaces.component.tabview.TabViewRenderer.encodeContents(TabViewRenderer.java:238)
+	at org.primefaces.component.tabview.TabViewRenderer.encodeMarkup(TabViewRenderer.java:128)
+	at org.primefaces.component.tabview.TabViewRenderer.encodeEnd(TabViewRenderer.java:69)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:875)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1786)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:168)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:845)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1779)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1782)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1782)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:424)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:125)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:121)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:139)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:594)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1002)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: oracle.ucp.UniversalConnectionPoolException: Errore interno di Universal Connection Pool: java.security.PrivilegedActionException: javax.management.InstanceAlreadyExistsException: oracle.ucp.admin:name=UniversalConnectionPoolManagerMBean
+	at oracle.ucp.util.UCPErrorHandler.newUniversalConnectionPoolException(UCPErrorHandler.java:368)
+	at oracle.ucp.util.UCPErrorHandler.throwUniversalConnectionPoolException(UCPErrorHandler.java:49)
+	at oracle.ucp.util.UCPErrorHandler.throwUniversalConnectionPoolException(UCPErrorHandler.java:80)
+	at oracle.ucp.util.UCPErrorHandler.throwUniversalConnectionPoolException(UCPErrorHandler.java:146)
+	at oracle.ucp.admin.UniversalConnectionPoolManagerMBeanImpl.getUniversalConnectionPoolManagerMBean(UniversalConnectionPoolManagerMBeanImpl.java:169)
+	at oracle.ucp.jdbc.PoolDataSourceImpl.startPool(PoolDataSourceImpl.java:617)
+	... 74 more
+2012-10-01 14:45:48.0115 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.common.AbstractDBConnector ? 1th attempt to get a valid connection to the DB FAILED!
+2012-10-01 14:45:48.0117 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.common.AbstractDBConnector ? Next attempt in 1 second...
+2012-10-01 14:45:49.0117 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-10-01 14:45:49.0536 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-10-01 14:45:49.0536 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-10-01 14:45:49.0536 DEBUG http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.GET_GAMING_ROOM_LOCATION
+2012-10-01 14:45:49.0590 INFO http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Gaming room location successfully retrieved! Location ID: 306; Location name: HAPPY GAMES CLUB BOCCEA
+2012-10-01 14:45:49.0590 INFO http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 1: BOCCEA 246
+2012-10-01 14:45:49.0590 INFO http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 2: ROMA - RM
+2012-10-01 14:45:49.0590 INFO http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? debit title: CASHOUT TICKET
+2012-10-01 14:45:49.0590 INFO http-bio-8080-exec-9 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? restricted title: PLAYABLE ONLY
+2012-10-01 14:46:27.0142 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-10-01 14:46:27.0144 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.data.local.DataLocalConnector ? Creating new DataLocalConnector
+2012-10-01 14:46:27.0144 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from file system
+2012-10-01 14:46:27.0148 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:46:27.0148 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:46:27.0148 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:46:27.0148 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-10-01 14:46:27.0148 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from file system
+2012-10-01 14:46:27.0150 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource is null: creating a new one
+2012-10-01 14:46:27.0189 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.data.common.MySqlConnector ? Connecting to jdbc:mysql://10.0.12.2:3306/PTM_GR
+2012-10-01 14:46:27.0191 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-10-01 14:46:27.0209 ERROR http-bio-8080-exec-13 it.betplus.playertracker.data.common.AbstractDBConnector ? ERROR opening connection to the DB
+java.sql.SQLException: Impossibile avviare Universal Connection Pool: oracle.ucp.UniversalConnectionPoolException: Errore interno di Universal Connection Pool: java.security.PrivilegedActionException: javax.management.InstanceAlreadyExistsException: oracle.ucp.admin:name=UniversalConnectionPoolManagerMBean
+	at oracle.ucp.util.UCPErrorHandler.newSQLException(UCPErrorHandler.java:488)
+	at oracle.ucp.util.UCPErrorHandler.throwSQLException(UCPErrorHandler.java:163)
+	at oracle.ucp.jdbc.PoolDataSourceImpl.startPool(PoolDataSourceImpl.java:643)
+	at oracle.ucp.jdbc.PoolDataSourceImpl.getConnection(PoolDataSourceImpl.java:878)
+	at oracle.ucp.jdbc.PoolDataSourceImpl.getConnection(PoolDataSourceImpl.java:845)
+	at oracle.ucp.jdbc.PoolDataSourceImpl.getConnection(PoolDataSourceImpl.java:839)
+	at it.betplus.playertracker.data.common.AbstractDBConnector.connection(AbstractDBConnector.java:55)
+	at it.betplus.playertracker.data.local.DataLocalConnector.connection(DataLocalConnector.java:45)
+	at it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql.executeSP(PTMLocalFacadeMySql.java:312)
+	at it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql.executeSP(PTMLocalFacadeMySql.java:652)
+	at it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql.getGamingRoomLocation(PTMLocalFacadeMySql.java:715)
+	at it.betplus.cashdesk.beans.LoginBeanCashDesk.<init>(LoginBeanCashDesk.java:55)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:188)
+	at com.sun.faces.mgbean.BeanBuilder.build(BeanBuilder.java:102)
+	at com.sun.faces.mgbean.BeanManager.createAndPush(BeanManager.java:409)
+	at com.sun.faces.mgbean.BeanManager.create(BeanManager.java:269)
+	at com.sun.faces.el.ManagedBeanELResolver.resolveBean(ManagedBeanELResolver.java:244)
+	at com.sun.faces.el.ManagedBeanELResolver.getValue(ManagedBeanELResolver.java:116)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstIdentifier.getValue(AstIdentifier.java:99)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:158)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:219)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIOutput.getValue(UIOutput.java:169)
+	at org.primefaces.component.calendar.CalendarUtils.getValueAsString(CalendarUtils.java:35)
+	at org.primefaces.component.calendar.CalendarRenderer.encodeEnd(CalendarRenderer.java:58)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:875)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1786)
+	at org.primefaces.component.toolbar.ToolbarRenderer.encodeEnd(ToolbarRenderer.java:61)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:875)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1786)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1782)
+	at org.primefaces.component.tabview.TabViewRenderer.encodeTabContent(TabViewRenderer.java:280)
+	at org.primefaces.component.tabview.TabViewRenderer.encodeContents(TabViewRenderer.java:238)
+	at org.primefaces.component.tabview.TabViewRenderer.encodeMarkup(TabViewRenderer.java:128)
+	at org.primefaces.component.tabview.TabViewRenderer.encodeEnd(TabViewRenderer.java:69)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:875)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1786)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:168)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:845)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1779)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1782)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1782)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:424)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:125)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:121)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:139)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:594)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1002)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: oracle.ucp.UniversalConnectionPoolException: Errore interno di Universal Connection Pool: java.security.PrivilegedActionException: javax.management.InstanceAlreadyExistsException: oracle.ucp.admin:name=UniversalConnectionPoolManagerMBean
+	at oracle.ucp.util.UCPErrorHandler.newUniversalConnectionPoolException(UCPErrorHandler.java:368)
+	at oracle.ucp.util.UCPErrorHandler.throwUniversalConnectionPoolException(UCPErrorHandler.java:49)
+	at oracle.ucp.util.UCPErrorHandler.throwUniversalConnectionPoolException(UCPErrorHandler.java:80)
+	at oracle.ucp.util.UCPErrorHandler.throwUniversalConnectionPoolException(UCPErrorHandler.java:146)
+	at oracle.ucp.admin.UniversalConnectionPoolManagerMBeanImpl.getUniversalConnectionPoolManagerMBean(UniversalConnectionPoolManagerMBeanImpl.java:169)
+	at oracle.ucp.jdbc.PoolDataSourceImpl.startPool(PoolDataSourceImpl.java:617)
+	... 74 more
+2012-10-01 14:46:27.0210 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.data.common.AbstractDBConnector ? 1th attempt to get a valid connection to the DB FAILED!
+2012-10-01 14:46:27.0210 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.data.common.AbstractDBConnector ? Next attempt in 1 second...
+2012-10-01 14:46:28.0211 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-10-01 14:46:28.0528 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-10-01 14:46:28.0529 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-10-01 14:46:28.0529 DEBUG http-bio-8080-exec-13 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.GET_GAMING_ROOM_LOCATION
+2012-10-01 14:46:28.0585 INFO http-bio-8080-exec-13 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Gaming room location successfully retrieved! Location ID: 306; Location name: HAPPY GAMES CLUB BOCCEA
+2012-10-01 14:46:28.0585 INFO http-bio-8080-exec-13 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 1: BOCCEA 246
+2012-10-01 14:46:28.0585 INFO http-bio-8080-exec-13 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 2: ROMA - RM
+2012-10-01 14:46:28.0585 INFO http-bio-8080-exec-13 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? debit title: CASHOUT TICKET
+2012-10-01 14:46:28.0585 INFO http-bio-8080-exec-13 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? restricted title: PLAYABLE ONLY
+2012-10-01 14:48:40.0293 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-10-01 14:48:40.0295 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? Creating new DataLocalConnector
+2012-10-01 14:48:40.0298 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from file system
+2012-10-01 14:48:40.0302 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:48:40.0302 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:48:40.0302 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:48:40.0302 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-10-01 14:48:40.0302 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from file system
+2012-10-01 14:48:40.0302 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource is null: creating a new one
+2012-10-01 14:48:40.0427 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.MySqlConnector ? Connecting to jdbc:mysql://10.0.12.2:3306/PTM_GR
+2012-10-01 14:48:40.0427 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-10-01 14:48:40.0767 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-10-01 14:48:40.0767 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-10-01 14:48:40.0767 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.GET_GAMING_ROOM_LOCATION
+2012-10-01 14:48:40.0832 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Gaming room location successfully retrieved! Location ID: 306; Location name: HAPPY GAMES CLUB BOCCEA
+2012-10-01 14:48:40.0832 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 1: BOCCEA 246
+2012-10-01 14:48:40.0832 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 2: ROMA - RM
+2012-10-01 14:48:40.0832 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? debit title: CASHOUT TICKET
+2012-10-01 14:48:40.0832 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? restricted title: PLAYABLE ONLY
+2012-10-01 14:49:33.0114 DEBUG http-bio-8080-exec-2 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-10-01 14:49:33.0118 DEBUG http-bio-8080-exec-2 it.betplus.playertracker.data.local.DataLocalConnector ? Creating new DataLocalConnector
+2012-10-01 14:49:33.0120 DEBUG http-bio-8080-exec-2 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from file system
+2012-10-01 14:49:33.0126 DEBUG http-bio-8080-exec-2 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:49:33.0126 DEBUG http-bio-8080-exec-2 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:49:33.0126 DEBUG http-bio-8080-exec-2 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:49:33.0126 DEBUG http-bio-8080-exec-2 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-10-01 14:49:33.0126 DEBUG http-bio-8080-exec-2 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from file system
+2012-10-01 14:49:33.0127 DEBUG http-bio-8080-exec-2 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource is null: creating a new one
+2012-10-01 14:49:33.0288 DEBUG http-bio-8080-exec-2 it.betplus.playertracker.data.common.MySqlConnector ? Connecting to jdbc:mysql://10.0.12.2:3306/PTM_GR
+2012-10-01 14:49:33.0288 DEBUG http-bio-8080-exec-2 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-10-01 14:49:33.0620 DEBUG http-bio-8080-exec-2 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-10-01 14:49:33.0620 DEBUG http-bio-8080-exec-2 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-10-01 14:49:33.0620 DEBUG http-bio-8080-exec-2 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.GET_GAMING_ROOM_LOCATION
+2012-10-01 14:49:33.0680 INFO http-bio-8080-exec-2 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Gaming room location successfully retrieved! Location ID: 306; Location name: HAPPY GAMES CLUB BOCCEA
+2012-10-01 14:49:33.0680 INFO http-bio-8080-exec-2 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 1: BOCCEA 246
+2012-10-01 14:49:33.0680 INFO http-bio-8080-exec-2 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 2: ROMA - RM
+2012-10-01 14:49:33.0682 INFO http-bio-8080-exec-2 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? debit title: CASHOUT TICKET
+2012-10-01 14:49:33.0682 INFO http-bio-8080-exec-2 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? restricted title: PLAYABLE ONLY
+2012-10-01 14:50:34.0015 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Getting connection to local DB...
+2012-10-01 14:50:34.0017 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? Creating new DataLocalConnector
+2012-10-01 14:50:34.0020 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from file system
+2012-10-01 14:50:34.0026 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:50:34.0026 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:50:34.0026 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.local.properties from cache
+2012-10-01 14:50:34.0026 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.DataLocalConnector ? DataLocalConnector already exists: getting connection...
+2012-10-01 14:50:34.0026 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.utils.LoadSettings ? Loading resource data.common.properties from file system
+2012-10-01 14:50:34.0028 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource is null: creating a new one
+2012-10-01 14:50:34.0176 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.MySqlConnector ? Connecting to jdbc:mysql://10.0.12.2:3306/PTM_GR
+2012-10-01 14:50:34.0176 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Datasource already exists: getting connection...
+2012-10-01 14:50:34.0571 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.common.AbstractDBConnector ? Connected!!
+2012-10-01 14:50:34.0571 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Successfully retrieved connection to local DB
+2012-10-01 14:50:34.0571 DEBUG http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Calling stored procedure PTM_GR.GET_GAMING_ROOM_LOCATION
+2012-10-01 14:50:34.0649 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Gaming room location successfully retrieved! Location ID: 306; Location name: HAPPY GAMES CLUB BOCCEA
+2012-10-01 14:50:34.0651 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 1: BOCCEA 246
+2012-10-01 14:50:34.0651 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? Address 2: ROMA - RM
+2012-10-01 14:50:34.0651 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? debit title: CASHOUT TICKET
+2012-10-01 14:50:34.0651 INFO http-bio-8080-exec-3 it.betplus.playertracker.data.local.facade.PTMLocalFacadeMySql ? restricted title: PLAYABLE ONLY

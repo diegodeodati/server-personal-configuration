@@ -1,0 +1,543 @@
+2012-07-30 10:44:34,903 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 10:44:34,923 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 10:44:34,923 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343637874923
+2012-07-30 10:44:34,949 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343637874923
+2012-07-30 10:46:00,250 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 10:46:00,251 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 10:46:03,106 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 10:46:03,116 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 10:46:03,116 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343637963116
+2012-07-30 10:46:03,121 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343637963116
+2012-07-30 10:50:57,944 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 10:50:57,945 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 10:51:47,867 INFO  [it.todatasharing.servlet.AppListener:67] Timer was not found in ServletContext...
+2012-07-30 10:54:20,457 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 10:54:20,463 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 10:54:20,463 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343638460463
+2012-07-30 10:54:20,469 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343638460463
+2012-07-30 11:24:20,464 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343640260464
+2012-07-30 11:24:20,464 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343640260464
+2012-07-30 11:36:17,298 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:36:17,303 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:36:17,303 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343640977303
+2012-07-30 11:36:17,309 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343640977303
+2012-07-30 11:37:00,490 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:37:00,495 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:37:00,495 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343641020495
+2012-07-30 11:37:00,504 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343641020495
+2012-07-30 11:42:12,126 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:42:12,131 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:42:12,131 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343641332131
+2012-07-30 11:42:12,137 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343641332131
+2012-07-30 11:43:29,014 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:43:29,020 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:43:29,022 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343641409022
+2012-07-30 11:43:29,027 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343641409022
+2012-07-30 11:46:29,324 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 11:46:29,324 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 11:46:30,650 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:46:30,660 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:46:30,660 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343641590660
+2012-07-30 11:46:30,665 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343641590660
+2012-07-30 11:47:38,122 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:47:38,128 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:47:38,128 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343641658128
+2012-07-30 11:47:38,135 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343641658128
+2012-07-30 11:47:41,958 ERROR [it.todatasharing.servlet.OnDemandImporter:142] java.text.ParseException: Unparseable date: "null 00:00:00"
+2012-07-30 11:49:38,932 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:49:38,938 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:49:38,938 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343641778938
+2012-07-30 11:49:38,943 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343641778938
+2012-07-30 11:49:43,145 ERROR [it.todatasharing.servlet.OnDemandImporter:142] java.text.ParseException: Unparseable date: "null 00:00:00"
+2012-07-30 11:50:39,157 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 11:50:39,157 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 11:50:40,725 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:50:40,735 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:50:40,735 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343641840735
+2012-07-30 11:50:40,740 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343641840735
+2012-07-30 11:51:39,160 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:51:39,165 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:51:39,165 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343641899165
+2012-07-30 11:51:39,171 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343641899165
+2012-07-30 11:51:41,968 ERROR [it.todatasharing.servlet.OnDemandImporter:142] java.text.ParseException: Unparseable date: "Mon Jul 30 11:51:39 CEST 2012 00:00:00"
+2012-07-30 11:52:54,180 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:52:54,186 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:52:54,186 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343641974186
+2012-07-30 11:52:54,191 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343641974186
+2012-07-30 11:53:13,434 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:53:13,440 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:53:13,440 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343641993440
+2012-07-30 11:53:13,448 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343641993440
+2012-07-30 11:53:44,297 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:53:44,305 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:53:44,306 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343642024305
+2012-07-30 11:53:44,314 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343642024305
+2012-07-30 11:54:29,662 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:54:29,668 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:54:29,669 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343642069668
+2012-07-30 11:54:29,676 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343642069668
+2012-07-30 11:55:19,954 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 11:55:19,955 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 11:55:21,228 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:55:21,236 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343642121236
+2012-07-30 11:55:21,236 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:55:21,240 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343642121236
+2012-07-30 11:55:28,456 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:55:28,462 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:55:28,462 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343642128462
+2012-07-30 11:55:28,468 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343642128462
+2012-07-30 11:56:21,359 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:56:21,365 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:56:21,365 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343642181365
+2012-07-30 11:56:21,372 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343642181365
+2012-07-30 11:57:06,431 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:57:06,436 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:57:06,436 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343642226436
+2012-07-30 11:57:06,442 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343642226436
+2012-07-30 11:57:08,954 ERROR [it.todatasharing.servlet.OnDemandImporter:144] java.text.ParseException: Unparseable date: "Mon Jul 30 11:57:07 CEST 2012 00:00:00"
+2012-07-30 11:59:16,696 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 11:59:16,696 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 11:59:18,073 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:59:18,081 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:59:18,081 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343642358081
+2012-07-30 11:59:18,085 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343642358081
+2012-07-30 11:59:48,193 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 11:59:48,194 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 11:59:49,521 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 11:59:49,528 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343642389528
+2012-07-30 11:59:49,529 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 11:59:49,533 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343642389528
+2012-07-30 12:09:27,883 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 12:09:27,888 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 12:09:27,888 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343642967888
+2012-07-30 12:09:27,894 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343642967888
+2012-07-30 12:10:12,855 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 12:10:12,861 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 12:10:12,861 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343643012861
+2012-07-30 12:10:12,872 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343643012861
+2012-07-30 12:10:18,538 ERROR [it.todatasharing.servlet.OnDemandImporter:145] java.text.ParseException: Unparseable date: "Mon Jul 30 12:10:13 CEST 2012 00:00:00"
+2012-07-30 12:16:03,549 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 12:16:03,549 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 12:16:51,389 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 12:16:51,412 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 12:16:51,413 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343643411413
+2012-07-30 12:16:51,426 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343643411413
+2012-07-30 12:16:55,840 ERROR [it.todatasharing.servlet.OnDemandImporter:150] java.text.ParseException: Unparseable date: "30/07/2012 00:00:00"
+2012-07-30 12:18:36,722 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 12:18:36,730 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 12:18:36,736 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343643516736
+2012-07-30 12:18:36,743 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343643516736
+2012-07-30 12:18:38,222 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 12:18:38,223 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 12:19:22,615 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 12:19:22,624 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 12:19:22,641 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343643562641
+2012-07-30 12:19:22,652 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343643562641
+2012-07-30 12:19:26,485 ERROR [it.todatasharing.servlet.OnDemandImporter:155] java.text.ParseException: Unparseable date: "30/07/2012 00:00:00"
+2012-07-30 12:19:46,545 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 12:19:46,563 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 12:19:46,582 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343643586582
+2012-07-30 12:19:46,617 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343643586582
+2012-07-30 12:20:23,470 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 12:20:23,495 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 12:20:23,495 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343643623495
+2012-07-30 12:20:23,505 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343643623495
+2012-07-30 12:20:27,763 INFO  [it.todatasharing.servlet.OnDemandImporter:116] CONNESSO NUC
+2012-07-30 12:20:27,824 INFO  [it.todatasharing.servlet.OnDemandImporter:119] CONNESSO CON
+2012-07-30 12:20:27,881 ERROR [it.todatasharing.servlet.OnDemandImporter:155]  Exception Error: Errore nella apertura della connessione su mysql caused by: org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user 'scbi'@'192.168.101.80' (using password: YES))
+2012-07-30 12:22:12,634 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 12:22:12,641 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 12:22:12,641 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343643732641
+2012-07-30 12:22:12,648 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343643732641
+2012-07-30 12:22:17,410 INFO  [it.todatasharing.servlet.OnDemandImporter:116] CONNESSO NUC
+2012-07-30 12:22:17,411 INFO  [it.todatasharing.servlet.OnDemandImporter:118] CONNESSO CON
+2012-07-30 12:22:17,411 INFO  [it.todatasharing.servlet.OnDemandImporter:120] CONNESSO BACK
+2012-07-30 12:22:17,411 INFO  [it.todatasharing.servlet.OnDemandImporter:122] CONNESSO DATASHARING
+2012-07-30 12:27:12,992 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 12:27:12,992 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 12:27:14,376 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 12:27:14,376 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 12:27:14,376 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343644034376
+2012-07-30 12:27:14,386 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343644034376
+2012-07-30 12:28:44,706 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 12:28:44,706 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 12:28:45,927 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 12:28:45,934 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 12:28:45,934 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343644125934
+2012-07-30 12:28:45,938 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343644125934
+2012-07-30 12:29:20,289 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 12:29:20,294 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 12:29:20,294 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343644160294
+2012-07-30 12:29:20,300 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343644160294
+2012-07-30 12:29:27,333 INFO  [it.todatasharing.beans.ImporterBean:150] CONNESSO NUC
+2012-07-30 12:29:27,333 INFO  [it.todatasharing.beans.ImporterBean:153] CONNESSO CON
+2012-07-30 12:29:27,333 INFO  [it.todatasharing.beans.ImporterBean:156] CONNESSO BACK
+2012-07-30 12:29:27,333 INFO  [it.todatasharing.beans.ImporterBean:159] CONNESSO DATASHARING
+2012-07-30 12:30:13,965 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 12:30:13,970 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 12:30:13,970 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343644213970
+2012-07-30 12:30:13,977 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343644213970
+2012-07-30 12:31:14,227 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 12:31:14,227 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 12:31:15,529 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 12:31:15,529 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343644275529
+2012-07-30 12:31:15,529 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 12:31:15,539 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343644275529
+2012-07-30 14:05:38,663 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:05:38,668 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:05:38,668 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343649938668
+2012-07-30 14:05:38,676 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343649938668
+2012-07-30 14:06:15,609 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:06:15,615 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343649975615
+2012-07-30 14:06:15,615 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:06:15,624 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343649975615
+2012-07-30 14:06:56,531 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:06:56,537 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:06:56,539 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343650016539
+2012-07-30 14:06:56,547 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343650016539
+2012-07-30 14:07:02,951 INFO  [it.todatasharing.beans.ImporterBean:162] CONNESSO NUC
+2012-07-30 14:07:02,952 INFO  [it.todatasharing.beans.ImporterBean:165] CONNESSO CON
+2012-07-30 14:07:02,952 INFO  [it.todatasharing.beans.ImporterBean:168] CONNESSO BACK
+2012-07-30 14:07:02,952 INFO  [it.todatasharing.beans.ImporterBean:171] CONNESSO DATASHARING
+2012-07-30 14:07:54,230 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:07:54,240 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:07:54,240 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343650074240
+2012-07-30 14:07:54,240 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343650074240
+2012-07-30 14:08:02,269 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:08:02,279 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:08:02,279 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343650082279
+2012-07-30 14:08:02,291 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343650082279
+2012-07-30 14:08:08,747 INFO  [it.todatasharing.beans.ImporterBean:162] CONNESSO NUC
+2012-07-30 14:08:08,747 INFO  [it.todatasharing.beans.ImporterBean:165] CONNESSO CON
+2012-07-30 14:08:08,747 INFO  [it.todatasharing.beans.ImporterBean:168] CONNESSO BACK
+2012-07-30 14:08:08,747 INFO  [it.todatasharing.beans.ImporterBean:171] CONNESSO DATASHARING
+2012-07-30 14:08:34,277 INFO  [it.todatasharing.beans.ImporterBean:162] CONNESSO NUC
+2012-07-30 14:08:34,277 INFO  [it.todatasharing.beans.ImporterBean:165] CONNESSO CON
+2012-07-30 14:08:34,277 INFO  [it.todatasharing.beans.ImporterBean:168] CONNESSO BACK
+2012-07-30 14:08:34,277 INFO  [it.todatasharing.beans.ImporterBean:171] CONNESSO DATASHARING
+2012-07-30 14:09:38,284 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:09:38,284 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:09:38,284 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343650178284
+2012-07-30 14:09:38,294 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343650178284
+2012-07-30 14:09:48,556 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:09:48,561 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:09:48,561 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343650188561
+2012-07-30 14:09:48,571 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343650188561
+2012-07-30 14:09:58,314 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:09:58,337 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:09:58,340 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343650198340
+2012-07-30 14:09:58,353 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343650198340
+2012-07-30 14:10:02,446 INFO  [it.todatasharing.beans.ImporterBean:162] CONNESSO NUC
+2012-07-30 14:10:02,446 INFO  [it.todatasharing.beans.ImporterBean:165] CONNESSO CON
+2012-07-30 14:10:02,446 INFO  [it.todatasharing.beans.ImporterBean:168] CONNESSO BACK
+2012-07-30 14:10:02,447 INFO  [it.todatasharing.beans.ImporterBean:171] CONNESSO DATASHARING
+2012-07-30 14:11:01,980 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:11:01,986 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:11:01,986 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343650261986
+2012-07-30 14:11:01,997 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343650261986
+2012-07-30 14:11:59,783 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:11:59,793 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:11:59,793 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343650319793
+2012-07-30 14:11:59,803 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343650319793
+2012-07-30 14:12:08,369 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:12:08,375 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:12:08,375 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343650328375
+2012-07-30 14:12:08,384 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343650328375
+2012-07-30 14:12:13,145 INFO  [it.todatasharing.beans.ImporterBean:162] CONNESSO NUC
+2012-07-30 14:12:13,146 INFO  [it.todatasharing.beans.ImporterBean:165] CONNESSO CON
+2012-07-30 14:12:13,146 INFO  [it.todatasharing.beans.ImporterBean:168] CONNESSO BACK
+2012-07-30 14:12:13,146 INFO  [it.todatasharing.beans.ImporterBean:171] CONNESSO DATASHARING
+2012-07-30 14:13:10,731 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:13:10,736 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:13:10,737 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343650390737
+2012-07-30 14:13:10,746 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343650390737
+2012-07-30 14:17:11,026 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 14:17:11,026 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 14:17:12,439 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:17:12,449 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:17:12,449 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343650632449
+2012-07-30 14:17:12,459 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343650632449
+2012-07-30 14:17:22,601 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 14:17:22,601 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 14:17:23,823 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:17:23,833 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343650643833
+2012-07-30 14:17:23,833 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:17:23,843 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343650643833
+2012-07-30 14:19:30,907 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:19:30,907 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:19:30,907 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343650770907
+2012-07-30 14:19:30,917 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343650770907
+2012-07-30 14:20:30,903 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:20:30,913 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:20:30,919 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343650830919
+2012-07-30 14:20:30,962 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343650830919
+2012-07-30 14:20:35,268 INFO  [it.todatasharing.beans.ImporterBean:162] CONNESSO NUC
+2012-07-30 14:20:35,269 INFO  [it.todatasharing.beans.ImporterBean:165] CONNESSO CON
+2012-07-30 14:20:35,269 INFO  [it.todatasharing.beans.ImporterBean:168] CONNESSO BACK
+2012-07-30 14:20:35,269 INFO  [it.todatasharing.beans.ImporterBean:171] CONNESSO DATASHARING
+2012-07-30 14:22:23,438 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:22:23,448 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:22:23,474 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343650943474
+2012-07-30 14:22:23,572 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343650943474
+2012-07-30 14:22:27,522 INFO  [it.todatasharing.beans.ImporterBean:162] CONNESSO NUC
+2012-07-30 14:22:27,522 INFO  [it.todatasharing.beans.ImporterBean:165] CONNESSO CON
+2012-07-30 14:22:27,522 INFO  [it.todatasharing.beans.ImporterBean:168] CONNESSO BACK
+2012-07-30 14:22:27,522 INFO  [it.todatasharing.beans.ImporterBean:171] CONNESSO DATASHARING
+2012-07-30 14:25:42,118 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:25:42,122 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:25:42,123 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343651142123
+2012-07-30 14:25:42,129 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343651142123
+2012-07-30 14:26:00,598 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:26:00,603 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:26:00,623 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343651160620
+2012-07-30 14:26:00,675 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343651160620
+2012-07-30 14:27:47,876 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:27:47,881 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:27:47,881 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343651267881
+2012-07-30 14:27:47,889 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343651267881
+2012-07-30 14:28:16,963 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:28:17,003 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:28:17,021 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343651297021
+2012-07-30 14:28:17,189 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343651297021
+2012-07-30 14:28:47,348 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 14:28:47,348 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 14:28:48,640 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:28:48,650 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:28:48,650 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343651328650
+2012-07-30 14:28:48,660 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343651328650
+2012-07-30 14:30:08,145 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:30:08,155 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:30:08,158 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343651408158
+2012-07-30 14:30:08,174 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343651408158
+2012-07-30 14:30:12,686 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:30:12,686 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:30:12,686 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:30:12,686 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:33:36,241 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:33:36,247 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:33:36,247 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343651616247
+2012-07-30 14:33:36,255 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343651616247
+2012-07-30 14:33:38,988 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:33:38,988 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:33:38,988 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:33:38,989 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:34:16,108 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:34:16,116 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:34:16,116 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343651656116
+2012-07-30 14:34:16,125 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343651656116
+2012-07-30 14:34:21,499 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:34:21,500 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:34:21,500 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:34:21,500 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:34:36,360 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 14:34:36,360 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 14:34:37,772 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:34:37,782 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:34:37,782 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343651677782
+2012-07-30 14:34:37,792 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343651677782
+2012-07-30 14:34:47,213 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:34:47,221 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:34:47,221 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343651687221
+2012-07-30 14:34:47,238 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343651687221
+2012-07-30 14:34:51,268 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:34:51,268 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:34:51,268 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:34:51,268 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:36:02,228 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:36:02,233 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:36:02,233 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343651762233
+2012-07-30 14:36:02,241 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343651762233
+2012-07-30 14:36:06,724 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:36:06,724 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:36:06,724 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:36:06,724 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:37:35,067 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:37:35,072 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:37:35,072 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343651855072
+2012-07-30 14:37:35,083 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343651855072
+2012-07-30 14:37:40,483 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:37:40,484 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:37:40,484 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:37:40,484 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:37:54,392 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:37:54,402 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:37:54,402 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:37:54,402 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:39:33,958 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:39:33,967 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:39:34,031 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343651974030
+2012-07-30 14:39:34,077 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343651974030
+2012-07-30 14:39:38,177 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:39:38,177 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:39:38,177 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:39:38,178 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:40:30,843 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:40:30,896 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:40:30,905 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343652030905
+2012-07-30 14:40:30,916 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343652030905
+2012-07-30 14:40:34,820 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:40:34,821 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:40:34,821 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:40:34,821 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:44:11,329 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:44:11,340 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:44:11,346 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343652251345
+2012-07-30 14:44:11,370 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343652251345
+2012-07-30 14:44:17,532 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:44:17,532 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:44:17,533 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:44:17,533 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:48:26,720 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:48:26,727 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:48:26,727 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343652506727
+2012-07-30 14:48:26,738 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343652506727
+2012-07-30 14:48:29,884 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:48:29,884 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:48:29,884 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:48:29,884 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:49:13,989 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:49:13,996 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:49:13,997 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343652553996
+2012-07-30 14:49:14,009 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343652553996
+2012-07-30 14:49:19,692 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:49:19,692 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:49:19,692 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:49:19,692 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:51:01,145 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:51:01,145 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:51:01,145 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343652661145
+2012-07-30 14:51:01,155 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343652661145
+2012-07-30 14:51:09,341 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:51:09,398 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:51:09,405 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343652669405
+2012-07-30 14:51:09,417 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343652669405
+2012-07-30 14:51:18,692 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:51:18,692 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:51:18,692 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:51:18,692 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:51:48,119 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:51:48,124 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:51:48,124 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343652708124
+2012-07-30 14:51:48,133 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343652708124
+2012-07-30 14:51:53,180 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:51:53,180 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:51:53,180 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:51:53,180 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:53:05,720 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:53:05,735 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:53:05,741 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343652785741
+2012-07-30 14:53:05,764 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343652785741
+2012-07-30 14:53:14,912 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:53:14,912 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:53:14,912 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:53:14,912 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:54:05,309 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:54:05,314 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:54:05,314 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343652845314
+2012-07-30 14:54:05,321 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343652845314
+2012-07-30 14:54:09,003 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:54:09,004 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:54:09,004 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:54:09,004 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:55:51,022 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:55:51,032 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:55:51,039 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343652951039
+2012-07-30 14:55:51,057 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343652951039
+2012-07-30 14:55:55,769 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:55:55,769 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:55:55,769 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:55:55,769 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:58:25,852 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:58:25,873 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:58:25,873 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343653105873
+2012-07-30 14:58:25,887 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343653105873
+2012-07-30 14:58:30,467 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:58:30,468 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:58:30,468 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:58:30,468 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 14:59:52,822 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 14:59:52,836 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 14:59:52,836 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343653192836
+2012-07-30 14:59:52,846 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343653192836
+2012-07-30 14:59:57,020 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 14:59:57,020 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 14:59:57,021 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 14:59:57,021 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 15:01:56,730 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 15:01:56,739 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 15:01:56,739 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343653316739
+2012-07-30 15:01:56,754 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343653316739
+2012-07-30 15:02:02,112 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 15:02:02,112 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 15:02:02,112 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 15:02:02,112 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 15:02:57,305 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 15:02:57,305 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 15:02:57,305 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 15:02:57,305 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 15:03:23,505 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 15:03:23,505 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 15:03:23,505 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 15:03:23,506 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 15:05:15,306 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 15:05:15,307 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 15:05:15,307 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 15:05:15,307 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 15:06:43,694 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 15:06:43,710 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 15:06:43,718 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343653603718
+2012-07-30 15:06:43,728 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343653603718
+2012-07-30 15:07:18,279 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 15:07:18,279 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 15:07:18,279 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 15:07:18,280 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 15:07:48,821 INFO  [it.todatasharing.beans.ImporterBean:160] CONNESSO NUC
+2012-07-30 15:07:48,822 INFO  [it.todatasharing.beans.ImporterBean:163] CONNESSO CON
+2012-07-30 15:07:48,822 INFO  [it.todatasharing.beans.ImporterBean:166] CONNESSO BACK
+2012-07-30 15:07:48,822 INFO  [it.todatasharing.beans.ImporterBean:169] CONNESSO DATASHARING
+2012-07-30 15:09:43,976 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 15:09:43,976 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 15:09:45,298 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 15:09:45,308 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 15:09:45,308 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343653785308
+2012-07-30 15:09:45,308 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343653785308
+2012-07-30 15:16:50,593 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 15:16:50,600 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 15:16:50,600 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343654210600
+2012-07-30 15:16:50,608 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343654210600
+2012-07-30 15:42:15,415 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 15:42:15,421 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343655735421
+2012-07-30 15:42:15,421 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 15:42:15,431 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343655735421
+2012-07-30 15:51:13,832 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 15:51:13,837 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 15:51:13,837 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343656273837
+2012-07-30 15:51:13,846 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343656273837
+2012-07-30 15:52:05,794 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 15:52:05,802 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 15:52:05,802 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343656325802
+2012-07-30 15:52:05,811 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343656325802
+2012-07-30 15:52:49,761 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 15:52:49,771 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 15:52:49,771 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343656369771
+2012-07-30 15:52:49,781 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343656369771
+2012-07-30 16:21:56,896 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 16:21:56,901 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 16:21:56,901 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343658116901
+2012-07-30 16:21:56,910 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343658116901
+2012-07-30 16:22:57,132 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 16:22:57,132 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 16:22:58,508 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 16:22:58,518 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 16:22:58,518 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343658178518
+2012-07-30 16:22:58,528 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343658178518
+2012-07-30 16:28:44,156 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 16:28:44,161 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 16:28:44,161 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343658524161
+2012-07-30 16:28:44,169 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343658524161
+2012-07-30 16:48:45,033 INFO  [it.todatasharing.servlet.AppListener:63] Stopping Sync Datasharing
+2012-07-30 16:48:45,033 INFO  [it.todatasharing.servlet.AppListener:65] Sync Datasharing is stopped...
+2012-07-30 16:48:46,334 INFO  [it.todatasharing.servlet.SchedulerServlet:48] Inizio SchedulerServlet
+2012-07-30 16:48:46,342 INFO  [it.todatasharing.servlet.SchedulerServlet:74] Fine SchedulerServlet
+2012-07-30 16:48:46,342 INFO  [it.todatasharing.timer.Task:24] Start Task Import toDataSharing: 1343659726342
+2012-07-30 16:48:46,347 INFO  [it.todatasharing.timer.Task:33] End Task Import toDataSharing: 1343659726342

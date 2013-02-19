@@ -1,0 +1,1710 @@
+2012-10-05 16:32:41,006 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2012-10-05 16:32:41,011 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2012-10-05 16:32:41,011 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1349447561011
+2012-10-05 16:32:41,221 ERROR [it.bplus.business.ImporterDelegate] Errore generico nella gestione dell'import Exception Error: Errore nella apertura della connessione sull aggregato caused by: org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user 'birs'@'trexi-pc.atlantis' (using password: YES))
+2012-10-05 16:32:41,221 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2012-10-05 16:32:41,221 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2012-10-05 16:32:41,221 ERROR [it.bplus.timer.TaskBridgeSync] General Exception : java.lang.NullPointerException
+2012-10-05 16:32:41,221 INFO  [it.bplus.timer.TaskBridgeSync] End Task Import Sync Datamart: 1349447561011
+2013-01-25 10:30:25,129 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 10:30:25,161 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 10:30:25,166 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359106225166
+2013-01-25 10:30:25,763 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 10:30:25,769 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 10:30:26,141 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 10:30:26,141 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 10:30:26,444 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 10:30:26,487 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 10:30:26,491 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 10:30:26,508 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 10:30:26,510 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 10:30:26,574 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 10:30:26,574 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 10:30:26,590 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 10:30:26,594 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 10:30:26,596 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 10:30:26,601 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 10:30:26,602 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 10:30:41,533 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 10:30:41,533 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 10:30:41,538 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 10:31:35,051 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 10:31:35,055 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 10:31:35,055 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359106295055
+2013-01-25 10:31:36,049 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 10:31:36,055 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 10:31:36,362 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 10:31:36,362 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 10:31:36,542 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 10:31:36,561 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 10:31:36,564 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 10:31:36,575 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 10:31:36,577 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 10:31:36,598 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 10:31:36,598 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 10:31:36,622 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 10:31:36,629 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 10:31:36,630 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 10:31:36,634 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 10:31:36,635 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 10:31:50,489 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 10:31:50,490 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 10:31:50,495 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 10:33:00,816 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 10:33:00,820 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359106380820
+2013-01-25 10:33:00,821 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 10:33:01,412 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 10:33:01,418 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 10:33:01,794 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 10:33:01,795 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 10:33:01,977 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 10:33:01,997 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 10:33:02,001 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 10:33:02,005 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 10:33:02,008 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 10:33:02,034 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 10:33:02,034 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 10:33:02,050 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 10:33:02,055 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 10:33:02,056 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 10:33:02,060 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 10:33:02,061 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 10:33:17,235 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 10:33:17,235 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 10:33:17,244 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 10:35:16,096 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 10:35:16,102 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 10:35:16,102 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359106516102
+2013-01-25 10:35:16,726 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 10:35:16,762 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 10:35:17,071 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 10:35:17,071 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 10:35:17,331 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 10:35:17,349 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 10:35:17,352 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 10:35:17,357 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 10:35:17,359 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 10:35:17,382 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 10:35:17,382 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 10:35:17,406 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 10:35:17,421 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 10:35:17,422 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 10:35:17,432 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 10:35:17,433 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 10:38:49,508 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 10:38:49,523 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 10:38:49,545 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359106729545
+2013-01-25 10:38:50,224 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 10:38:50,231 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 10:38:50,547 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 10:38:50,547 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 10:38:50,815 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 10:38:50,842 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 10:38:50,846 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 10:38:50,862 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 10:38:50,863 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 10:38:50,896 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 10:38:50,896 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 10:38:50,915 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 10:38:50,924 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 10:38:50,925 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 10:38:50,941 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 10:38:50,942 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 10:39:07,705 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 10:39:07,705 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 10:39:07,713 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 10:39:58,418 INFO  [it.bplus.dao.TempoDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 10:39:58,419 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 10:39:58,471 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 10:39:58,471 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 10:39:58,530 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 10:39:58,532 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 10:39:58,611 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 10:39:58,613 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 10:39:58,909 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 10:39:58,910 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 10:39:58,919 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 10:39:58,920 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 10:39:58,928 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 10:39:58,932 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 10:39:58,941 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 10:39:58,941 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 10:39:58,947 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 10:39:58,957 INFO  [it.bplus.timer.TaskBridgeSync] End Task Import Sync Datamart: 1359106729545
+2013-01-25 11:01:28,658 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 11:01:28,665 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 11:01:28,676 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359108088676
+2013-01-25 11:01:29,289 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 11:01:29,291 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:01:29,579 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:01:29,579 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 11:01:29,747 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:01:29,762 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 11:01:29,765 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 11:01:29,771 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 11:01:29,773 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 11:01:29,793 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 11:01:29,794 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 11:01:29,809 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:01:29,814 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 11:01:29,814 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 11:01:29,819 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 11:01:29,820 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 11:01:43,137 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 11:01:43,138 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 11:01:43,139 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 11:01:43,796 INFO  [it.bplus.dao.TempoDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 11:01:43,797 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:01:43,819 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:01:43,819 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 11:01:43,856 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 11:01:43,857 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 11:01:43,901 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 11:01:43,902 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 11:01:44,202 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 11:01:44,204 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:01:44,210 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:01:44,210 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:01:44,217 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:01:44,221 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:01:44,233 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:01:44,233 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:01:44,240 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:01:44,240 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 11:01:44,241 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 11:01:44,246 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 11:01:44,246 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:01:44,251 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:01:44,252 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 11:01:44,260 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 11:01:44,260 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 11:01:44,260 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 11:01:44,265 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 11:01:44,265 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 11:01:44,266 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 11:01:44,272 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 11:01:44,272 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 11:01:44,272 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 11:01:44,272 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 11:01:44,398 ERROR [it.bplus.business.ImporterDelegate] Errore SQL nella gestione dell'importcom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '()' at line 1
+2013-01-25 11:01:44,398 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 11:01:44,398 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 11:01:44,404 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 11:01:44,468 ERROR [it.bplus.timer.TaskBridgeSync] Business Layer Exception :  Exception Error: Errore SQL nella gestione dell'import caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '()' at line 1
+2013-01-25 11:01:44,468 INFO  [it.bplus.timer.TaskBridgeSync] End Task Import Sync Datamart: 1359108088676
+2013-01-25 11:03:17,180 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 11:03:17,184 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 11:03:17,185 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359108197185
+2013-01-25 11:03:17,820 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 11:03:17,833 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:03:18,169 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:03:18,169 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 11:03:18,357 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:03:18,379 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 11:03:18,382 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 11:03:18,386 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 11:03:18,388 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 11:03:18,409 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 11:03:18,409 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 11:03:18,424 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:03:18,429 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 11:03:18,430 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 11:03:18,436 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 11:03:18,437 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 11:03:31,208 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 11:03:31,208 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 11:03:31,210 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 11:03:31,866 INFO  [it.bplus.dao.TempoDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 11:03:31,866 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:03:31,888 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:03:31,888 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 11:03:31,920 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 11:03:31,922 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 11:03:31,963 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 11:03:31,965 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 11:03:32,246 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 11:03:32,248 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:03:32,255 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:03:32,255 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:03:32,263 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:03:32,267 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:03:32,277 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:03:32,277 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:03:32,284 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:03:32,284 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 11:03:32,284 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 11:03:32,289 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 11:03:32,289 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:03:32,294 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:03:32,304 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 11:03:32,312 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 11:03:32,312 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 11:03:32,312 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 11:03:32,322 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 11:03:32,322 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 11:03:32,323 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 11:03:32,329 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 11:03:32,329 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 11:03:32,329 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 11:03:32,329 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 11:07:37,058 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 11:07:37,062 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 11:07:37,062 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359108457062
+2013-01-25 11:07:37,872 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 11:07:37,879 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:07:38,327 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:07:38,328 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 11:07:38,601 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:07:38,616 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 11:07:38,619 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 11:07:38,629 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 11:07:38,630 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 11:07:38,652 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 11:07:38,652 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 11:07:38,679 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:07:38,684 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 11:07:38,685 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 11:07:38,694 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 11:07:38,695 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 11:07:51,049 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 11:07:51,050 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 11:07:51,051 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Tempo Dim from Datamart
+2013-01-25 11:07:52,411 INFO  [it.bplus.dao.TempoDimDAO] End - Get Tempo Dim from Datamart
+2013-01-25 11:07:52,412 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:07:52,434 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:07:52,434 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 11:07:52,465 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 11:07:52,467 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 11:07:52,511 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 11:07:52,513 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 11:07:53,094 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 11:07:53,096 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:07:53,102 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:07:53,102 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:07:53,110 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:07:53,114 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:07:53,122 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:07:53,122 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:07:53,135 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:07:53,135 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 11:07:53,135 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 11:07:53,146 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 11:07:53,146 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:07:53,154 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:07:53,169 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 11:07:53,179 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 11:07:53,179 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 11:07:53,180 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 11:07:53,187 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 11:07:53,187 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 11:07:53,188 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 11:07:53,194 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 11:07:53,194 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 11:07:53,194 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 11:07:53,194 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 11:08:31,437 ERROR [it.bplus.business.ImporterDelegate] Errore SQL nella gestione dell'importcom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '()' at line 1
+2013-01-25 11:08:31,437 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 11:08:31,437 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 11:08:31,443 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 11:08:31,487 ERROR [it.bplus.timer.TaskBridgeSync] Business Layer Exception :  Exception Error: Errore SQL nella gestione dell'import caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '()' at line 1
+2013-01-25 11:08:31,487 INFO  [it.bplus.timer.TaskBridgeSync] End Task Import Sync Datamart: 1359108457062
+2013-01-25 11:09:03,540 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 11:09:03,544 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 11:09:03,561 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359108543561
+2013-01-25 11:09:05,553 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 11:09:05,554 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:09:05,880 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:09:05,880 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 11:09:07,127 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:09:07,713 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 11:09:07,715 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 11:09:07,753 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 11:09:07,754 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 11:09:07,837 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 11:09:07,837 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 11:09:08,000 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:09:08,013 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 11:09:08,014 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 11:09:08,036 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 11:09:08,037 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 11:09:34,749 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 11:09:34,752 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 11:09:34,754 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359108574754
+2013-01-25 11:09:35,443 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 11:09:35,449 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:09:35,732 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:09:35,733 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 11:09:35,909 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:09:35,929 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 11:09:35,933 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 11:09:35,938 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 11:09:35,939 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 11:09:35,960 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 11:09:35,960 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 11:09:35,983 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:09:35,989 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 11:09:35,990 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 11:09:35,995 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 11:09:35,996 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 11:09:48,623 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 11:09:48,623 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 11:09:48,625 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Tempo Dim from Datamart
+2013-01-25 11:09:49,311 INFO  [it.bplus.dao.TempoDimDAO] End - Get Tempo Dim from Datamart
+2013-01-25 11:09:49,312 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:09:49,334 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:09:49,334 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 11:09:49,379 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 11:09:49,380 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 11:09:49,434 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 11:09:49,435 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 11:09:49,872 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 11:09:49,873 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:09:49,880 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:09:49,880 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:09:49,888 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:09:49,894 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:09:49,905 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:09:49,905 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:09:49,919 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:09:49,920 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 11:09:49,920 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 11:09:49,934 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 11:09:49,934 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:09:49,939 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:09:49,954 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 11:09:49,963 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 11:09:49,963 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 11:09:49,963 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 11:09:49,970 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 11:09:49,970 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 11:09:49,971 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 11:09:49,982 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 11:09:49,982 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 11:09:49,982 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 11:09:49,982 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 11:13:03,665 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 11:13:03,670 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 11:13:03,670 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359108783670
+2013-01-25 11:13:05,449 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 11:13:05,455 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:13:05,796 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:13:05,796 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 11:13:06,020 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:13:06,036 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 11:13:06,039 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 11:13:06,044 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 11:13:06,046 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 11:13:06,070 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 11:13:06,070 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 11:13:06,586 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:13:06,614 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 11:13:06,615 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 11:13:06,630 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 11:13:06,631 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 11:13:21,474 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 11:13:21,475 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 11:13:21,476 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Tempo Dim from Datamart
+2013-01-25 11:13:22,121 INFO  [it.bplus.dao.TempoDimDAO] End - Get Tempo Dim from Datamart
+2013-01-25 11:13:22,122 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:13:22,146 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:13:22,146 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 11:13:22,177 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 11:13:22,178 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 11:13:22,240 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 11:13:22,241 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 11:13:22,561 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 11:13:22,562 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:13:22,571 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:13:22,572 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:13:22,584 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:13:22,588 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:13:22,602 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:13:22,602 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:13:22,616 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:13:22,616 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 11:13:22,616 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 11:13:22,624 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 11:13:22,624 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:13:22,633 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:13:22,649 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 11:13:22,661 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 11:13:22,661 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 11:13:22,661 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 11:13:22,668 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 11:13:22,669 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 11:13:22,670 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 11:13:22,676 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 11:13:22,676 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 11:13:22,676 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 11:13:22,676 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 11:15:52,888 ERROR [it.bplus.business.ImporterDelegate] Errore SQL nella gestione dell'importcom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '()' at line 1
+2013-01-25 11:15:52,888 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 11:15:52,888 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 11:15:52,895 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 11:15:52,934 ERROR [it.bplus.timer.TaskBridgeSync] Business Layer Exception :  Exception Error: Errore SQL nella gestione dell'import caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '()' at line 1
+2013-01-25 11:15:52,934 INFO  [it.bplus.timer.TaskBridgeSync] End Task Import Sync Datamart: 1359108783670
+2013-01-25 11:16:09,738 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 11:16:09,742 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 11:16:09,746 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359108969745
+2013-01-25 11:16:10,343 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 11:16:10,352 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:16:10,684 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:16:10,684 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 11:16:10,904 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:16:10,925 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 11:16:10,929 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 11:16:10,934 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 11:16:10,935 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 11:16:10,956 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 11:16:10,957 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 11:16:10,972 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:16:10,981 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 11:16:10,982 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 11:16:10,988 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 11:16:10,989 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 11:16:23,771 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 11:16:23,772 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 11:16:23,773 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Tempo Dim from Datamart
+2013-01-25 11:16:24,649 INFO  [it.bplus.dao.TempoDimDAO] End - Get Tempo Dim from Datamart
+2013-01-25 11:16:24,650 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:16:24,676 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:16:24,676 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 11:16:24,708 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 11:16:24,710 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 11:16:24,765 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 11:16:24,767 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 11:16:25,052 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 11:16:25,054 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:16:25,059 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:16:25,060 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:16:25,067 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:16:25,071 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:16:25,080 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:16:25,080 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:16:25,087 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:16:25,087 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 11:16:25,087 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 11:16:25,092 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 11:16:25,092 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:16:25,097 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:16:25,115 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 11:16:25,123 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 11:16:25,123 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 11:16:25,123 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 11:16:25,128 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 11:16:25,128 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 11:16:25,130 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 11:16:25,138 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 11:16:25,138 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 11:16:25,138 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 11:16:25,138 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 11:16:36,833 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 11:16:36,833 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 11:16:36,929 ERROR [it.bplus.business.ImporterDelegate] Errore SQL nella gestione dell'importcom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '()' at line 1
+2013-01-25 11:16:36,929 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 11:16:36,929 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 11:16:36,934 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 11:16:36,996 ERROR [it.bplus.timer.TaskBridgeSync] Business Layer Exception :  Exception Error: Errore SQL nella gestione dell'import caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '()' at line 1
+2013-01-25 11:16:36,996 INFO  [it.bplus.timer.TaskBridgeSync] End Task Import Sync Datamart: 1359108969745
+2013-01-25 11:16:54,580 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 11:16:54,584 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 11:16:54,584 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359109014584
+2013-01-25 11:16:55,420 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 11:16:55,426 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:16:55,728 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:16:55,728 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 11:16:55,927 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:16:55,947 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 11:16:55,951 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 11:16:55,956 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 11:16:55,958 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 11:16:55,979 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 11:16:55,979 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 11:16:56,000 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:16:56,011 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 11:16:56,012 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 11:16:56,019 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 11:16:56,021 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 11:17:10,015 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 11:17:10,015 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 11:17:10,017 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Tempo Dim from Datamart
+2013-01-25 11:17:11,178 INFO  [it.bplus.dao.TempoDimDAO] End - Get Tempo Dim from Datamart
+2013-01-25 11:17:11,178 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:17:11,214 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:17:11,214 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 11:17:11,258 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 11:17:11,259 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 11:17:11,306 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 11:17:11,307 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 11:17:11,835 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 11:17:11,836 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:17:11,844 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:17:11,844 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:17:11,852 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:17:11,856 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:17:11,867 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:17:11,867 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:17:11,875 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:17:11,875 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 11:17:11,875 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 11:17:11,880 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 11:17:11,880 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:17:11,885 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:17:11,901 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 11:17:11,908 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 11:17:11,909 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 11:17:11,909 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 11:17:11,913 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 11:17:11,913 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 11:17:11,915 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 11:17:11,920 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 11:17:11,920 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 11:17:11,921 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 11:17:11,921 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 11:17:18,739 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 11:17:18,739 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 11:17:19,144 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 11:17:19,144 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 11:17:19,220 INFO  [it.bplus.timer.TaskBridgeSync] End Task Import Sync Datamart: 1359109014584
+2013-01-25 11:29:19,696 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 11:29:19,701 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 11:29:19,701 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359109759701
+2013-01-25 11:29:20,552 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 11:29:20,557 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:29:20,881 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:29:20,882 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 11:29:21,449 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:29:21,470 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 11:29:21,474 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 11:29:21,478 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 11:29:21,480 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 11:29:21,515 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 11:29:21,515 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 11:29:21,530 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 11:29:21,540 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 11:29:21,541 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 11:29:21,548 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 11:29:21,549 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 11:29:35,420 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 11:29:35,421 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 11:29:35,431 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Tempo Dim from Datamart
+2013-01-25 11:30:04,829 INFO  [it.bplus.dao.TempoDimDAO] End - Get Tempo Dim from Datamart
+2013-01-25 11:30:04,829 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 11:30:04,939 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 11:30:04,939 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 11:30:05,000 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 11:30:05,002 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 11:30:05,058 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 11:30:05,059 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 11:30:05,359 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 11:30:05,361 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:30:05,387 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:30:05,387 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:30:05,417 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 11:30:05,426 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:30:05,440 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 11:30:05,440 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:30:05,456 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 11:30:05,456 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 11:30:05,457 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 11:30:05,462 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 11:30:05,462 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:30:05,467 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 11:30:05,476 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 11:30:05,570 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 11:31:00,296 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 11:31:00,296 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 11:31:00,301 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 11:31:00,301 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 11:31:00,303 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 11:31:00,309 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 11:31:00,309 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 11:31:00,309 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 11:31:00,309 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 11:31:00,384 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 11:31:00,385 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 11:31:01,221 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 11:31:01,221 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 11:31:01,338 INFO  [it.bplus.timer.TaskBridgeSync] End Task Import Sync Datamart: 1359109759701
+2013-01-25 12:40:30,799 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 12:40:30,804 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 12:40:30,804 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359114030804
+2013-01-25 12:40:31,426 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 12:40:31,427 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 12:40:31,751 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 12:40:31,752 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 12:40:31,954 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 12:40:31,972 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 12:40:31,976 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 12:40:31,984 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 12:40:31,986 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 12:40:32,008 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 12:40:32,008 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 12:40:32,024 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 12:40:32,031 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 12:40:32,032 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 12:40:32,037 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 12:40:32,038 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 12:40:44,305 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 12:40:44,306 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 12:40:44,307 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Tempo Dim from Datamart
+2013-01-25 12:40:45,143 INFO  [it.bplus.dao.TempoDimDAO] End - Get Tempo Dim from Datamart
+2013-01-25 12:40:45,143 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 12:40:45,171 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 12:40:45,171 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 12:40:45,206 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 12:40:45,208 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 12:40:45,249 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 12:40:45,250 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 12:40:45,543 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 12:40:45,545 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 12:40:45,558 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 12:40:45,558 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 12:40:45,567 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 12:40:45,571 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 12:40:45,579 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 12:40:45,580 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 12:40:45,586 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 12:40:45,587 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 12:40:45,587 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 12:40:45,592 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 12:40:45,592 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:40:45,597 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:40:45,598 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 12:40:45,824 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 12:41:03,639 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 12:41:03,639 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 12:41:03,657 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 12:41:03,657 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 12:41:03,658 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 12:41:03,669 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 12:41:03,669 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 12:41:03,669 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 12:41:03,669 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 12:41:03,875 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 12:41:03,875 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 12:41:04,688 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 12:41:04,688 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 12:41:04,744 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 12:41:04,744 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 12:41:04,754 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 12:41:04,754 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:41:04,762 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:41:04,763 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 12:41:05,095 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 12:41:20,938 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 12:41:20,938 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 12:41:20,943 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 12:41:20,944 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 12:41:20,944 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 12:41:20,951 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 12:41:20,951 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 12:41:20,951 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 12:41:20,951 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 12:41:21,038 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 12:41:21,038 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 12:41:21,881 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 12:41:21,881 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 12:41:21,969 INFO  [it.bplus.timer.TaskBridgeSync] End Task Import Sync Datamart: 1359114030804
+2013-01-25 12:51:35,534 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 12:51:35,538 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 12:51:35,540 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359114695540
+2013-01-25 12:51:36,191 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 12:51:36,193 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 12:51:36,518 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 12:51:36,519 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 12:51:36,712 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 12:51:36,735 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 12:51:36,738 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 12:51:36,743 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 12:51:36,744 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 12:51:36,766 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 12:51:36,766 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 12:51:36,782 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 12:51:36,786 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 12:51:36,787 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 12:51:36,791 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 12:51:36,793 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 12:51:49,731 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 12:51:49,731 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 12:51:49,733 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Tempo Dim from Datamart
+2013-01-25 12:51:50,344 INFO  [it.bplus.dao.TempoDimDAO] End - Get Tempo Dim from Datamart
+2013-01-25 12:51:50,344 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 12:51:50,367 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 12:51:50,367 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 12:51:50,400 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 12:51:50,402 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 12:51:50,445 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 12:51:50,447 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 12:51:52,572 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 12:51:52,574 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 12:51:52,593 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 12:51:52,593 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 12:51:52,631 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 12:51:52,638 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 12:51:52,638 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 12:51:52,676 INFO  [it.bplus.dao.SessioneDAO] SESSIONE PORTATA A ZERO:3695
+2013-01-25 12:51:52,718 INFO  [it.bplus.dao.MeterDAO] Start - Update Meter LastImported to Datamart
+2013-01-25 12:51:58,013 INFO  [it.bplus.dao.MeterDAO] End - Update Meter LastImported to Datamart
+2013-01-25 12:51:58,013 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 12:51:58,013 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:51:58,018 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:51:58,019 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 12:51:58,406 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 12:52:23,724 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 12:52:23,729 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 12:52:23,729 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 12:52:23,729 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 12:52:23,966 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 12:52:23,966 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 12:53:04,444 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 12:53:04,444 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 12:53:04,523 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 12:53:04,523 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 12:53:04,523 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 12:53:04,528 INFO  [it.bplus.dao.SessioneDAO] SESSIONE PORTATA A ZERO:3707
+2013-01-25 12:53:04,533 INFO  [it.bplus.dao.MeterDAO] Start - Update Meter LastImported to Datamart
+2013-01-25 12:53:07,054 INFO  [it.bplus.dao.MeterDAO] End - Update Meter LastImported to Datamart
+2013-01-25 12:53:07,054 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 12:53:07,054 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:53:07,066 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:53:07,066 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 12:53:07,362 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 12:54:16,754 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 12:54:16,763 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 12:54:16,763 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 12:54:16,763 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 12:54:16,915 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 12:54:16,916 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 12:54:30,268 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 12:54:30,268 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 12:54:31,794 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 12:54:31,794 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 12:54:31,794 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 12:54:31,801 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 12:54:31,801 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:54:31,806 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:54:31,806 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 12:54:31,829 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 12:54:32,651 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 12:54:32,655 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 12:54:32,656 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 12:54:32,656 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 12:54:32,720 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 12:54:32,720 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 12:54:33,005 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 12:54:33,005 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 12:54:33,064 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 12:54:33,064 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 12:54:33,064 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 12:54:33,070 INFO  [it.bplus.dao.SessioneDAO] SESSIONE PORTATA A ZERO:3607
+2013-01-25 12:54:33,080 INFO  [it.bplus.dao.MeterDAO] Start - Update Meter LastImported to Datamart
+2013-01-25 12:54:33,771 INFO  [it.bplus.dao.MeterDAO] End - Update Meter LastImported to Datamart
+2013-01-25 12:54:33,771 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 12:54:33,771 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:54:33,776 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:54:33,776 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 12:54:34,211 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 12:55:20,605 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 12:55:20,610 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 12:55:20,610 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 12:55:20,610 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 12:55:20,770 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 12:55:20,770 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 12:55:31,726 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 12:55:31,726 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 12:55:31,860 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 12:55:31,860 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 12:55:31,860 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 12:55:31,865 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 12:55:31,865 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:55:31,870 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:55:31,870 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 12:55:31,961 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 12:55:32,772 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 12:55:32,772 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82906 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000006869, GS_VLT_CODE=G0000006869, AAMS_GAME_CODE=1715001012, AAMS_LOCATION_CODE=GH501001481X]
+2013-01-25 12:55:32,906 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 12:55:32,911 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 12:55:32,911 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 12:55:32,911 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 12:55:32,959 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 12:55:32,959 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 12:55:33,222 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 12:55:33,222 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 12:55:33,282 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 12:55:33,282 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 12:55:33,282 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 12:55:33,287 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 12:55:33,287 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:55:33,291 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:55:33,292 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 12:55:33,311 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 12:55:33,675 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 12:55:33,680 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 12:55:33,680 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 12:55:33,680 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 12:55:33,724 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 12:55:33,724 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 12:55:33,980 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 12:55:33,981 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 12:55:34,051 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 12:55:34,051 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 12:55:34,051 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 12:55:34,056 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 12:55:34,056 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:55:34,061 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:55:34,061 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 12:55:34,085 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 12:55:34,329 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 12:55:34,334 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 12:55:34,334 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 12:55:34,334 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 12:55:34,380 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 12:55:34,380 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 12:55:34,632 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 12:55:34,632 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 12:55:34,693 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 12:55:34,694 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 12:55:34,694 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 12:55:34,698 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 12:55:34,699 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:55:34,703 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 12:55:34,703 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 12:55:34,718 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 12:55:34,898 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 12:55:34,903 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 12:55:34,903 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 12:55:34,903 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 12:55:34,960 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 12:55:34,960 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 12:55:35,215 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 12:55:35,216 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 12:55:35,282 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 12:55:35,282 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 12:55:35,293 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 12:55:35,293 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 12:55:35,303 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 12:55:35,315 INFO  [it.bplus.timer.TaskBridgeSync] End Task Import Sync Datamart: 1359114695540
+2013-01-25 13:21:35,541 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359116495541
+2013-01-25 13:21:35,556 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 13:21:35,556 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 13:21:35,759 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 13:21:35,759 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 13:21:35,915 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 13:21:35,920 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 13:21:35,924 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 13:21:35,929 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 13:21:35,929 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 13:21:35,950 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 13:21:35,950 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 13:21:35,975 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 13:21:35,979 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 13:21:35,979 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 13:21:35,983 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 13:21:35,984 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 13:21:48,429 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 13:21:48,429 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 13:21:48,430 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Tempo Dim from Datamart
+2013-01-25 13:21:49,043 INFO  [it.bplus.dao.TempoDimDAO] End - Get Tempo Dim from Datamart
+2013-01-25 13:21:49,043 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 13:21:49,069 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 13:21:49,069 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 13:21:49,110 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 13:21:49,110 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 13:21:49,151 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 13:21:49,151 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 13:21:49,755 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 13:21:49,756 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 13:21:49,767 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 13:21:49,767 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 13:21:49,774 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 13:21:49,779 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 13:21:49,779 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 13:21:49,786 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 13:21:49,786 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:21:49,791 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:21:49,791 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 13:21:50,606 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 13:21:51,840 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 13:21:51,844 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 13:21:51,845 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 13:21:51,845 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 13:21:51,898 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 13:21:51,898 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 13:21:52,321 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 13:21:52,321 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 13:21:52,404 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 13:21:52,405 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 13:21:52,405 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 13:21:52,444 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 13:21:52,444 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:21:52,498 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:21:52,498 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 13:22:03,824 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 13:22:03,961 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:03,966 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:03,966 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:03,966 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 13:22:04,022 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 13:22:04,022 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 13:22:04,282 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 13:22:04,282 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:04,352 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 13:22:04,353 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 13:22:04,353 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 13:22:04,358 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 13:22:04,358 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:22:04,362 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:22:04,362 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 13:22:04,384 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 13:22:04,788 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:04,799 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:04,799 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:04,799 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 13:22:04,847 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 13:22:04,847 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 13:22:05,136 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 13:22:05,136 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:05,187 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 13:22:05,187 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 13:22:05,187 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 13:22:05,192 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 13:22:05,192 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:22:05,197 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:22:05,197 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 13:22:05,340 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 13:22:06,466 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:06,470 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:06,471 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:06,471 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 13:22:06,528 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 13:22:06,528 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 13:22:07,073 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 13:22:07,073 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:07,134 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 13:22:07,134 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 13:22:07,134 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 13:22:07,139 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 13:22:07,139 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:22:07,143 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:22:07,144 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 13:22:07,407 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 13:22:07,997 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 13:22:07,997 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82907 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007930, GS_VLT_CODE=G0000007930, AAMS_GAME_CODE=1715000877, AAMS_LOCATION_CODE=GD122016899J]
+2013-01-25 13:22:09,304 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:09,309 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:09,309 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:09,309 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 13:22:09,393 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 13:22:09,393 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 13:22:09,749 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 13:22:09,750 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:09,829 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 13:22:09,829 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 13:22:09,829 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 13:22:09,834 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 13:22:09,834 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:22:09,839 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:22:09,839 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 13:22:10,217 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 13:22:12,312 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:12,318 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:12,318 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:12,318 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 13:22:12,426 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 13:22:12,426 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 13:22:12,845 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 13:22:12,845 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:12,927 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 13:22:12,927 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 13:22:12,927 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 13:22:12,932 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 13:22:12,932 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:22:12,944 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:22:12,945 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 13:22:13,319 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 13:22:16,375 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 13:22:16,376 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82908 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000006671, GS_VLT_CODE=G0000006671, AAMS_GAME_CODE=1715001023, AAMS_LOCATION_CODE=GG535012213W]
+2013-01-25 13:22:16,391 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 13:22:16,391 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82909 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000006672, GS_VLT_CODE=G0000006672, AAMS_GAME_CODE=1715001023, AAMS_LOCATION_CODE=GG535012213W]
+2013-01-25 13:22:16,450 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 13:22:16,450 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82910 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000006673, GS_VLT_CODE=G0000006673, AAMS_GAME_CODE=1715000881, AAMS_LOCATION_CODE=GG535012213W]
+2013-01-25 13:22:16,485 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 13:22:16,485 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82911 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000006673, GS_VLT_CODE=G0000006673, AAMS_GAME_CODE=1715000963, AAMS_LOCATION_CODE=GG535012213W]
+2013-01-25 13:22:17,699 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:17,708 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:17,708 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:17,708 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 13:22:17,768 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 13:22:17,768 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 13:22:18,277 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 13:22:18,277 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:18,364 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 13:22:18,364 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 13:22:18,364 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 13:22:18,413 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 13:22:18,413 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:22:18,436 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:22:18,437 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 13:22:19,432 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 13:22:23,317 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:23,326 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:23,326 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:23,326 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 13:22:23,410 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 13:22:23,410 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 13:22:24,015 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 13:22:24,015 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:24,103 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 13:22:24,103 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 13:22:24,118 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 13:22:24,119 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 13:22:24,124 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 13:22:24,124 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 13:22:24,124 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 13:22:24,133 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 13:22:24,133 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:22:24,138 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 13:22:24,138 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 13:22:24,302 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 13:22:33,588 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 13:22:33,588 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:33,593 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 13:22:33,593 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 13:22:33,595 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 13:22:33,601 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 13:22:33,601 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 13:22:33,601 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:33,601 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 13:22:33,696 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 13:22:33,696 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 13:22:34,633 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 13:22:34,633 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 13:22:34,701 INFO  [it.bplus.timer.TaskBridgeSync] End Task Import Sync Datamart: 1359116495541
+2013-01-25 14:43:55,637 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 14:43:55,668 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 14:43:55,671 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359121435671
+2013-01-25 14:43:56,425 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 14:43:56,427 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 14:43:56,748 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 14:43:56,748 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 14:43:56,993 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 14:43:57,010 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 14:43:57,013 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 14:43:57,018 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 14:43:57,019 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 14:43:57,040 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 14:43:57,040 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 14:43:57,060 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 14:43:57,084 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 14:43:57,085 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 14:43:57,096 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 14:43:57,097 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 14:44:10,695 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 14:44:10,695 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 14:44:10,697 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Tempo Dim from Datamart
+2013-01-25 14:44:11,542 INFO  [it.bplus.dao.TempoDimDAO] End - Get Tempo Dim from Datamart
+2013-01-25 14:44:11,542 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 14:44:11,565 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 14:44:11,565 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 14:44:11,634 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 14:44:11,636 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 14:44:11,701 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 14:44:11,703 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 14:44:12,170 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 14:44:12,172 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 14:44:12,183 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 14:44:12,184 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 14:44:12,197 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 14:44:12,201 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 14:44:12,202 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 14:44:12,207 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 14:44:12,207 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 14:44:12,212 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 14:44:12,214 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 14:44:12,412 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 14:44:19,618 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 14:44:19,622 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 14:44:19,623 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 14:44:19,623 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 14:44:19,780 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 14:44:19,780 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 14:44:21,464 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 14:44:21,465 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 14:44:21,614 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 14:44:21,614 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 14:44:21,615 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 14:44:21,623 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 14:44:21,623 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 14:44:21,628 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 14:44:21,628 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 14:44:24,247 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 14:44:27,802 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 14:44:27,802 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82912 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000006300, GS_VLT_CODE=G0000006300, AAMS_GAME_CODE=1715000881, AAMS_LOCATION_CODE=GD969011632D]
+2013-01-25 14:44:30,092 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 14:44:30,092 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82913 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007895, GS_VLT_CODE=G0000007895, AAMS_GAME_CODE=1715000880, AAMS_LOCATION_CODE=GH223004433Y]
+2013-01-25 14:44:31,310 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 14:44:31,310 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82914 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007920, GS_VLT_CODE=G0000007920, AAMS_GAME_CODE=1715000881, AAMS_LOCATION_CODE=GH501016457U]
+2013-01-25 14:44:31,328 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 14:44:31,328 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82915 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007920, GS_VLT_CODE=G0000007920, AAMS_GAME_CODE=1715001023, AAMS_LOCATION_CODE=GH501016457U]
+2013-01-25 14:44:32,657 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 14:44:32,662 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 14:44:32,662 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 14:44:32,662 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 14:44:32,803 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 14:44:32,803 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 14:44:33,845 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 14:44:33,845 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 14:44:33,936 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 14:44:33,936 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 14:44:33,936 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 14:44:33,941 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 14:44:33,941 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 14:44:33,945 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 14:44:33,946 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 14:44:34,056 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 14:44:40,242 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 14:44:40,242 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82916 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000004884, GS_VLT_CODE=G0000004884, AAMS_GAME_CODE=1715001023, AAMS_LOCATION_CODE=GI438002346T]
+2013-01-25 14:44:41,205 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 14:44:41,209 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 14:44:41,210 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 14:44:41,210 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 14:44:41,329 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 14:44:41,329 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 14:44:43,148 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 14:44:43,148 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 14:44:44,120 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 14:44:44,121 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 14:44:44,121 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 14:44:44,171 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 14:44:44,171 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 14:44:44,220 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 14:44:44,220 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 14:44:45,811 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 14:44:47,844 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 14:44:47,844 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82917 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007950, GS_VLT_CODE=G0000007950, AAMS_GAME_CODE=1715000879, AAMS_LOCATION_CODE=GC741016898B]
+2013-01-25 14:44:56,072 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 14:44:56,077 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 14:44:56,077 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 14:44:56,077 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 14:44:56,264 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 14:44:56,264 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 14:44:58,129 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 14:44:58,129 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 14:44:58,232 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 14:44:58,233 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 14:44:58,243 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 14:44:58,243 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 14:44:58,249 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 14:44:58,249 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 14:44:58,249 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 14:44:58,254 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 14:44:58,254 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 14:44:58,259 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 14:44:58,259 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 14:44:58,520 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 14:45:23,151 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 14:45:23,152 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 14:45:23,157 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 14:45:23,157 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 14:45:23,159 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 14:45:23,165 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 14:45:23,166 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 14:45:23,166 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 14:45:23,166 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 14:45:23,428 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 14:45:23,428 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 14:45:25,230 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 14:45:25,230 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 14:45:25,302 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 14:45:25,302 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 14:45:25,308 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 14:45:25,308 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 14:45:25,313 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 14:45:25,313 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 14:45:25,676 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 14:45:37,020 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 14:45:37,020 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82918 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000008492, GS_VLT_CODE=GD011018716, AAMS_GAME_CODE=1715000468, AAMS_LOCATION_CODE=GD314015892H]
+2013-01-25 14:45:37,808 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 14:45:37,808 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82919 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000008427, GS_VLT_CODE=GD010020324, AAMS_GAME_CODE=1715000662, AAMS_LOCATION_CODE=GD810016897F]
+2013-01-25 14:45:43,685 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 14:45:43,685 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82920 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000003581, GS_VLT_CODE=GD011000760, AAMS_GAME_CODE=1715000466, AAMS_LOCATION_CODE=GH096016092L]
+2013-01-25 14:45:49,095 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 14:45:49,096 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82921 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000008390, GS_VLT_CODE=GD011004040, AAMS_GAME_CODE=1715000658, AAMS_LOCATION_CODE=GH501016457U]
+2013-01-25 14:45:52,673 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 14:45:52,673 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 14:45:52,678 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 14:45:52,678 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 14:45:52,678 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 14:45:52,683 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 14:45:52,684 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 14:45:52,684 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 14:45:52,684 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 14:45:52,910 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 14:45:52,910 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 14:45:54,974 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 14:45:54,974 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 14:45:55,063 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 14:45:55,063 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 14:45:55,071 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 14:45:55,071 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 14:45:55,076 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 14:45:55,076 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 14:45:55,538 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 14:46:32,280 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 14:46:32,280 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 14:46:32,285 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 14:46:32,285 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 14:46:32,285 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 14:46:32,291 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 14:46:32,291 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 14:46:32,291 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 14:46:32,291 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 14:46:32,784 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 14:46:32,784 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 14:46:35,531 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 14:46:35,532 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 14:46:36,626 INFO  [it.bplus.timer.TaskBridgeSync] End Task Import Sync Datamart: 1359121435671
+2013-01-25 15:19:37,890 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 15:19:37,895 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 15:19:37,902 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359123577902
+2013-01-25 15:19:38,450 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 15:19:38,452 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 15:19:38,759 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 15:19:38,760 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 15:19:38,952 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 15:19:38,973 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 15:19:38,978 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 15:19:38,983 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 15:19:38,985 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 15:19:39,012 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 15:19:39,012 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 15:19:39,028 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 15:19:39,033 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 15:19:39,034 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 15:19:39,038 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 15:19:39,045 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 15:19:53,634 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 15:19:53,634 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 15:19:53,637 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Tempo Dim from Datamart
+2013-01-25 15:19:54,600 INFO  [it.bplus.dao.TempoDimDAO] End - Get Tempo Dim from Datamart
+2013-01-25 15:19:54,600 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 15:19:54,665 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 15:19:54,665 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 15:19:54,825 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 15:19:54,827 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 15:19:54,915 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 15:19:54,916 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 15:19:55,758 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 15:19:55,760 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 15:19:55,770 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 15:19:55,771 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 15:19:55,790 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 15:19:55,805 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 15:19:55,805 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 15:19:55,811 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 15:19:55,811 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 15:19:55,828 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 15:19:55,830 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 15:19:56,177 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 15:20:05,584 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 15:20:05,584 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82922 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007780, GS_VLT_CODE=G0000007780, AAMS_GAME_CODE=1715000963, AAMS_LOCATION_CODE=GF704002358T]
+2013-01-25 15:20:08,470 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 15:20:08,475 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 15:20:08,475 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 15:20:08,475 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 15:20:08,588 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 15:20:08,589 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 15:20:09,693 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 15:20:09,693 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 15:20:09,797 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 15:20:09,797 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 15:20:09,797 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 15:20:09,802 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 15:20:09,802 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 15:20:09,807 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 15:20:09,807 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 15:20:10,653 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 15:20:10,912 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 15:20:10,912 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82923 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007764, GS_VLT_CODE=G0000007764, AAMS_GAME_CODE=1715001023, AAMS_LOCATION_CODE=GA278002729H]
+2013-01-25 15:20:13,457 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 15:20:13,457 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82924 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007165, GS_VLT_CODE=G0000007165, AAMS_GAME_CODE=1715001012, AAMS_LOCATION_CODE=GG197012874G]
+2013-01-25 15:20:15,671 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 15:20:15,676 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 15:20:15,676 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 15:20:15,676 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 15:20:15,779 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 15:20:15,779 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 15:20:17,906 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 15:20:17,906 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 15:20:18,302 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 15:20:18,303 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 15:20:18,311 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 15:20:18,311 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 15:20:18,318 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 15:20:18,318 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 15:20:18,318 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 15:20:18,323 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 15:20:18,323 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 15:20:18,329 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 15:20:18,329 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 15:20:18,858 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 15:20:41,786 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 15:20:41,786 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82925 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000002481, GS_VLT_CODE=GD010029550, AAMS_GAME_CODE=1715000468, AAMS_LOCATION_CODE=GH131009935Q]
+2013-01-25 15:20:51,104 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 15:20:51,104 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82926 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000000247, GS_VLT_CODE=GD009005001, AAMS_GAME_CODE=1715000465, AAMS_LOCATION_CODE=GI829016712J]
+2013-01-25 15:20:55,733 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 15:20:55,734 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 15:20:55,738 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 15:20:55,738 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 15:20:55,740 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 15:20:55,748 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 15:20:55,748 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 15:20:55,748 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 15:20:55,748 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 15:20:55,925 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 15:20:55,925 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 15:20:59,514 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 15:20:59,514 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 15:20:59,603 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 15:20:59,603 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 15:20:59,612 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 15:20:59,612 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 15:20:59,620 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 15:20:59,620 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 15:21:00,055 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 15:21:30,511 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 15:21:30,511 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 15:21:30,516 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 15:21:30,516 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 15:21:30,517 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 15:21:30,522 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 15:21:30,522 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 15:21:30,522 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 15:21:30,522 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 15:21:30,710 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 15:21:30,710 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 15:21:33,794 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 15:21:33,794 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 15:21:33,911 INFO  [it.bplus.timer.TaskBridgeSync] End Task Import Sync Datamart: 1359123577902
+2013-01-25 17:22:30,730 INFO  [it.bplus.servlet.SyncServlet] Inizio Sync Datamart Servlet
+2013-01-25 17:22:30,735 INFO  [it.bplus.servlet.SyncServlet] Fine Sync Datamart Servlet
+2013-01-25 17:22:30,736 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359130950736
+2013-01-25 17:22:31,425 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 17:22:31,428 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 17:22:31,742 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 17:22:31,742 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 17:22:31,918 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 17:22:31,937 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 17:22:31,940 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 17:22:31,947 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 17:22:31,949 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 17:22:31,970 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 17:22:31,970 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 17:22:31,986 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 17:22:31,993 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 17:22:31,994 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 17:22:31,999 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 17:22:32,000 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 17:22:45,492 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 17:22:45,492 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 17:22:45,494 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Tempo Dim from Datamart
+2013-01-25 17:22:46,197 INFO  [it.bplus.dao.TempoDimDAO] End - Get Tempo Dim from Datamart
+2013-01-25 17:22:46,198 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 17:22:46,221 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 17:22:46,221 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 17:22:46,264 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 17:22:46,266 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 17:22:46,350 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 17:22:46,352 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 17:22:46,640 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 17:22:46,642 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 17:22:46,649 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 17:22:46,650 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 17:22:46,660 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 17:22:46,667 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 17:22:46,668 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 17:22:46,681 INFO  [it.bplus.dao.SessioneDAO] SESSIONE PORTATA A ZERO:3615
+2013-01-25 17:22:46,688 INFO  [it.bplus.dao.MeterDAO] Start - Update Meter LastImported to Datamart
+2013-01-25 17:22:49,827 INFO  [it.bplus.dao.MeterDAO] End - Update Meter LastImported to Datamart
+2013-01-25 17:22:49,827 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 17:22:49,827 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:22:49,836 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:22:49,836 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 17:22:52,698 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 17:23:28,904 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 17:23:28,909 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 17:23:28,909 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 17:23:28,910 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 17:23:29,089 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 17:23:29,089 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 17:23:42,560 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 17:23:42,560 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 17:23:44,866 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 17:23:44,867 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 17:23:44,867 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 17:23:44,926 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 17:23:44,926 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:23:45,010 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:23:45,010 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 17:23:45,891 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 17:23:49,514 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:23:49,515 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82927 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007104, GS_VLT_CODE=G0000007104, AAMS_GAME_CODE=1715000879, AAMS_LOCATION_CODE=GD843000371N]
+2013-01-25 17:23:52,163 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:23:52,163 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82928 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000002138, GS_VLT_CODE=G0000002138, AAMS_GAME_CODE=1715001023, AAMS_LOCATION_CODE=GH501000842Y]
+2013-01-25 17:23:52,951 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:23:52,952 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82929 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007218, GS_VLT_CODE=G0000007218, AAMS_GAME_CODE=1715000880, AAMS_LOCATION_CODE=GL219012922U]
+2013-01-25 17:23:53,842 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 17:23:53,848 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 17:23:53,848 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 17:23:53,848 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 17:23:53,936 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 17:23:53,936 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 17:23:55,781 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 17:23:55,781 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 17:23:55,885 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 17:23:55,885 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 17:23:55,885 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 17:23:55,890 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 17:23:55,890 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:23:55,894 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:23:55,894 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 17:23:56,039 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 17:23:56,524 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:23:56,524 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82930 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000006429, GS_VLT_CODE=G0000006429, AAMS_GAME_CODE=1715001014, AAMS_LOCATION_CODE=GA163004701O]
+2013-01-25 17:23:56,756 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:23:56,756 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82931 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000006778, GS_VLT_CODE=G0000006778, AAMS_GAME_CODE=1715000880, AAMS_LOCATION_CODE=GA535001563K]
+2013-01-25 17:23:59,829 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:23:59,830 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82932 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000006696, GS_VLT_CODE=G0000006696, AAMS_GAME_CODE=1715000879, AAMS_LOCATION_CODE=GE848011497E]
+2013-01-25 17:24:00,666 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:24:00,666 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82933 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007520, GS_VLT_CODE=G0000007520, AAMS_GAME_CODE=1715000962, AAMS_LOCATION_CODE=GG316013352T]
+2013-01-25 17:24:03,636 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 17:24:03,642 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 17:24:03,643 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 17:24:03,643 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 17:24:03,773 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 17:24:03,773 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 17:24:07,422 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 17:24:07,422 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 17:24:07,467 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 17:24:07,467 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 17:24:07,467 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 17:24:07,477 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 17:24:07,477 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:24:07,484 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:24:07,484 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 17:24:10,136 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 17:24:11,983 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:24:11,983 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82934 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007334, GS_VLT_CODE=G0000007334, AAMS_GAME_CODE=1715000878, AAMS_LOCATION_CODE=GB157000712P]
+2013-01-25 17:24:16,106 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:24:16,106 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82935 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007023, GS_VLT_CODE=G0000007023, AAMS_GAME_CODE=1715000962, AAMS_LOCATION_CODE=GE852012757J]
+2013-01-25 17:24:22,813 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 17:24:22,818 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 17:24:22,818 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 17:24:22,818 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 17:24:23,071 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 17:24:23,071 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 17:24:25,545 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 17:24:25,545 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 17:24:25,658 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 17:24:25,659 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 17:24:25,659 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 17:24:25,664 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 17:24:25,664 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:24:25,669 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:24:25,669 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 17:24:26,531 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 17:24:30,038 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:24:30,038 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82936 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007447, GS_VLT_CODE=G0000007447, AAMS_GAME_CODE=1715000880, AAMS_LOCATION_CODE=GD969004940X]
+2013-01-25 17:24:30,213 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:24:30,214 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82937 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000006467, GS_VLT_CODE=G0000006467, AAMS_GAME_CODE=1715000878, AAMS_LOCATION_CODE=GE455001640O]
+2013-01-25 17:24:30,468 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:24:30,468 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82938 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007019, GS_VLT_CODE=G0000007019, AAMS_GAME_CODE=1715000962, AAMS_LOCATION_CODE=GE852012757J]
+2013-01-25 17:24:30,504 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:24:30,504 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82939 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007019, GS_VLT_CODE=G0000007019, AAMS_GAME_CODE=1715001012, AAMS_LOCATION_CODE=GE852012757J]
+2013-01-25 17:24:31,481 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:24:31,481 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82940 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000006931, GS_VLT_CODE=G0000006931, AAMS_GAME_CODE=1715000881, AAMS_LOCATION_CODE=GF704002358T]
+2013-01-25 17:24:34,511 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:24:34,511 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82941 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000006009, GS_VLT_CODE=G0000006009, AAMS_GAME_CODE=1715000878, AAMS_LOCATION_CODE=GH501001098A]
+2013-01-25 17:24:35,906 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:24:35,906 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82942 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000006986, GS_VLT_CODE=G0000006986, AAMS_GAME_CODE=1715001012, AAMS_LOCATION_CODE=GL483003933Q]
+2013-01-25 17:24:36,785 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 17:24:36,790 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 17:24:36,790 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 17:24:36,790 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 17:24:37,125 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 17:24:37,126 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 17:24:39,395 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 17:24:39,395 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 17:24:39,507 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 17:24:39,508 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 17:24:39,516 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 17:24:39,517 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 17:24:39,523 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 17:24:39,524 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 17:24:39,524 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 17:24:39,531 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 17:24:39,531 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:24:39,535 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:24:39,535 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 17:24:40,075 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 17:24:44,887 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:24:44,888 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82943 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000008669, GS_VLT_CODE=GD012025999, AAMS_GAME_CODE=1715000658, AAMS_LOCATION_CODE=GB180002360Q]
+2013-01-25 17:24:48,724 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:24:48,724 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82944 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000008424, GS_VLT_CODE=GD010020344, AAMS_GAME_CODE=1715000468, AAMS_LOCATION_CODE=GC741016898B]
+2013-01-25 17:24:48,747 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:24:48,747 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82945 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000008425, GS_VLT_CODE=GD009006532, AAMS_GAME_CODE=1715000465, AAMS_LOCATION_CODE=GC741016898B]
+2013-01-25 17:24:48,771 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:24:48,771 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82946 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000008426, GS_VLT_CODE=GD010020323, AAMS_GAME_CODE=1715000468, AAMS_LOCATION_CODE=GC741016898B]
+2013-01-25 17:25:17,242 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 17:25:17,243 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 17:25:17,247 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 17:25:17,247 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 17:25:17,249 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 17:25:17,255 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 17:25:17,255 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 17:25:17,255 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 17:25:17,255 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 17:25:17,570 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 17:25:17,570 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 17:25:20,448 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 17:25:20,449 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 17:25:21,643 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 17:25:21,644 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 17:25:21,651 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 17:25:21,651 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:25:21,655 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:25:21,656 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 17:25:22,239 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 17:25:30,624 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:25:30,624 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82947 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000008492, GS_VLT_CODE=GD011018716, AAMS_GAME_CODE=1715000469, AAMS_LOCATION_CODE=GD314015892H]
+2013-01-25 17:25:57,615 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 17:25:57,615 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 17:25:57,620 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 17:25:57,620 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 17:25:57,620 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 17:25:57,625 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 17:25:57,625 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 17:25:57,626 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 17:25:57,626 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 17:25:57,836 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 17:25:57,836 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 17:26:01,223 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 17:26:01,223 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 17:26:01,345 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 17:26:01,345 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 17:26:01,350 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 17:26:01,350 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:26:01,354 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:26:01,355 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 17:26:01,972 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 17:26:05,025 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:26:05,025 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82948 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000008663, GS_VLT_CODE=GD011021324, AAMS_GAME_CODE=1715000658, AAMS_LOCATION_CODE=GA717001242N]
+2013-01-25 17:26:13,556 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:26:13,556 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82949 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000008428, GS_VLT_CODE=GD010021013, AAMS_GAME_CODE=1715000659, AAMS_LOCATION_CODE=GD810016897F]
+2013-01-25 17:26:26,442 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:26:26,443 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82950 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000008767, GS_VLT_CODE=GD010039915, AAMS_GAME_CODE=1715000662, AAMS_LOCATION_CODE=GG702002207C]
+2013-01-25 17:26:43,694 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 17:26:43,694 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 17:26:43,706 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 17:26:43,706 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 17:26:43,706 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 17:26:43,712 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie
+2013-01-25 17:26:43,712 INFO  [it.bplus.business.ImporterDelegate] Log End Check Repair Vlt Milionarie
+2013-01-25 17:26:43,712 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 17:26:43,712 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 17:26:43,881 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 17:26:43,881 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 17:26:47,648 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 17:26:47,648 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 17:26:47,776 INFO  [it.bplus.timer.TaskBridgeSync] End Task Import Sync Datamart: 1359130950736
+2013-01-25 17:52:30,736 INFO  [it.bplus.timer.TaskBridgeSync] Start Task Import Sync Datamart: 1359132750736
+2013-01-25 17:52:30,757 INFO  [it.bplus.business.ImporterDelegate] SYNC Spazio Dim
+2013-01-25 17:52:30,757 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 17:52:30,976 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 17:52:30,976 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Aggregate
+2013-01-25 17:52:31,154 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 17:52:31,158 INFO  [it.bplus.dao.SpazioDimDAO] Start - Insert Spazio Dim to Datamart
+2013-01-25 17:52:31,160 INFO  [it.bplus.dao.SpazioDimDAO] End - Insert Spazio Dim to Datamart
+2013-01-25 17:52:31,164 INFO  [it.bplus.business.ImporterDelegate] SYNC  Cliente Dim
+2013-01-25 17:52:31,165 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Datamart
+2013-01-25 17:52:31,185 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Datamart
+2013-01-25 17:52:31,185 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Cliente Dim from Aggregate
+2013-01-25 17:52:31,200 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Cliente Dim from Aggregate
+2013-01-25 17:52:31,210 INFO  [it.bplus.dao.ClienteDimDAO] Start - Insert Cliente Dim to Datamart
+2013-01-25 17:52:31,210 INFO  [it.bplus.dao.ClienteDimDAO] End - Insert Cliente Dim to Datamart
+2013-01-25 17:52:31,224 INFO  [it.bplus.business.ImporterDelegate] SYNC  Sistema Gioco Dim
+2013-01-25 17:52:31,224 INFO  [it.bplus.dao.SistemaGiocoDimDAO] Start - Get SistemaGioco Dim from Datamart
+2013-01-25 17:52:43,956 INFO  [it.bplus.dao.SistemaGiocoDimDAO] End - Get SistemaGioco Dim from Datamart
+2013-01-25 17:52:43,956 INFO  [it.bplus.business.ImporterDelegate] SYNC  Tempo Dim
+2013-01-25 17:52:43,956 INFO  [it.bplus.dao.TempoDimDAO] Start - Get Tempo Dim from Datamart
+2013-01-25 17:52:44,431 INFO  [it.bplus.dao.TempoDimDAO] End - Get Tempo Dim from Datamart
+2013-01-25 17:52:44,432 INFO  [it.bplus.dao.SpazioDimDAO] Start - Get Spazio Dim from Datamart
+2013-01-25 17:52:44,486 INFO  [it.bplus.dao.SpazioDimDAO] End - Get Spazio Dim from Datamart
+2013-01-25 17:52:44,486 INFO  [it.bplus.dao.ClienteDimDAO] Start - Get Location Cliente Dim from Datamart
+2013-01-25 17:52:44,552 INFO  [it.bplus.dao.ClienteDimDAO] End - Get Location Cliente Dim from Datamart
+2013-01-25 17:52:44,552 INFO  [it.bplus.dao.LocationDAO] Start - Get Location Extra from Aggregate
+2013-01-25 17:52:44,635 INFO  [it.bplus.dao.LocationDAO] End - Get Location Extra from Aggregate
+2013-01-25 17:52:44,635 INFO  [it.bplus.dao.VltDAO] Start - Get Vlt from Aggregate
+2013-01-25 17:52:44,939 INFO  [it.bplus.dao.VltDAO] End - Get Vlt from Aggregate
+2013-01-25 17:52:44,939 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 17:52:44,946 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 17:52:44,946 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 17:52:44,955 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Inspired
+2013-01-25 17:52:44,959 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 17:52:44,960 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 17:52:44,965 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 17:52:44,965 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:52:44,969 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:52:44,969 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Inspired
+2013-01-25 17:52:46,006 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Inspired
+2013-01-25 17:52:49,439 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:52:49,439 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82951 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007024, GS_VLT_CODE=G0000007024, AAMS_GAME_CODE=1715000879, AAMS_LOCATION_CODE=GD969002237H]
+2013-01-25 17:52:50,316 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:52:50,316 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82952 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007622, GS_VLT_CODE=G0000007622, AAMS_GAME_CODE=1715000963, AAMS_LOCATION_CODE=GE463014173N]
+2013-01-25 17:52:51,786 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:52:51,786 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82953 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007163, GS_VLT_CODE=G0000007163, AAMS_GAME_CODE=1715000881, AAMS_LOCATION_CODE=GG197012874G]
+2013-01-25 17:52:51,829 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:52:51,830 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82954 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007163, GS_VLT_CODE=G0000007163, AAMS_GAME_CODE=1715000968, AAMS_LOCATION_CODE=GG197012874G]
+2013-01-25 17:52:52,362 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:52:52,362 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82955 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007927, GS_VLT_CODE=G0000007927, AAMS_GAME_CODE=1715001017, AAMS_LOCATION_CODE=GH096016092L]
+2013-01-25 17:52:53,495 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:52:53,495 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82956 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007298, GS_VLT_CODE=G0000007298, AAMS_GAME_CODE=1715000877, AAMS_LOCATION_CODE=GH501001098A]
+2013-01-25 17:52:53,516 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:52:53,516 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82957 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007298, GS_VLT_CODE=G0000007298, AAMS_GAME_CODE=1715000880, AAMS_LOCATION_CODE=GH501001098A]
+2013-01-25 17:52:53,543 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:52:53,543 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82958 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007298, GS_VLT_CODE=G0000007298, AAMS_GAME_CODE=1715000965, AAMS_LOCATION_CODE=GH501001098A]
+2013-01-25 17:52:53,563 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:52:53,563 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82959 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007298, GS_VLT_CODE=G0000007298, AAMS_GAME_CODE=1715001012, AAMS_LOCATION_CODE=GH501001098A]
+2013-01-25 17:52:56,756 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:52:56,756 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82960 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000065, AAMS_VLT_CODE=G0000007810, GS_VLT_CODE=G0000007810, AAMS_GAME_CODE=1715000879, AAMS_LOCATION_CODE=GI462003472R]
+2013-01-25 17:52:58,952 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 17:52:58,958 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 17:52:58,958 INFO  [it.bplus.business.ImporterDelegate] Log Start Generamento Meter Location e Fasce Orarie
+2013-01-25 17:52:58,958 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location
+2013-01-25 17:52:59,106 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location
+2013-01-25 17:52:59,106 INFO  [it.bplus.dao.MeterDAO] Start - Generate Meter Location Hour
+2013-01-25 17:53:01,263 INFO  [it.bplus.dao.MeterDAO] End - Generate Meter Location Hour
+2013-01-25 17:53:01,263 INFO  [it.bplus.business.ImporterDelegate] Log End Generamento Meter Location e Fasce Orarie
+2013-01-25 17:53:01,328 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 17:53:01,328 INFO  [it.bplus.dao.SessioneDAO] Start - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 17:53:01,336 INFO  [it.bplus.dao.SessioneDAO] End - Get Max UNIQUE_SESSION_ID from Datamart
+2013-01-25 17:53:01,336 INFO  [it.bplus.dao.SessioneDAO] Start - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 17:53:01,342 INFO  [it.bplus.dao.SessioneDAO] End - Get SESSIONs_ID from Aggregate Novomatic
+2013-01-25 17:53:01,342 INFO  [it.bplus.business.ImporterDelegate] Log Start Import
+2013-01-25 17:53:01,342 INFO  [it.bplus.dao.SessioneDAO] Start - Set Not Last Imported to Datamart
+2013-01-25 17:53:01,347 INFO  [it.bplus.dao.SessioneDAO] End - Set Not Last Imported to Datamart
+2013-01-25 17:53:01,347 INFO  [it.bplus.dao.SessioneDAO] Start - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:53:01,351 INFO  [it.bplus.dao.SessioneDAO] End - Insert Sessione Start IMPORT to Datamart
+2013-01-25 17:53:01,351 INFO  [it.bplus.dao.MeterDAO] Start - Get Meter Novomatic
+2013-01-25 17:53:01,829 INFO  [it.bplus.dao.MeterDAO] End - Get Meter Novomatic
+2013-01-25 17:53:11,114 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:53:11,114 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82961 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000008490, GS_VLT_CODE=GD011020196, AAMS_GAME_CODE=1715000468, AAMS_LOCATION_CODE=GD314015892H]
+2013-01-25 17:53:11,136 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYNC  SistemaGioco Dim
+2013-01-25 17:53:11,136 INFO  [it.bplus.dao.SistemaGiocoDimDAO] SYSDIM NUM 82962 dim SistemaGiocoDim [id=0, AAMS_GAMESYSTEM_CODE=1711000045, AAMS_VLT_CODE=G0000008490, GS_VLT_CODE=GD011020196, AAMS_GAME_CODE=1715000662, AAMS_LOCATION_CODE=GD314015892H]
+2013-01-25 17:53:31,428 INFO  [it.bplus.business.ImporterDelegate] Log End Import
+2013-01-25 17:53:31,428 INFO  [it.bplus.dao.SessioneDAO] Start - Update Sessione End IMPORT to Datamart
+2013-01-25 17:53:31,433 INFO  [it.bplus.dao.SessioneDAO] End - Update Sessione End IMPORT to Datamart
+2013-01-25 17:53:31,433 INFO  [it.bplus.business.ImporterDelegate] Log Start Check Repair Vlt Milionarie
+2013-01-25 17:53:31,433 INFO  [it.bplus.dao.VltMilionarieDAO] Start - Get Vlt Milionarie
+2013-01-25 17:53:31,441 INFO  [it.bplus.dao.VltMilionarieDAO] End - Get Vlt Milionarie

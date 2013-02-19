@@ -1,0 +1,46 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+	<link rel="stylesheet" type="text/css" href="../../css/style.css"
+		media="screen" />
+	<script>
+		function clearAllFilters() {
+			$('.ui-datatable .ui-column-filter').val('');
+
+		}
+	</script>
+	<meta http-equiv="refresh" content="#{session.maxInactiveInterval};url=upload-img-game.xhtml?faces-redirect=true" />
+</h:head>
+<f:view locale="#{languageBean.locale}" />
+<h:body style="margin:0px;">
+	<img src="../../images/backhead.png" style="width: 100%;" />
+	<ui:include src="../common/menu.xhtml" />
+	<h:form id="form">
+
+		<p:growl id="msgs" showDetail="true" autoUpdate="true" />
+		
+		<p:dialog id="modalDialog" visible="false" widgetVar="dialogModal" modal="true" closable="false" draggable="false" resizable="false" > 
+   <p:ajaxStatus onstart="dialogModal.show()" oncomplete="dialogModal.hide()"/>
+    <p:graphicImage value="../../images/loading.gif"/></p:dialog>  
+
+		<h:panelGroup>
+		<p:fileUpload fileUploadListener="#{fileUploadController.handleFileUpload}"  
+            mode="advanced"   
+            update="messages"  
+            sizeLimit="100000" 
+            allowTypes="/(\.|\/)(gif|jpe?g|png)$/"/>  
+  
+    <p:growl id="messages" showDetail="true"/>  
+
+		</h:panelGroup>
+
+	</h:form>
+
+
+
+</h:body>
+</html>

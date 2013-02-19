@@ -1,0 +1,49 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:pe="http://primefaces.org/ui/extensions">
+
+<h:head>
+	<link rel="stylesheet" type="text/css" href="../../css/style.css"
+		media="screen" />
+	<meta http-equiv="refresh"
+		content="#{session.maxInactiveInterval};url=cube-bi-primefaces.xhtml?faces-redirect=true" />
+</h:head>
+<f:view locale="#{languageBean.locale}" />
+<h:body style="margin:0px;">
+	<img src="../../images/backhead.png" style="width: 100%;" />
+	<ui:include src="../common/menu.xhtml" />
+
+	<h:form>
+		<h:panelGroup>
+
+			<pe:masterDetail id="masterDetail" level="1">
+
+				<pe:masterDetailLevel level="1" levelLabel="Generale">
+					<p:dataTable id="Generale" value="#{tableBeanLocation.tableList}"
+						var="meterfactLocation">
+						<p:column headerText="Location">
+							<p:commandLink
+								value="#{meterfactLocation.sistemagiocodim.loc.AAMS_LOCATION_ID}"
+								onclick="alert('ciao');">
+								<pe:selectDetailLevel
+									contextValue="#{meterfactLocation.sistemagiocodim.loc.AAMS_LOCATION_ID}" />
+							</p:commandLink>
+						</p:column>
+						<p:column headerText="Id Location">
+							<h:outputText
+								value="#{meterfactLocation.sistemagiocodim.loc.COMMERCIAL_NAME}" />
+						</p:column>
+					</p:dataTable>
+				</pe:masterDetailLevel>
+
+
+			</pe:masterDetail>
+
+
+		</h:panelGroup>
+	</h:form>
+</h:body>
+</html>
