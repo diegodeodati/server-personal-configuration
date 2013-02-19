@@ -1,0 +1,53 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<h:head>
+<link rel="stylesheet" type="text/css" href="../../css/style.css" media="screen" />
+<meta http-equiv="refresh" content="#{session.maxInactiveInterval};url=chart-game.xhtml?faces-redirect=true" />
+	</h:head>
+	
+	<h:body style="margin:0px;" >
+    <img src="../../images/backhead.png" style="width:100%;"/>
+    <ui:include src="../common/menu.xhtml" />     
+    <h:form id="form" >     
+    <p:growl id="msgs" showDetail="true" autoUpdate="true"/> 
+	<h:panelGroup> 
+    <h:panelGrid columns="5" id="report">
+    <h:outputText value="da" />    
+    <p:calendar id="dateStart" effect="slideDown" size="12" navigator="true" lang="it" value="#{reportBean.dataS}" pattern="dd/MM/yyyy" mindate="01/09/2010" maxdate="#{reportBean.oggi}" >
+    <p:ajax event="dateSelect" listener="#{reportBean.changeDataS}" update="buttonFilterData" />
+    <f:convertDateTime  pattern="dd/MM/yyyy" /></p:calendar>    
+    <h:outputText value="a" />    
+    <p:calendar id="dateEnd" effect="slideDown" size="12" navigator="true" lang="it" value="#{reportBean.dataE}" pattern="dd/MM/yyyy" mindate="01/09/2010" maxdate="#{reportBean.oggi}">
+    <p:ajax event="dateSelect" listener="#{reportBean.changeDataE}" update="buttonFilterData" />
+    <f:convertDateTime  pattern="dd/MM/yyyy" /></p:calendar>     
+    <p:commandButton id="buttonFilterData" value="OK"  action="#{gameChartBean.refreshChartAction('lineGameChart')}" disabled="#{reportBean.errorDate}" onclick="dialogModal.show();" />
+  
+	</h:panelGrid>    
+    
+    <p:dialog id="modalDialog" visible="false" widgetVar="dialogModal" modal="true" closable="false" draggable="false" resizable="false" >     
+    <p:ajaxStatus onstart="dialogModal.show();" oncomplete="dialogModal.hide();"/>
+    <p:graphicImage value="../../images/loading.gif"/></p:dialog>  
+    
+
+    <p:growl id="growl" showDetail="true" />  
+    <p:lineChart id="filled" value="#{gameChartBean.getChartModel('lineGameChart')}"
+                legendPosition="ne" fill="false" xaxisLabel="Data" yaxisLabel="Bet" breakOnNull="false"
+                title="Grafico Giochi - Bet" minY="0" maxY="#{gameChartBean.maxValue}" style="height:600px">
+                <p:ajax event="itemSelect" listener="#{gameChartBean.itemSelect}" update="growl" />
+                </p:lineChart>
+                
+    <p:barChart id="filled2" value="#{gameChartBean.getChartModel('lineGameChart')}"
+                legendPosition="ne" fill="false"  title="Grafico Giochi - Bet" style="height:600px">
+                <p:ajax event="itemSelect" listener="#{gameChartBean.itemSelect}" update="growl" />
+                </p:barChart>
+
+   
+                    
+    </h:panelGroup>
+    </h:form>	
+	</h:body>
+</html>

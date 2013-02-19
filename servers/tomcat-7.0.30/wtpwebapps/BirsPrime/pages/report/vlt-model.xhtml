@@ -1,0 +1,161 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+	<link rel="stylesheet" type="text/css" href="../../css/style.css"
+		media="screen" />
+	<script>
+		function clearAllFilters() {
+			$('.ui-datatable .ui-column-filter').val('');
+
+		}
+	</script>
+	<meta http-equiv="refresh" content="#{session.maxInactiveInterval};url=vlt-model.xhtml?faces-redirect=true" />
+</h:head>
+<f:view locale="#{languageBean.locale}" />
+<h:body style="margin:0px;">
+	<img src="../../images/backhead.png" style="width: 100%;" />
+	<ui:include src="../common/menu.xhtml" />
+	<h:form id="form">
+
+		<p:growl id="msgs" showDetail="true" autoUpdate="true" />
+
+		<p:dialog id="modalDialog" visible="false" widgetVar="dialogModal"
+			modal="true" closable="false" draggable="false" resizable="false">
+			<p:ajaxStatus onstart="dialogModal.show()"
+				oncomplete="dialogModal.hide()" />
+			<p:graphicImage value="../../images/loading.gif" />
+		</p:dialog>
+
+		<h:panelGroup>
+			<p:dataTable var="vModel" value="#{tableBeanVltModel.tableList}"
+				paginator="true" rows="20" id="vltModelReportTable" editable="true">
+
+
+				<p:column sortBy="#{vModel.AAMS_VLT_MODEL_CODE}"
+					filterBy="#{vModel.AAMS_VLT_MODEL_CODE}" id="aams_vlt_model_code">
+					<f:facet name="header">
+						AAMS VLT MODEL CODE
+					</f:facet>
+					<h:outputText value="#{vModel.AAMS_VLT_MODEL_CODE}" />
+
+				</p:column>
+
+
+				<p:column sortBy="#{vModel.NAME}" filterBy="#{vModel.NAME}"
+					id="name">
+					<f:facet name="header">
+						NOME
+					</f:facet>
+					<h:outputText value="#{vModel.NAME}" />
+				</p:column>
+
+
+				<p:column sortBy="#{vModel.AAMS_GAME_SYSTEM_CODE}"
+					filterBy="#{vModel.AAMS_GAME_SYSTEM_CODE}" id="cognome">
+					<f:facet name="header">
+						AAMS GAME SYSTEM CODE
+					</f:facet>
+					<h:outputText value="#{vModel.AAMS_GAME_SYSTEM_CODE}" />
+
+				</p:column>
+
+				<p:column sortBy="#{vModel.MANUFACTURER}"
+					filterBy="#{vModel.MANUFACTURER}" id="manufacturer">
+					<f:facet name="header">
+						MANUFACTURER
+					</f:facet>
+						<h:outputText value="#{vModel.MANUFACTURER}" />
+					
+				</p:column>
+
+				<p:column  sortBy="#{vModel.CABINET_TYPE}"
+					filterBy="#{vModel.CABINET_TYPE}" id="cabinet_type">
+					<f:facet name="header">
+						CABINET TYPE
+					</f:facet>
+						<h:outputText value="#{vModel.CABINET_TYPE}" />
+					
+				</p:column>
+
+				<p:column headerText="PCT SUPPLIER" sortBy="#{vModel.PCT_SUPPLIER}"
+					filterBy="#{vModel.PCT_SUPPLIER}" id="pct_supplier">
+					<p:cellEditor>
+						<f:facet name="output">
+							<h:outputText value="#{vModel.PCT_SUPPLIER}" />
+						</f:facet>
+						<f:facet name="input">
+							<h:inputText value="#{vModel.PCT_SUPPLIER}" />
+						</f:facet>
+					</p:cellEditor>
+				</p:column>
+
+
+
+
+				<p:column headerText="Options" style="width:80px">
+					<p:rowEditor />
+					<p:commandButton id="submit" action="#{tableBeanVltModel.onEdit}"
+						icon="ui-icon-arrow-1-e" update="vltModelReportTable">
+						<f:setPropertyActionListener value="#{vModel}"
+							target="#{tableBeanVltModel.vltModelGet}" />
+					</p:commandButton>
+				</p:column>
+
+				<f:facet name="footer">
+					<div
+						style="background-color: #E69700; height: 23px; vertical-align: middle; font-size: 11px; padding-top: 5px;">
+						<p:commandButton id="effectsDialogButton"
+							value="+ Aggiungi Modello Vlt"
+							onclick="modalInsertVltModel.show();" type="button" />
+					</div>
+				</f:facet>
+
+			</p:dataTable>
+
+
+
+			<p:dialog header="Inserisci Modello Vlt" id="modalInsertVltModel"
+				visible="false" widgetVar="modalInsertVltModel" modal="true"
+				closable="true" draggable="false" resizable="false">
+				<p:panelGrid columns="2">
+					<h:outputText value="AAMS VLT MODEL CODE:" />
+					<h:inputText id="aams_vlt_model_code"
+						value="#{vltModelBean.AAMS_VLT_MODEL_CODE}" />
+					<h:outputText value="NOME" />
+					<h:inputText id="nome" value="#{vltModelBean.NAME}" />
+					<h:outputText value="AAMSGAME SYSTEM CODE:" />
+					<h:inputText id="aams_game_system_code"
+						value="#{vltModelBean.AAMS_GAME_SYSTEM_CODE}" />
+					<h:outputText value="MANUFACTURER" />
+					<h:inputText id="manufacturer"
+						value="#{vltModelBean.MANUFACTURER}" />
+					<h:outputText value="CABINET_TYPE" />
+					<h:inputText id="cabinet_type"
+						value="#{vltModelBean.CABINET_TYPE}" />
+					<h:outputText value="Percentuale Supplier" />
+					<h:inputText id="pct_supplier"
+						value="#{vltModelBean.PCT_SUPPLIER}" />
+
+
+					<f:facet name="footer">
+						<center>
+							<p:commandButton value="Salva"
+								actionListener="#{tableBeanVltModel.onCreate}" type="submit"
+								update="@form" />
+							<p:commandButton value="Annulla"
+								onclick="modalInsertVltModel.hide();" type="button"
+								update="modalInsertVltModel" />
+						</center>
+					</f:facet>
+				</p:panelGrid>
+			</p:dialog>
+
+		</h:panelGroup>
+
+	</h:form>
+</h:body>
+</html>

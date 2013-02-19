@@ -1,0 +1,169 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+	<link rel="stylesheet" type="text/css" href="../../css/style.css"
+		media="screen" />
+	<script>
+		function clearAllFilters() {
+			$('.ui-datatable .ui-column-filter').val('');
+
+		}
+	</script>
+	<meta http-equiv="refresh" content="#{session.maxInactiveInterval};url=user.xhtml?faces-redirect=true" />
+</h:head>
+<f:view locale="#{languageBean.locale}" />
+<h:body style="margin:0px;">
+	<img src="../../images/backhead.png" style="width: 100%;" />
+	<ui:include src="../common/menu.xhtml" />
+	<h:form id="form">
+
+		<p:growl id="msgs" showDetail="true" autoUpdate="true" />
+		
+		<p:dialog id="modalDialog" visible="false" widgetVar="dialogModal" modal="true" closable="false" draggable="false" resizable="false" > 
+   <p:ajaxStatus onstart="dialogModal.show()" oncomplete="dialogModal.hide()"/>
+    <p:graphicImage value="../../images/loading.gif"/></p:dialog>  
+<center>
+		<h:panelGroup >
+			<p:dataTable var="user" value="#{tableBeanUser.tableList}" style="width:800px;"
+				paginator="true" rows="20" id="userReportTable" editable="true">
+
+				<p:column headerText="USERNAME" sortBy="#{user.username}"
+					filterBy="#{user.username}" id="username">
+					<p:cellEditor>
+						<f:facet name="output">
+							<h:outputText value="#{user.username}" />
+						</f:facet>
+						<f:facet name="input">
+							<h:inputText value="#{user.username}" />
+						</f:facet>
+					</p:cellEditor>
+				</p:column>
+
+
+				<p:column headerText="NOME" sortBy="#{user.nome}"
+					filterBy="#{user.nome}" id="nome">
+					<p:cellEditor>
+						<f:facet name="output">
+							<h:outputText value="#{user.nome}" />
+						</f:facet>
+						<f:facet name="input">
+							<h:inputText value="#{user.nome}" />
+						</f:facet>
+					</p:cellEditor>
+				</p:column>
+
+
+				<p:column headerText="COGNOME" sortBy="#{user.cognome}"
+					filterBy="#{user.cognome}" id="cognome">
+					<p:cellEditor>
+						<f:facet name="output">
+							<h:outputText value="#{user.cognome}" />
+						</f:facet>
+						<f:facet name="input">
+							<h:inputText value="#{user.cognome}" />
+						</f:facet>
+					</p:cellEditor>
+				</p:column>
+
+
+				<p:column headerText="RUOLO" id="ruolo">
+					<p:cellEditor>
+						<f:facet name="output">
+							<h:outputText value="#{user.ruolo}" />
+						</f:facet>
+						<f:facet name="input">
+							<h:selectOneMenu value="#{user.ruolo}">
+								<f:selectItems value="#{tableBeanUser.avaliableRole}" var="role"
+									itemLabel="#{role}" itemValue="#{role}" />
+							</h:selectOneMenu>
+						</f:facet>
+					</p:cellEditor>
+				</p:column>
+				
+				<p:column headerText="EMAIL" id="email">
+					<p:cellEditor>
+						<f:facet name="output">
+							<h:outputText value="#{user.email}" />
+						</f:facet>
+						<f:facet name="input">
+						<h:inputText value="#{user.email}" />
+						</f:facet>
+					</p:cellEditor>
+				</p:column>
+
+
+				<p:column headerText="Options" style="width:120px">
+					<p:rowEditor />
+					<p:commandButton id="submit" action="#{tableBeanUser.onEdit}"
+						icon="ui-icon-arrow-1-e" update="userReportTable">
+						<f:setPropertyActionListener value="#{user}"
+							target="#{tableBeanUser.userGet}" />
+					</p:commandButton>
+					<p:commandButton id="submit_erase" onclick="return confirm('Vuoi cancellare davvero questo utente?')"	action="#{tableBeanUser.onRemove}"
+						 icon="ui-icon-trash" update="@form" ajax="false">	
+						<f:setPropertyActionListener value="#{user}"
+							target="#{tableBeanUser.userGet}" />
+					</p:commandButton>
+				</p:column>
+
+				<f:facet name="footer">
+					<div
+						style="background-color: #E69700; height: 23px; vertical-align: middle; font-size: 11px; padding-top: 5px;">
+						<p:commandButton id="effectsDialogButton"
+							value="+ Aggiungi Utente" onclick="modalInsertUser.show();"
+							type="button" />
+					</div>
+				</f:facet>
+
+			</p:dataTable>
+
+		
+
+			<p:dialog header="Inserisci Utente" id="modalInsertUser"
+				visible="false" widgetVar="modalInsertUser" modal="true"
+				closable="true" draggable="false" resizable="false">
+				<p:panelGrid columns="2">
+					<h:outputText value="Nome:" />
+					<h:inputText id="nome" value="#{userBean.nome}"/>
+					<h:outputText value="Cognome:" />
+					<h:inputText id="cognome" value="#{userBean.cognome}"/>
+					<h:outputText value="Username:" />
+					<h:inputText id="username" value="#{userBean.username}"/>
+					<h:outputText value="Password" />
+					<h:inputSecret id="password" value="#{userBean.userPass}"/>
+					<h:outputText value="Ruolo" />
+					<h:selectOneMenu value="#{userBean.ruolo}">
+						<f:selectItems value="#{tableBeanUser.avaliableRole}" var="role"
+							itemLabel="#{role}" itemValue="#{role}" />
+					</h:selectOneMenu>
+					<h:outputText value="Email:" />
+					<h:inputText id="email" value="#{userBean.email}"/>
+					<f:facet name="footer">
+						<center>
+							<p:commandButton value="Salva"
+								actionListener="#{tableBeanUser.onCreate}" type="submit"
+								update="@form" />
+							<p:commandButton value="Annulla"
+								onclick="modalInsertUser.hide();" type="button"
+								update="modalInsertUser" />
+						</center>
+					</f:facet>
+					</p:panelGrid>
+</p:dialog>
+			
+
+
+
+
+		</h:panelGroup>
+</center>
+	</h:form>
+
+
+
+</h:body>
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eclipse-userlibraries version="2">
+    <library name="Axis14" systemlibrary="false">
+        <archive path="D:/Downloads/Apache/Axis/axis-1_4/lib/wsdl4j-1.5.1.jar"/>
+        <archive path="D:/Downloads/Apache/Axis/axis-1_4/lib/axis.jar"/>
+        <archive path="D:/Downloads/Apache/Axis/axis-1_4/lib/commons-discovery-0.2.jar"/>
+        <archive path="D:/Downloads/Apache/Axis/axis-1_4/lib/jaxrpc.jar"/>
+        <archive path="D:/Downloads/Apache/Axis/axis-1_4/lib/saaj.jar"/>
+    </library>
+    <library name="Commons-logging" systemlibrary="false">
+        <archive path="D:/Downloads/Java/Commons/commons-logging.jar"/>
+    </library>
+    <library name="HornetQ JMS" systemlibrary="false">
+        <archive path="D:/HornetQ/lib/netty.jar"/>
+        <archive path="D:/HornetQ/lib/hornetq-core-client-java5.jar"/>
+        <archive path="D:/HornetQ/lib/hornetq-jms-client-java5.jar"/>
+        <archive javadoc="http://download.oracle.com/javaee/5/api/" path="D:/HornetQ/lib/jboss-jms-api.jar"/>
+    </library>
+    <library name="Kryo" systemlibrary="false">
+        <archive path="D:/Downloads/Java/Kryo/kryo-1.04-all.jar"/>
+    </library>
+    <library name="Log4J" systemlibrary="false">
+        <archive path="D:/Downloads/Java/Log4J/log4j.jar"/>
+    </library>
+    <library name="Oracle JDBC Thin Driver" systemlibrary="false">
+        <archive path="D:/Downloads/Oracle/JDBCThin11gR2/ojdbc6.jar"/>
+    </library>
+    <library name="Oracle Universal Connection Pool (UCP)" systemlibrary="false">
+        <archive path="D:/Downloads/Oracle/JDBCThin11gR2/ucp/ucp.jar"/>
+    </library>
+    <library name="Quartz" systemlibrary="false">
+        <archive javadoc="file:/D:/Downloads/Java/Quartz/quartz-2.0.2/docs/api" path="D:/Downloads/Java/Quartz/quartz-2.0.2/quartz-all-2.0.2.jar" source="D:/Downloads/Java/Quartz/quartz-2.0.2/quartz/src"/>
+        <archive path="D:/Downloads/Java/Quartz/quartz-2.0.2/lib/slf4j-log4j12-1.6.1.jar"/>
+        <archive path="D:/Downloads/Java/Quartz/quartz-2.0.2/lib/slf4j-api-1.6.1.jar"/>
+    </library>
+</eclipse-userlibraries>

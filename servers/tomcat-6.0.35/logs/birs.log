@@ -1,0 +1,1180 @@
+2012-03-07 15:26:51,470 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-03-07 15:26:55,989 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-03-07 15:27:01,279 INFO  [it.bplus.controller.BasicController:99] getMeterConfr600_vlt
+2012-03-07 15:27:01,327 ERROR [it.bplus.dao.SeicentoDAO:1531] retrieveConfronti600Sogei_vlt failed
+java.sql.SQLException: ORA-00979: non è un'espressione GROUP BY
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java:289)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java:573)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java:1891)
+	at oracle.jdbc.ttc7.TTC7Protocol.parseExecuteDescribe(TTC7Protocol.java:830)
+	at oracle.jdbc.driver.OracleStatement.doExecuteQuery(OracleStatement.java:2391)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:2672)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:589)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:527)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at it.bplus.dao.SeicentoDAO.retrieveConfronti600Sogei_vlt(SeicentoDAO.java:1306)
+	at it.bplus.business.SeicentoBusinessDelegate.retrieveConfronti600Sogei_vlt(SeicentoBusinessDelegate.java:66)
+	at it.bplus.controller.SeicentoController.query_vlt(SeicentoController.java:107)
+	at it.bplus.controller.SeicentoController.query(SeicentoController.java:92)
+	at it.bplus.controller.SeicentoController.tabChangeListenerIcefaces(SeicentoController.java:207)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:102)
+	at com.icesoft.faces.component.facelets.MethodExpressionMethodBinding.invoke(IceComponentHandler.java:235)
+	at com.icesoft.faces.component.paneltabset.PanelTabSet.broadcast(PanelTabSet.java:294)
+	at com.icesoft.faces.component.panelseries.UISeries$RowEvent.broadcast(UISeries.java:623)
+	at com.icesoft.faces.component.panelseries.UISeries.broadcast(UISeries.java:285)
+	at com.icesoft.faces.component.paneltabset.PanelTabSet.broadcast(PanelTabSet.java:287)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:781)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1246)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:77)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:97)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:114)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:308)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at it.bplus.filters.SessionTimeoutFilter.doFilter(SessionTimeoutFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:563)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+2012-03-07 15:27:01,340 ERROR [it.bplus.controller.BasicController:114] BusinessLayerException: ErrorCode: DB Error Message: 
+2012-03-07 15:27:01,443 INFO  [it.bplus.controller.BasicController:99] getMeterConfr600_vlt
+2012-03-07 15:27:01,459 ERROR [it.bplus.dao.SeicentoDAO:1531] retrieveConfronti600Sogei_vlt failed
+java.sql.SQLException: ORA-00979: non è un'espressione GROUP BY
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java:289)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java:573)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java:1891)
+	at oracle.jdbc.ttc7.TTC7Protocol.parseExecuteDescribe(TTC7Protocol.java:830)
+	at oracle.jdbc.driver.OracleStatement.doExecuteQuery(OracleStatement.java:2391)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:2672)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:589)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:527)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at it.bplus.dao.SeicentoDAO.retrieveConfronti600Sogei_vlt(SeicentoDAO.java:1306)
+	at it.bplus.business.SeicentoBusinessDelegate.retrieveConfronti600Sogei_vlt(SeicentoBusinessDelegate.java:66)
+	at it.bplus.controller.SeicentoController.query_vlt(SeicentoController.java:107)
+	at it.bplus.controller.SeicentoController.getConfronti_vlt(SeicentoController.java:387)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:83)
+	at javax.el.CompositeELResolver.getValue(CompositeELResolver.java:54)
+	at com.sun.faces.el.FacesCompositeELResolver.getValue(FacesCompositeELResolver.java:71)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:123)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:186)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:106)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:190)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:178)
+	at javax.faces.component.UIData.getValue(UIData.java:554)
+	at com.icesoft.faces.component.panelseries.UISeries.getValue(UISeries.java:575)
+	at com.icesoft.faces.component.panelseries.UISeries.getDataModel(UISeries.java:358)
+	at com.icesoft.faces.component.panelseries.UISeries.processCurrentRowData(UISeries.java:144)
+	at com.icesoft.faces.component.panelseries.UISeries.setRowIndex(UISeries.java:136)
+	at com.icesoft.faces.component.ext.renderkit.TableRenderer.renderFacet(TableRenderer.java:147)
+	at com.icesoft.faces.renderkit.dom_html_basic.TableRenderer.encodeBegin(TableRenderer.java:111)
+	at javax.faces.component.UIComponentBase.encodeBegin(UIComponentBase.java:824)
+	at javax.faces.component.UIData.encodeBegin(UIData.java:937)
+	at com.icesoft.faces.component.panelseries.UISeries.encodeBegin(UISeries.java:299)
+	at com.icesoft.faces.component.ext.HtmlDataTable.encodeBegin(HtmlDataTable.java:109)
+	at com.icesoft.faces.renderkit.dom_html_basic.DomBasicRenderer.encodeParentAndChildren(DomBasicRenderer.java:345)
+	at com.icesoft.faces.renderkit.dom_html_basic.GroupRenderer.encodeChildren(GroupRenderer.java:85)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:849)
+	at com.icesoft.faces.component.util.CustomComponentUtils.renderChild(CustomComponentUtils.java:308)
+	at com.icesoft.faces.component.paneltabset.PanelTabSetRenderer.writeTabCell(PanelTabSetRenderer.java:996)
+	at com.icesoft.faces.component.paneltabset.PanelTabSetRenderer.encodeEnd(PanelTabSetRenderer.java:412)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:879)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1650)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:164)
+	at org.icefaces.impl.renderkit.RendererWrapper.encodeChildren(RendererWrapper.java:54)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:849)
+	at com.icesoft.faces.renderkit.dom_html_basic.DomBasicRenderer.encodeParentAndChildren(DomBasicRenderer.java:347)
+	at com.icesoft.faces.renderkit.dom_html_basic.GroupRenderer.encodeChildren(GroupRenderer.java:85)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:849)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1643)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1646)
+	at org.icefaces.impl.context.DOMPartialViewContext.processPartial(DOMPartialViewContext.java:129)
+	at javax.faces.component.UIViewRoot.encodeChildren(UIViewRoot.java:968)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1643)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:378)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:127)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:117)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:97)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:135)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:309)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at it.bplus.filters.SessionTimeoutFilter.doFilter(SessionTimeoutFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:563)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+2012-03-07 15:27:01,469 ERROR [it.bplus.controller.BasicController:114] BusinessLayerException: ErrorCode: DB Error Message: 
+2012-03-07 15:27:01,484 INFO  [it.bplus.controller.BasicController:99] getMeterConfr600_vlt
+2012-03-07 15:27:01,499 ERROR [it.bplus.dao.SeicentoDAO:1531] retrieveConfronti600Sogei_vlt failed
+java.sql.SQLException: ORA-00979: non è un'espressione GROUP BY
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java:289)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java:573)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java:1891)
+	at oracle.jdbc.ttc7.TTC7Protocol.parseExecuteDescribe(TTC7Protocol.java:830)
+	at oracle.jdbc.driver.OracleStatement.doExecuteQuery(OracleStatement.java:2391)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:2672)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:589)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:527)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at it.bplus.dao.SeicentoDAO.retrieveConfronti600Sogei_vlt(SeicentoDAO.java:1306)
+	at it.bplus.business.SeicentoBusinessDelegate.retrieveConfronti600Sogei_vlt(SeicentoBusinessDelegate.java:66)
+	at it.bplus.controller.SeicentoController.query_vlt(SeicentoController.java:107)
+	at it.bplus.controller.SeicentoController.getConfronti_vlt(SeicentoController.java:387)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:83)
+	at javax.el.CompositeELResolver.getValue(CompositeELResolver.java:54)
+	at com.sun.faces.el.FacesCompositeELResolver.getValue(FacesCompositeELResolver.java:71)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:123)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:186)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:106)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:190)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:178)
+	at javax.faces.component.UIData.getValue(UIData.java:554)
+	at com.icesoft.faces.component.panelseries.UISeries.getValue(UISeries.java:575)
+	at com.icesoft.faces.component.datapaginator.DataPaginator.isModelResultSet(DataPaginator.java:1106)
+	at com.icesoft.faces.component.datapaginator.DataPaginatorRenderer.encodeBegin(DataPaginatorRenderer.java:205)
+	at javax.faces.component.UIComponentBase.encodeBegin(UIComponentBase.java:824)
+	at com.icesoft.faces.renderkit.dom_html_basic.DomBasicRenderer.encodeParentAndChildren(DomBasicRenderer.java:345)
+	at com.icesoft.faces.renderkit.dom_html_basic.GroupRenderer.encodeChildren(GroupRenderer.java:85)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:849)
+	at com.icesoft.faces.component.util.CustomComponentUtils.renderChild(CustomComponentUtils.java:308)
+	at com.icesoft.faces.component.paneltabset.PanelTabSetRenderer.writeTabCell(PanelTabSetRenderer.java:996)
+	at com.icesoft.faces.component.paneltabset.PanelTabSetRenderer.encodeEnd(PanelTabSetRenderer.java:412)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:879)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1650)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:164)
+	at org.icefaces.impl.renderkit.RendererWrapper.encodeChildren(RendererWrapper.java:54)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:849)
+	at com.icesoft.faces.renderkit.dom_html_basic.DomBasicRenderer.encodeParentAndChildren(DomBasicRenderer.java:347)
+	at com.icesoft.faces.renderkit.dom_html_basic.GroupRenderer.encodeChildren(GroupRenderer.java:85)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:849)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1643)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1646)
+	at org.icefaces.impl.context.DOMPartialViewContext.processPartial(DOMPartialViewContext.java:129)
+	at javax.faces.component.UIViewRoot.encodeChildren(UIViewRoot.java:968)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1643)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:378)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:127)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:117)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:97)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:135)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:309)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at it.bplus.filters.SessionTimeoutFilter.doFilter(SessionTimeoutFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:563)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+2012-03-07 15:27:01,509 ERROR [it.bplus.controller.BasicController:114] BusinessLayerException: ErrorCode: DB Error Message: 
+2012-03-07 15:27:01,509 INFO  [it.bplus.controller.BasicController:99] getMeterConfr600_vlt
+2012-03-07 15:27:01,524 ERROR [it.bplus.dao.SeicentoDAO:1531] retrieveConfronti600Sogei_vlt failed
+java.sql.SQLException: ORA-00979: non è un'espressione GROUP BY
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java:289)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java:573)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java:1891)
+	at oracle.jdbc.ttc7.TTC7Protocol.parseExecuteDescribe(TTC7Protocol.java:830)
+	at oracle.jdbc.driver.OracleStatement.doExecuteQuery(OracleStatement.java:2391)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:2672)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:589)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:527)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at it.bplus.dao.SeicentoDAO.retrieveConfronti600Sogei_vlt(SeicentoDAO.java:1306)
+	at it.bplus.business.SeicentoBusinessDelegate.retrieveConfronti600Sogei_vlt(SeicentoBusinessDelegate.java:66)
+	at it.bplus.controller.SeicentoController.query_vlt(SeicentoController.java:107)
+	at it.bplus.controller.SeicentoController.getConfronti_vlt(SeicentoController.java:387)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:83)
+	at javax.el.CompositeELResolver.getValue(CompositeELResolver.java:54)
+	at com.sun.faces.el.FacesCompositeELResolver.getValue(FacesCompositeELResolver.java:71)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:123)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:186)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:106)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:190)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:178)
+	at javax.faces.component.UIData.getValue(UIData.java:554)
+	at com.icesoft.faces.component.panelseries.UISeries.getValue(UISeries.java:575)
+	at com.icesoft.faces.component.datapaginator.DataPaginator.isModelResultSet(DataPaginator.java:1109)
+	at com.icesoft.faces.component.datapaginator.DataPaginatorRenderer.encodeBegin(DataPaginatorRenderer.java:205)
+	at javax.faces.component.UIComponentBase.encodeBegin(UIComponentBase.java:824)
+	at com.icesoft.faces.renderkit.dom_html_basic.DomBasicRenderer.encodeParentAndChildren(DomBasicRenderer.java:345)
+	at com.icesoft.faces.renderkit.dom_html_basic.GroupRenderer.encodeChildren(GroupRenderer.java:85)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:849)
+	at com.icesoft.faces.component.util.CustomComponentUtils.renderChild(CustomComponentUtils.java:308)
+	at com.icesoft.faces.component.paneltabset.PanelTabSetRenderer.writeTabCell(PanelTabSetRenderer.java:996)
+	at com.icesoft.faces.component.paneltabset.PanelTabSetRenderer.encodeEnd(PanelTabSetRenderer.java:412)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:879)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1650)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:164)
+	at org.icefaces.impl.renderkit.RendererWrapper.encodeChildren(RendererWrapper.java:54)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:849)
+	at com.icesoft.faces.renderkit.dom_html_basic.DomBasicRenderer.encodeParentAndChildren(DomBasicRenderer.java:347)
+	at com.icesoft.faces.renderkit.dom_html_basic.GroupRenderer.encodeChildren(GroupRenderer.java:85)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:849)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1643)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1646)
+	at org.icefaces.impl.context.DOMPartialViewContext.processPartial(DOMPartialViewContext.java:129)
+	at javax.faces.component.UIViewRoot.encodeChildren(UIViewRoot.java:968)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1643)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:378)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:127)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:117)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:97)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:135)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:309)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at it.bplus.filters.SessionTimeoutFilter.doFilter(SessionTimeoutFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:563)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+2012-03-07 15:27:01,532 ERROR [it.bplus.controller.BasicController:114] BusinessLayerException: ErrorCode: DB Error Message: 
+2012-03-07 15:27:01,532 INFO  [it.bplus.controller.BasicController:99] getMeterConfr600_vlt
+2012-03-07 15:27:01,547 ERROR [it.bplus.dao.SeicentoDAO:1531] retrieveConfronti600Sogei_vlt failed
+java.sql.SQLException: ORA-00979: non è un'espressione GROUP BY
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java:289)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java:573)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java:1891)
+	at oracle.jdbc.ttc7.TTC7Protocol.parseExecuteDescribe(TTC7Protocol.java:830)
+	at oracle.jdbc.driver.OracleStatement.doExecuteQuery(OracleStatement.java:2391)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:2672)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:589)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:527)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at it.bplus.dao.SeicentoDAO.retrieveConfronti600Sogei_vlt(SeicentoDAO.java:1306)
+	at it.bplus.business.SeicentoBusinessDelegate.retrieveConfronti600Sogei_vlt(SeicentoBusinessDelegate.java:66)
+	at it.bplus.controller.SeicentoController.query_vlt(SeicentoController.java:107)
+	at it.bplus.controller.SeicentoController.getConfronti_vlt(SeicentoController.java:387)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:83)
+	at javax.el.CompositeELResolver.getValue(CompositeELResolver.java:54)
+	at com.sun.faces.el.FacesCompositeELResolver.getValue(FacesCompositeELResolver.java:71)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:123)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:186)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:106)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:190)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:178)
+	at javax.faces.component.UIData.getValue(UIData.java:554)
+	at com.icesoft.faces.component.panelseries.UISeries.getValue(UISeries.java:575)
+	at com.icesoft.faces.component.panelseries.UISeries.getDataModel(UISeries.java:358)
+	at com.icesoft.faces.component.panelseries.UISeries.processCurrentRowData(UISeries.java:144)
+	at com.icesoft.faces.component.panelseries.UISeries.setRowIndex(UISeries.java:136)
+	at com.icesoft.faces.component.datapaginator.DataPaginatorRenderer.encodeBegin(DataPaginatorRenderer.java:221)
+	at javax.faces.component.UIComponentBase.encodeBegin(UIComponentBase.java:824)
+	at com.icesoft.faces.renderkit.dom_html_basic.DomBasicRenderer.encodeParentAndChildren(DomBasicRenderer.java:345)
+	at com.icesoft.faces.renderkit.dom_html_basic.GroupRenderer.encodeChildren(GroupRenderer.java:85)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:849)
+	at com.icesoft.faces.component.util.CustomComponentUtils.renderChild(CustomComponentUtils.java:308)
+	at com.icesoft.faces.component.paneltabset.PanelTabSetRenderer.writeTabCell(PanelTabSetRenderer.java:996)
+	at com.icesoft.faces.component.paneltabset.PanelTabSetRenderer.encodeEnd(PanelTabSetRenderer.java:412)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:879)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1650)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:164)
+	at org.icefaces.impl.renderkit.RendererWrapper.encodeChildren(RendererWrapper.java:54)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:849)
+	at com.icesoft.faces.renderkit.dom_html_basic.DomBasicRenderer.encodeParentAndChildren(DomBasicRenderer.java:347)
+	at com.icesoft.faces.renderkit.dom_html_basic.GroupRenderer.encodeChildren(GroupRenderer.java:85)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:849)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1643)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1646)
+	at org.icefaces.impl.context.DOMPartialViewContext.processPartial(DOMPartialViewContext.java:129)
+	at javax.faces.component.UIViewRoot.encodeChildren(UIViewRoot.java:968)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1643)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:378)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:127)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:117)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:97)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:135)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:309)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at it.bplus.filters.SessionTimeoutFilter.doFilter(SessionTimeoutFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:563)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+2012-03-07 15:27:01,555 ERROR [it.bplus.controller.BasicController:114] BusinessLayerException: ErrorCode: DB Error Message: 
+2012-03-07 15:28:20,258 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-03-07 15:28:25,090 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-03-07 15:28:28,132 INFO  [it.bplus.controller.BasicController:99] getMeterConfr600_vlt
+2012-03-07 15:28:32,499 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-03-07 15:28:35,168 INFO  [it.bplus.controller.BasicController:99] getMeterConfr600_vlt
+2012-03-07 16:32:47,782 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-03-07 16:33:25,577 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-03-07 16:43:08,395 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-03-07 16:43:33,032 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-03-07 16:44:43,869 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-03-07 16:45:22,365 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-03-07 16:47:50,786 INFO  [it.bplus.controller.BasicController:99] getMeterConfr600_vlt
+2012-03-07 16:48:43,375 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-03-07 16:50:18,148 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-03-26 12:34:31,318 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-03-26 12:34:36,648 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-03-26 12:34:39,921 INFO  [it.bplus.controller.BasicController:99] getMeterConfr600_vlt
+2012-03-26 12:34:56,153 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-03-26 12:34:58,672 INFO  [it.bplus.controller.BasicController:99] getMeterConfr600_vlt
+2012-03-26 12:37:06,068 INFO  [it.bplus.controller.BasicController:99] getMeterConfr600_vlt
+2012-03-26 12:37:11,867 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-03-26 12:37:43,680 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-03-26 12:37:47,952 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-03-26 12:37:50,949 INFO  [it.bplus.controller.BasicController:99] getMeterConfr600_vlt
+2012-03-26 12:40:42,524 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-03-26 12:40:46,957 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-03-26 12:40:51,892 INFO  [it.bplus.controller.BasicController:861] Start Fix Game
+2012-03-26 12:40:51,965 INFO  [it.bplus.controller.BasicController:867] End Fix Game. risultato = 0
+2012-03-26 12:40:52,783 INFO  [it.bplus.controller.BasicController:871] Start Fix Vlt
+2012-03-26 12:40:52,850 INFO  [it.bplus.controller.BasicController:877] End Fix Vlt. risultato = 0
+2012-03-26 12:40:53,551 INFO  [it.bplus.controller.BasicController:881] Start Fix Location
+2012-03-26 12:40:53,632 INFO  [it.bplus.controller.BasicController:887] End Fix Location. risultato = 0
+2012-03-26 12:40:57,638 INFO  [it.bplus.controller.BasicController:99] getMeterConfr600_vlt
+2012-03-26 12:41:05,125 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-04-02 10:15:14,931 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-04-02 10:16:29,680 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-04-02 10:22:52,811 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-04-02 10:23:06,663 INFO  [it.bplus.controller.BasicController:1275] getMeter_vlt
+2012-04-12 15:29:07.0834 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-12 15:53:25.0015 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-12 16:40:37.0164 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-12 16:56:31.0075 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 11:59:08.0034 INFO http-8080-2 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 12:08:11.0894 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 12:11:48.0478 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 12:12:55.0668 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 12:20:04.0284 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 12:23:08.0698 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 12:30:42.0649 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 12:38:57.0103 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 12:40:46.0747 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 12:45:39.0212 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 12:52:02.0563 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 13:00:42.0054 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 13:01:16.0064 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 13:03:54.0833 INFO http-8080-2 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 13:08:37.0086 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 13:22:02.0390 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 13:24:40.0881 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 13:26:38.0314 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 14:35:56.0285 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User r.umana logged into applicaiton 
+2012-04-13 14:54:37.0897 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 14:59:35.0618 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 15:01:00.0984 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 15:07:04.0341 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 15:09:55.0742 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 15:11:55.0206 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 15:13:14.0863 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 15:19:33.0799 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 15:21:03.0717 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 15:23:03.0740 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 15:26:01.0702 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 15:27:08.0838 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 15:27:49.0178 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 16:19:40.0391 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 16:22:11.0158 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 16:24:49.0163 INFO http-8080-2 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 16:25:32.0172 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 16:32:07.0590 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 16:37:13.0951 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 16:41:35.0508 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 16:51:15.0276 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 16:52:41.0814 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 16:57:04.0698 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:00:32.0153 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:01:10.0141 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:02:13.0004 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:15:10.0645 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:17:28.0640 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:19:18.0388 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:20:07.0215 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:20:34.0451 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User  logged out from application
+2012-04-13 17:20:38.0198 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:21:12.0320 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User  logged out from application
+2012-04-13 17:21:17.0730 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:21:20.0539 INFO http-8080-5 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:22:27.0705 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:24:29.0647 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:26:50.0967 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User  logged out from application
+2012-04-13 17:26:55.0429 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:27:59.0124 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:30:03.0862 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:31:10.0875 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:33:11.0562 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:33:41.0418 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:34:40.0348 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User  logged out from application
+2012-04-13 17:34:44.0255 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:35:14.0753 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:39:19.0422 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:41:47.0228 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:43:30.0810 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:44:28.0731 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:46:37.0971 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:47:33.0434 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:49:40.0238 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:51:14.0955 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:52:36.0532 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:54:41.0235 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:56:00.0329 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 17:56:57.0656 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 18:00:27.0639 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 18:01:45.0233 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 18:05:55.0510 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 18:08:02.0666 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 18:10:32.0786 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 18:26:24.0159 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 18:35:44.0818 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 18:45:44.0159 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-13 18:46:17.0942 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User  logged out from application
+2012-04-16 10:02:37.0881 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 10:06:09.0435 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 10:12:15.0963 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 10:15:59.0547 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 10:17:20.0289 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 10:30:41.0160 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 10:50:34.0126 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 10:52:02.0934 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 10:52:48.0188 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 10:57:01.0864 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 10:57:40.0751 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 10:58:18.0342 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:07:30.0427 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:08:11.0664 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:10:03.0304 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:14:40.0280 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:16:50.0386 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:17:40.0207 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:19:35.0484 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:20:17.0992 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:23:50.0313 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:25:17.0882 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:26:40.0212 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:31:07.0913 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:31:36.0456 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:32:51.0840 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:33:16.0408 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:36:07.0200 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:38:24.0574 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:41:14.0008 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:48:19.0146 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:50:07.0584 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 11:55:21.0908 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 12:09:13.0331 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 12:17:26.0223 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 12:21:35.0674 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 12:23:55.0159 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 17:12:11.0362 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 17:14:30.0614 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 17:15:53.0731 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 17:16:50.0588 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 17:19:41.0088 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 17:24:26.0428 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 17:25:27.0217 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 17:32:41.0726 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 17:35:41.0651 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 17:39:53.0265 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 17:42:39.0848 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 17:47:40.0861 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 18:08:00.0320 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 18:08:46.0735 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 18:10:08.0923 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 18:11:16.0084 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 18:21:13.0653 INFO http-8080-2 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 18:27:34.0841 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 18:28:15.0182 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 18:30:12.0881 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 18:31:12.0976 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 18:37:56.0921 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-16 18:39:06.0114 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 10:34:26.0604 INFO http-8080-2 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 10:39:38.0727 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 10:46:09.0374 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 10:47:02.0623 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 11:35:48.0446 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 11:48:18.0030 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 11:50:53.0524 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 11:57:04.0613 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 11:59:40.0874 INFO http-8080-2 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 12:24:55.0343 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 12:26:44.0650 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 12:28:47.0931 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 12:44:08.0764 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 12:45:05.0651 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 12:47:06.0391 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 12:49:43.0729 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 12:50:35.0802 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 12:51:58.0743 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 12:54:48.0527 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 12:58:46.0374 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 13:37:02.0617 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 13:37:56.0446 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 13:40:58.0418 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-17 15:44:32.0685 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 12:13:51.0378 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 12:20:59.0704 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 12:21:03.0739 ERROR http-8080-1 it.betplus.birs.db.dao.SeicentoDAO ? retrieveMeterMap600_locations: SQL failed
+java.sql.SQLException: Table 'birs.birsaamsmeters' doesn't exist
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2975)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1600)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1695)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3026)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1137)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1231)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at it.betplus.birs.db.dao.SeicentoDAO.retrieveMeterMap600_locations(SeicentoDAO.java:90)
+	at it.betplus.birs.controller.tables.TableBeanMatcherLocation.generateMatchingLocation(TableBeanMatcherLocation.java:76)
+	at it.betplus.birs.controller.tables.TableBeanMatcherLocation.setListDataFromSource(TableBeanMatcherLocation.java:54)
+	at it.betplus.web.framework.managedbeans.BaseTableBean.populateTable(BaseTableBean.java:44)
+	at it.betplus.birs.controller.sheets.ReportBean.filterDataMatcherOnLocation(ReportBean.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:234)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:297)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:794)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1259)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:593)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at it.betplus.web.framework.filters.LoginFilter.doFilter(LoginFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:662)
+2012-04-18 12:22:10.0805 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 12:22:49.0803 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 12:26:56.0627 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 12:28:46.0949 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 12:31:25.0129 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 12:35:56.0635 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 12:44:44.0170 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 12:45:55.0807 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 12:49:44.0411 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 12:52:00.0182 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 12:52:07.0702 ERROR http-8080-1 it.betplus.web.framework.managedbeans.BaseTableBean ? Unhandled exception - UpdateFirmwareBean 
+java.lang.NullPointerException
+	at it.betplus.birs.primitive.Meterfact.getBet(Meterfact.java:85)
+	at it.betplus.birs.controller.tables.TableBeanMatcherLocation.setTotals(TableBeanMatcherLocation.java:165)
+	at it.betplus.birs.controller.tables.TableBeanMatcherLocation.setTableListAndCalculateTotals(TableBeanMatcherLocation.java:176)
+	at it.betplus.birs.controller.tables.TableBeanMatcherLocation.setListDataFromSource(TableBeanMatcherLocation.java:56)
+	at it.betplus.web.framework.managedbeans.BaseTableBean.populateTable(BaseTableBean.java:44)
+	at it.betplus.birs.controller.sheets.ReportBean.filterDataMatcherOnLocation(ReportBean.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:234)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:297)
+	at javax.faces.event.MethodExpressionActionListener.processAction(MethodExpressionActionListener.java:153)
+	at javax.faces.event.ActionEvent.processListener(ActionEvent.java:88)
+	at javax.faces.component.UIComponentBase.broadcast(UIComponentBase.java:769)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:300)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:794)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1259)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:593)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at it.betplus.web.framework.filters.LoginFilter.doFilter(LoginFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:662)
+2012-04-18 14:42:51.0978 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 14:43:00.0780 ERROR http-8080-1 it.betplus.web.framework.managedbeans.BaseTableBean ? Unhandled exception - UpdateFirmwareBean 
+java.lang.NullPointerException
+	at it.betplus.birs.primitive.MeterfactLocation.getTotalIn(MeterfactLocation.java:30)
+	at it.betplus.birs.controller.tables.TableBeanMatcherLocation.setTotals(TableBeanMatcherLocation.java:168)
+	at it.betplus.birs.controller.tables.TableBeanMatcherLocation.setTableListAndCalculateTotals(TableBeanMatcherLocation.java:176)
+	at it.betplus.birs.controller.tables.TableBeanMatcherLocation.setListDataFromSource(TableBeanMatcherLocation.java:56)
+	at it.betplus.web.framework.managedbeans.BaseTableBean.populateTable(BaseTableBean.java:44)
+	at it.betplus.birs.controller.sheets.ReportBean.filterDataMatcherOnLocation(ReportBean.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:234)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:297)
+	at javax.faces.event.MethodExpressionActionListener.processAction(MethodExpressionActionListener.java:153)
+	at javax.faces.event.ActionEvent.processListener(ActionEvent.java:88)
+	at javax.faces.component.UIComponentBase.broadcast(UIComponentBase.java:769)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:300)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:794)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1259)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:593)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at it.betplus.web.framework.filters.LoginFilter.doFilter(LoginFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:662)
+2012-04-18 14:44:23.0699 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 14:44:36.0883 ERROR http-8080-1 it.betplus.web.framework.managedbeans.BaseTableBean ? Unhandled exception - UpdateFirmwareBean 
+java.lang.NullPointerException
+	at it.betplus.birs.primitive.Meterfact.getBet(Meterfact.java:85)
+	at it.betplus.birs.controller.tables.TableBeanMatcherLocation.setTotals(TableBeanMatcherLocation.java:165)
+	at it.betplus.birs.controller.tables.TableBeanMatcherLocation.setTableListAndCalculateTotals(TableBeanMatcherLocation.java:176)
+	at it.betplus.birs.controller.tables.TableBeanMatcherLocation.setListDataFromSource(TableBeanMatcherLocation.java:56)
+	at it.betplus.web.framework.managedbeans.BaseTableBean.populateTable(BaseTableBean.java:44)
+	at it.betplus.birs.controller.sheets.ReportBean.filterDataMatcherOnLocation(ReportBean.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:234)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:297)
+	at javax.faces.event.MethodExpressionActionListener.processAction(MethodExpressionActionListener.java:153)
+	at javax.faces.event.ActionEvent.processListener(ActionEvent.java:88)
+	at javax.faces.component.UIComponentBase.broadcast(UIComponentBase.java:769)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:300)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:794)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1259)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:593)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at it.betplus.web.framework.filters.LoginFilter.doFilter(LoginFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:662)
+2012-04-18 14:46:00.0842 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 14:46:21.0171 ERROR http-8080-1 it.betplus.web.framework.managedbeans.BaseTableBean ? Unhandled exception - UpdateFirmwareBean 
+java.lang.NullPointerException
+	at it.betplus.birs.primitive.Meterfact.getBet(Meterfact.java:87)
+	at it.betplus.birs.controller.tables.TableBeanMatcherLocation.setTotals(TableBeanMatcherLocation.java:165)
+	at it.betplus.birs.controller.tables.TableBeanMatcherLocation.setTableListAndCalculateTotals(TableBeanMatcherLocation.java:176)
+	at it.betplus.birs.controller.tables.TableBeanMatcherLocation.setListDataFromSource(TableBeanMatcherLocation.java:56)
+	at it.betplus.web.framework.managedbeans.BaseTableBean.populateTable(BaseTableBean.java:44)
+	at it.betplus.birs.controller.sheets.ReportBean.filterDataMatcherOnLocation(ReportBean.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:234)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:297)
+	at javax.faces.event.MethodExpressionActionListener.processAction(MethodExpressionActionListener.java:153)
+	at javax.faces.event.ActionEvent.processListener(ActionEvent.java:88)
+	at javax.faces.component.UIComponentBase.broadcast(UIComponentBase.java:769)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:300)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:794)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1259)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:593)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at it.betplus.web.framework.filters.LoginFilter.doFilter(LoginFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:662)
+2012-04-18 14:50:05.0042 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 14:51:09.0693 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 14:55:36.0284 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 14:58:51.0008 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 15:02:32.0652 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 15:25:35.0469 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 15:27:55.0639 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 15:35:36.0274 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 15:36:36.0881 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 16:00:55.0011 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 16:02:16.0484 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 16:03:28.0518 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 16:06:00.0408 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 16:45:36.0513 INFO http-8080-4 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 16:49:19.0962 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:01:26.0249 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:03:12.0565 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:04:35.0215 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:07:55.0804 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:16:22.0113 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:20:03.0883 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:23:26.0302 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:25:32.0495 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:27:10.0476 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:28:13.0816 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:30:36.0383 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:33:49.0143 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:35:01.0401 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:36:03.0784 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:37:32.0049 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 17:37:49.0080 INFO http-8080-1 it.betplus.web.framework.managedbeans.ChartsManagerBean ? REGION SELECTED: LAZIO-12
+2012-04-18 18:30:09.0497 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 18:30:12.0594 ERROR http-8080-1 it.betplus.birs.db.dao.SeicentoDAO ? retrieveMeterMap600_locations: SQL failed
+java.sql.SQLException: Table 'birs.birsaamsmeters' doesn't exist
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2975)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1600)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1695)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3026)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1137)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1231)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at it.betplus.birs.db.dao.SeicentoDAO.retrieveMeterMap600_vlts(SeicentoDAO.java:197)
+	at it.betplus.birs.controller.tables.TableBeanMatcherVlt.generateMatchingVlt(TableBeanMatcherVlt.java:77)
+	at it.betplus.birs.controller.tables.TableBeanMatcherVlt.setListDataFromSource(TableBeanMatcherVlt.java:55)
+	at it.betplus.web.framework.managedbeans.BaseTableBean.populateTable(BaseTableBean.java:44)
+	at it.betplus.birs.controller.sheets.ReportBean.filterDataMatcherOnVlt(ReportBean.java:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:234)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:297)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:794)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1259)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:593)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at it.betplus.web.framework.filters.LoginFilter.doFilter(LoginFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:662)
+2012-04-18 18:30:12.0601 ERROR http-8080-1 it.betplus.web.framework.managedbeans.BaseTableBean ? Unhandled exception - UpdateFirmwareBean 
+java.lang.NullPointerException
+	at it.betplus.birs.db.dao.SeicentoDAO.retrieveMeterMap600_vlts(SeicentoDAO.java:250)
+	at it.betplus.birs.controller.tables.TableBeanMatcherVlt.generateMatchingVlt(TableBeanMatcherVlt.java:77)
+	at it.betplus.birs.controller.tables.TableBeanMatcherVlt.setListDataFromSource(TableBeanMatcherVlt.java:55)
+	at it.betplus.web.framework.managedbeans.BaseTableBean.populateTable(BaseTableBean.java:44)
+	at it.betplus.birs.controller.sheets.ReportBean.filterDataMatcherOnVlt(ReportBean.java:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:234)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:297)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:794)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1259)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:593)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at it.betplus.web.framework.filters.LoginFilter.doFilter(LoginFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:662)
+2012-04-18 18:31:33.0100 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 18:31:44.0363 ERROR http-8080-1 it.betplus.web.framework.managedbeans.BaseTableBean ? Unhandled exception - UpdateFirmwareBean 
+java.lang.ClassCastException: it.betplus.birs.primitive.MeterfactVlt cannot be cast to it.betplus.birs.primitive.MeterfactLocation
+	at it.betplus.birs.controller.tables.TableBeanMatcherVlt.setTotals(TableBeanMatcherVlt.java:169)
+	at it.betplus.birs.controller.tables.TableBeanMatcherVlt.setTableListAndCalculateTotals(TableBeanMatcherVlt.java:177)
+	at it.betplus.birs.controller.tables.TableBeanMatcherVlt.setListDataFromSource(TableBeanMatcherVlt.java:57)
+	at it.betplus.web.framework.managedbeans.BaseTableBean.populateTable(BaseTableBean.java:44)
+	at it.betplus.birs.controller.sheets.ReportBean.filterDataMatcherOnVlt(ReportBean.java:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:234)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:297)
+	at javax.faces.event.MethodExpressionActionListener.processAction(MethodExpressionActionListener.java:153)
+	at javax.faces.event.ActionEvent.processListener(ActionEvent.java:88)
+	at javax.faces.component.UIComponentBase.broadcast(UIComponentBase.java:769)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:300)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:794)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1259)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:593)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at it.betplus.web.framework.filters.LoginFilter.doFilter(LoginFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:662)
+2012-04-18 18:32:51.0409 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 18:33:03.0061 ERROR http-8080-1 it.betplus.web.framework.managedbeans.BaseTableBean ? Unhandled exception - UpdateFirmwareBean 
+java.lang.NullPointerException
+	at it.betplus.birs.primitive.MeterfactVlt.getTotalIn(MeterfactVlt.java:36)
+	at it.betplus.birs.controller.tables.TableBeanMatcherVlt.setTotals(TableBeanMatcherVlt.java:168)
+	at it.betplus.birs.controller.tables.TableBeanMatcherVlt.setTableListAndCalculateTotals(TableBeanMatcherVlt.java:176)
+	at it.betplus.birs.controller.tables.TableBeanMatcherVlt.setListDataFromSource(TableBeanMatcherVlt.java:56)
+	at it.betplus.web.framework.managedbeans.BaseTableBean.populateTable(BaseTableBean.java:44)
+	at it.betplus.birs.controller.sheets.ReportBean.filterDataMatcherOnVlt(ReportBean.java:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:234)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:297)
+	at javax.faces.event.MethodExpressionActionListener.processAction(MethodExpressionActionListener.java:153)
+	at javax.faces.event.ActionEvent.processListener(ActionEvent.java:88)
+	at javax.faces.component.UIComponentBase.broadcast(UIComponentBase.java:769)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:300)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:794)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1259)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:593)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at it.betplus.web.framework.filters.LoginFilter.doFilter(LoginFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:662)
+2012-04-18 18:34:03.0769 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 18:35:44.0295 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-18 18:38:59.0212 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-19 12:02:13.0872 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-19 15:09:21.0224 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-19 15:35:49.0905 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-19 15:45:24.0359 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-19 15:58:17.0744 INFO http-8080-3 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-19 16:03:18.0983 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-19 16:12:07.0334 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-19 16:16:47.0455 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-19 16:18:59.0427 INFO http-8080-6 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-19 16:28:50.0815 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 11:53:57.0984 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 12:08:16.0403 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 12:37:01.0761 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 12:42:34.0737 INFO http-8080-5 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 12:43:41.0042 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 12:45:58.0423 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 12:58:24.0204 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 13:00:21.0168 INFO http-8080-2 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 13:03:16.0686 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 13:04:52.0982 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 13:05:55.0614 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 13:07:16.0238 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 13:08:00.0180 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 13:10:34.0466 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 13:26:51.0775 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 14:34:58.0697 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 14:36:23.0678 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 14:36:54.0141 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 14:37:38.0873 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 14:48:46.0402 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 14:49:44.0498 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 14:51:08.0500 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 14:52:21.0812 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 14:53:53.0010 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 14:55:23.0663 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 14:57:19.0438 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 14:58:01.0717 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 14:59:29.0783 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 15:00:38.0111 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 15:02:34.0844 INFO http-8080-5 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 15:28:31.0151 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 15:30:44.0432 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 15:31:56.0450 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 15:33:20.0729 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 15:34:02.0271 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 15:53:11.0938 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 15:54:45.0166 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 15:58:25.0823 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 15:59:48.0775 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 16:01:32.0849 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 16:03:36.0880 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 16:04:34.0913 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 16:05:38.0259 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 16:16:36.0050 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 16:21:13.0084 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 16:22:23.0114 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 16:23:14.0251 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 16:24:41.0044 ERROR http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? Unhandled exception - LoginBean 
+java.lang.NullPointerException
+	at it.betplus.birs.db.dao.UtentiDAO.getUtenteByUsernamePassword(UtentiDAO.java:163)
+	at it.betplus.birs.controller.LoginBeanBirs.getUserAuthenticationDTO(LoginBeanBirs.java:35)
+	at it.betplus.web.framework.managedbeans.LoginBean.login(LoginBean.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:234)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:297)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:794)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1259)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:593)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:662)
+2012-04-20 16:24:44.0972 ERROR http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? Unhandled exception - LoginBean 
+java.lang.NullPointerException
+	at it.betplus.birs.db.dao.UtentiDAO.getUtenteByUsernamePassword(UtentiDAO.java:163)
+	at it.betplus.birs.controller.LoginBeanBirs.getUserAuthenticationDTO(LoginBeanBirs.java:35)
+	at it.betplus.web.framework.managedbeans.LoginBean.login(LoginBean.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:234)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:297)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:794)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1259)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:593)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:662)
+2012-04-20 16:25:02.0477 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 16:27:20.0972 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 16:28:27.0564 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 16:41:11.0407 INFO http-8080-1 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-04-20 17:32:22.0102 INFO http-8080-4 it.betplus.web.framework.managedbeans.LoginBean ? User admin logged into applicaiton 
+2012-05-22 09:48:35,464 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-05-22 09:51:21,738 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-05-22 09:53:40,118 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-05-22 09:54:07,013 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-05-22 09:54:42,504 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-05-22 09:54:56,845 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-05-22 16:07:39,773 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-06-04 12:26:51,622 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-06-04 12:27:11,652 INFO  [it.bplus.controller.BasicController:1275] getMeter_vlt
+2012-06-04 12:39:50,146 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-06-04 12:41:52,124 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-06-04 12:42:01,068 INFO  [it.bplus.controller.BasicController:1275] getMeter_vlt
+2012-06-04 12:42:20,815 INFO  [it.bplus.controller.BasicController:1275] getMeter_vlt
+2012-06-04 12:43:06,416 INFO  [it.bplus.controller.BasicController:1275] getMeter_vlt

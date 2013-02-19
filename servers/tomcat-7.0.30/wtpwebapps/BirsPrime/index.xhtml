@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html 
+    xmlns="http://www.w3.org/1999/xhtml"  
+    xmlns:h="http://java.sun.com/jsf/html"  
+    xmlns:p="http://primefaces.org/ui"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    >  
+    
+	<h:head>  		
+	<style>
+    span.ui-messages-error-summary { font-size: 12px; }
+    span.ui-messages-error-detail { font-size: 12px; }
+</style> 
+
+    </h:head>  
+
+      
+    <h:body>  
+       
+      	<div id="wrapperLogin" style="position:fixed;top:25%;left:35%;width:408px;">
+      	
+      		<div id="logoLogin"><img src="images/logo.png" /></div>
+      			
+      		<div id="contentLogin" >
+
+	     		<h:form id="loginForm" prependId="false" >  
+	     			
+	     			<p:messages id="msgs" showDetail="true"/>
+	     			<p:focus context="loginForm"/>  
+	     			<p:panel header="LOGIN" style="width: 400px;height:150px;" styleClass="ui-widget ui-state-default ui-corner-all">
+	     				<h:panelGrid id="panelLogin" columns="2" cellpadding="1" styleClass="panelGridLoginClass" >						
+   							<h:outputLabel for="username" value="USERNAME" />      									
+							<h:inputText id="username" value="#{loginBean.username}" label="Username" size="20" />	
+							<h:outputLabel for="password" value="PASSWORD" />      									
+							<h:inputSecret id="password" value="#{loginBean.password}" label="Password" size="20"  />	
+											
+	     				</h:panelGrid>
+	     				    <h:outputLabel value="Browser Supportati" style="font-weight: normal !important; font-size: 10px; margin-right:25px; "/>
+	     				    <p:graphicImage value="/images/chrome.png"/>
+					        <p:graphicImage value="/images/firefox.png"/>
+					        <p:commandButton value="OK" update="msgs" action="#{loginBean.login}"  ajax="false" style="float:right;border:5px;border-style: solid; "/>  
+			             
+	     			</p:panel>
+			
+				</h:form>  
+				
+      		</div>
+      
+      	</div>
+      
+    </h:body>  
+    
+</html>

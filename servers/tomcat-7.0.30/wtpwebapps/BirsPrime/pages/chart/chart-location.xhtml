@@ -1,0 +1,84 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+	<link rel="stylesheet" type="text/css" href="../../css/style.css"
+		media="screen" />
+	<script>
+		function clearFilters() {
+			$('.ui-autocomplete-input').val('');
+		}
+	</script>
+	<meta http-equiv="refresh"
+		content="#{session.maxInactiveInterval};url=chart-location.xhtml?faces-redirect=true" />
+</h:head>
+
+<h:body style="margin:0px;">
+	<img src="../../images/backhead.png" style="width: 100%;" />
+	<ui:include src="../common/menu.xhtml" />
+	<h:form id="form">
+		<p:growl id="msgs" showDetail="true" autoUpdate="true" />
+		<h:panelGroup>
+			<h:panelGrid columns="6" id="report">
+				<h:outputText value="da" />
+				<p:calendar id="dateStart" effect="slideDown" size="12"
+					navigator="true" lang="it" value="#{reportBean.dataS}"
+					pattern="dd/MM/yyyy" mindate="01/09/2010"
+					maxdate="#{reportBean.oggi}">
+					<p:ajax event="dateSelect" listener="#{reportBean.changeDataS}"
+						update="buttonFilterData" />
+					<f:convertDateTime pattern="dd/MM/yyyy" />
+				</p:calendar>
+				<h:outputText value="a" />
+				<p:calendar id="dateEnd" effect="slideDown" size="12"
+					navigator="true" lang="it" value="#{reportBean.dataE}"
+					pattern="dd/MM/yyyy" mindate="01/09/2010"
+					maxdate="#{reportBean.oggi}">
+					<p:ajax event="dateSelect" listener="#{reportBean.changeDataE}"
+						update="buttonFilterData" />
+					<f:convertDateTime pattern="dd/MM/yyyy" />
+				</p:calendar>
+	
+
+				<p:autoComplete forceSelection="true"
+					value="#{reportBean.selectedLocation}" id="locationDrop"
+					effect="fade" required="true"
+					completeMethod="#{reportBean.completeLocation}" var="loc"
+					itemLabel="#{loc}" itemValue="#{loc.AAMS_LOCATION_ID}"  size="50" maxResults="20" onclick="clearFilters();" >
+					<f:ajax event="itemSelect" listener="#{reportBean.refreshVlts}"/>  
+				</p:autoComplete>
+					
+
+
+				<p:commandButton id="buttonFilterData" value="OK"
+					action="#{locationChartBean.refreshChartAction('lineLocationChart')}"
+					disabled="#{reportBean.errorDate}" onclick="dialogModal.show();"
+					update="location-chart" />
+
+			</h:panelGrid>
+
+			<p:dialog id="modalDialog" visible="false" widgetVar="dialogModal"
+				modal="true" closable="false" draggable="false" resizable="false">
+				<p:ajaxStatus onstart="dialogModal.show();"
+					oncomplete="dialogModal.hide();" />
+				<p:graphicImage value="../../images/loading.gif" />
+			</p:dialog>
+
+
+			<p:lineChart id="location-chart"
+				value="#{locationChartBean.getChartModel('lineLocationChart')}"
+				legendPosition="ne" fill="false" xaxisLabel="Data" yaxisLabel="Bet"
+				title="Grafico Location - #{reportBean.selectedLocation} " minY="0"
+				maxY="#{locationChartBean.maxValue}" style="height:600px;"
+				rendered="#{!reportBean.noLocations}">
+			</p:lineChart>
+
+
+
+		</h:panelGroup>
+	</h:form>
+</h:body>
+</html>

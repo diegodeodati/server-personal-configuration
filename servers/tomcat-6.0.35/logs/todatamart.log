@@ -1,0 +1,821 @@
+2012-03-07 16:13:01,681 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-07 16:13:01,683 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-07 16:13:01,683 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-07 16:13:01,683 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-07 16:13:01,683 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-07 16:13:01,683 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Wed Mar 07 21:30:00 CET 2012
+2012-03-07 16:13:01,684 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-07 16:13:01,684 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-07 16:13:01,684 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-07 16:13:33,315 INFO  [it.bplus.business.Importer:75] *********
+2012-03-07 16:13:33,316 INFO  [it.bplus.business.Importer:76] ********* START doImport at Wed Mar 07 16:13:33 CET 2012, for period between Tue Mar 06 00:00:00 CET 2012 and Tue Mar 06 23:59:59 CET 2012 *********
+2012-03-07 16:13:33,316 INFO  [it.bplus.business.Importer:78] ********* for location: GD184005534M
+2012-03-07 16:13:33,316 INFO  [it.bplus.business.Importer:80] *********
+2012-03-07 16:13:33,330 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Tue Mar 06 00:00:00 CET 2012, dataFine: Tue Mar 06 23:59:59 CET 2012
+2012-03-07 16:13:33,365 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-07 16:13:33,390 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2611, corrispondente a id_import_log: 1139, START DATE: 2012-03-06 00:00:00.0, END DATE: 2012-03-06 23:59:59.0, con esito IN PROGRESS
+2012-03-07 16:13:33,396 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-07 16:13:33,397 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-07 16:14:07,467 INFO  [it.bplus.business.RetrieverInserter:112] FINE caricamento mappe dimensioni Clienti,Spazio,Tempo.
+2012-03-07 16:14:07,467 INFO  [it.bplus.dao.staging.GsMetersDAO:305] START retrieve_GsMeters_By_Data_Ora_Location. AAMS_LOCATION_ID: GD184005534M, UsID: 1343, startDate: 2012-03-06 00:00:00.0, endDate: 2012-03-06 23:59:59.0
+2012-03-07 16:14:07,749 INFO  [it.bplus.dao.staging.GsMetersDAO:372] FINE trovati GsMeters: 32 per location: GD184005534M
+2012-03-07 16:14:07,749 INFO  [it.bplus.business.RetrieverInserter:122] START caricamento mappe Location, Vlt, Games...
+2012-03-07 16:14:09,065 INFO  [it.bplus.business.RetrieverInserter:131] FINE caricamento mappe Location, Vlt, Games.
+2012-03-07 16:14:09,065 INFO  [it.bplus.business.RetrieverInserter:134] START ciclo while, creazione lista MeterFact...
+2012-03-07 16:14:09,902 INFO  [it.bplus.business.RetrieverInserter:452] FINE retrieve. Create 32 instanze di meterfact e inserite in una lista.
+2012-03-07 16:14:09,902 INFO  [it.bplus.business.Importer:129] Inserisco lista MeterFact in Datamart
+2012-03-07 16:14:09,902 INFO  [it.bplus.business.RetrieverInserter:477] START insert in Datamart...
+2012-03-07 16:14:12,283 INFO  [it.bplus.business.RetrieverInserter:510] insert o update: 10%
+2012-03-07 16:14:13,485 INFO  [it.bplus.business.RetrieverInserter:512] insert o update: 15%
+2012-03-07 16:14:15,581 INFO  [it.bplus.business.RetrieverInserter:514] insert o update: 20%
+2012-03-07 16:14:17,671 INFO  [it.bplus.business.RetrieverInserter:516] insert o update: 25%
+2012-03-07 16:14:18,704 INFO  [it.bplus.business.RetrieverInserter:518] insert o update: 30%
+2012-03-07 16:14:20,765 INFO  [it.bplus.business.RetrieverInserter:520] insert o update: 35%
+2012-03-07 16:14:21,780 INFO  [it.bplus.business.RetrieverInserter:522] insert o update: 40%
+2012-03-07 16:14:23,848 INFO  [it.bplus.business.RetrieverInserter:524] insert o update: 45%
+2012-03-07 16:14:26,225 INFO  [it.bplus.business.RetrieverInserter:526] insert o update: 50%
+2012-03-07 16:14:27,437 INFO  [it.bplus.business.RetrieverInserter:528] insert o update: 55%
+2012-03-07 16:14:29,816 INFO  [it.bplus.business.RetrieverInserter:530] insert o update: 60%
+2012-03-07 16:14:30,989 INFO  [it.bplus.business.RetrieverInserter:532] insert o update: 65%
+2012-03-07 16:14:33,321 INFO  [it.bplus.business.RetrieverInserter:534] insert o update: 70%
+2012-03-07 16:14:35,668 INFO  [it.bplus.business.RetrieverInserter:536] insert o update: 75%
+2012-03-07 16:14:36,838 INFO  [it.bplus.business.RetrieverInserter:538] insert o update: 80%
+2012-03-07 16:14:39,178 INFO  [it.bplus.business.RetrieverInserter:540] insert o update: 85%
+2012-03-07 16:14:40,364 INFO  [it.bplus.business.RetrieverInserter:542] insert o update: 90%
+2012-03-07 16:14:42,554 INFO  [it.bplus.business.RetrieverInserter:544] insert o update: 95%
+2012-03-07 16:14:44,894 INFO  [it.bplus.business.RetrieverInserter:546] insert o update: 100%
+2012-03-07 16:14:46,065 INFO  [it.bplus.business.RetrieverInserter:582] FINE insert in Datamart.
+2012-03-07 16:14:46,065 INFO  [it.bplus.business.Importer:137] Modifico esito in OK al session_log con unique_session_id(datamart): 2611, id_import_log: 1139
+2012-03-07 16:14:46,065 INFO  [it.bplus.dao.datamart.SessionLogDAO:266] Esito modificato in OK al session_log con unique_session_id(datamart): 2611, id_import_log: 1139
+2012-03-07 16:14:46,065 INFO  [it.bplus.business.Importer:143] Import completato per Session_Log con Unique_Session_ID(Datamart): 2611, id_import_log: 1139, START DATE: 2012-03-06 00:00:00.0, END DATE: 2012-03-06 23:59:59.0
+2012-03-07 16:14:47,969 INFO  [it.bplus.business.Importer:80] Start Mail
+2012-03-07 16:14:48,126 INFO  [it.bplus.business.Importer:361] End Mail
+2012-03-07 16:14:48,126 INFO  [it.bplus.business.Importer:178] *********
+2012-03-07 16:14:48,126 INFO  [it.bplus.business.Importer:179] ********* FINE doImport at Wed Mar 07 16:14:48 CET 2012 *********
+2012-03-07 16:14:48,126 INFO  [it.bplus.business.Importer:180] *********
+2012-03-07 16:17:32,502 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-07 16:17:32,502 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-07 16:17:32,502 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-07 16:17:32,503 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-07 16:17:32,503 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-07 16:17:32,503 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Wed Mar 07 21:30:00 CET 2012
+2012-03-07 16:17:32,503 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-07 16:17:32,503 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-07 16:17:32,503 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-07 16:31:17,618 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-07 16:31:17,620 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-07 16:31:17,620 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-07 16:31:17,620 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-07 16:31:17,620 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-07 16:31:17,621 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Wed Mar 07 21:30:00 CET 2012
+2012-03-07 16:31:17,621 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-07 16:31:17,621 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-07 16:31:17,621 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-07 16:31:30,179 INFO  [it.bplus.controller.BasicController:1331] getMeter_Location
+2012-03-07 16:31:36,653 INFO  [it.bplus.controller.BasicController:120] getMeterConfr600_Locations
+2012-03-07 16:31:41,579 INFO  [it.bplus.controller.BasicController:99] getMeterConfr600_vlt
+2012-03-26 10:27:03,917 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 10:27:03,938 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 10:27:03,939 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 10:27:03,939 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 10:27:03,939 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 10:27:03,940 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 10:27:03,940 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 10:27:03,940 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 10:27:03,940 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 10:27:22,835 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 10:27:22,837 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 10:27:22,837 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 10:27:22,837 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 10:27:22,838 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 10:27:22,838 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 10:27:22,838 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 10:27:22,838 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 10:27:22,838 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 10:28:23,312 INFO  [it.bplus.business.Importer:75] *********
+2012-03-26 10:28:23,312 INFO  [it.bplus.business.Importer:76] ********* START doImport at Mon Mar 26 10:28:23 CEST 2012, for period between Sun Mar 25 00:00:00 CET 2012 and Sun Mar 25 23:59:59 CEST 2012 *********
+2012-03-26 10:28:23,312 INFO  [it.bplus.business.Importer:78] ********* for location: GA048002517P
+2012-03-26 10:28:23,313 INFO  [it.bplus.business.Importer:80] *********
+2012-03-26 10:28:23,354 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Sun Mar 25 00:00:00 CET 2012, dataFine: Sun Mar 25 23:59:59 CEST 2012
+2012-03-26 10:28:23,387 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-26 10:28:23,420 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2750, corrispondente a id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0, con esito IN PROGRESS
+2012-03-26 10:28:23,426 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-26 10:28:23,426 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-26 10:29:08,621 INFO  [it.bplus.business.RetrieverInserter:112] FINE caricamento mappe dimensioni Clienti,Spazio,Tempo.
+2012-03-26 10:29:08,627 INFO  [it.bplus.dao.staging.GsMetersDAO:305] START retrieve_GsMeters_By_Data_Ora_Location. AAMS_LOCATION_ID: GA048002517P, UsID: 1451, startDate: 2012-03-25 00:00:00.0, endDate: 2012-03-25 23:59:59.0
+2012-03-26 10:29:08,919 INFO  [it.bplus.dao.staging.GsMetersDAO:372] FINE trovati GsMeters: 14 per location: GA048002517P
+2012-03-26 10:29:08,920 INFO  [it.bplus.business.RetrieverInserter:122] START caricamento mappe Location, Vlt, Games...
+2012-03-26 10:29:10,335 INFO  [it.bplus.business.RetrieverInserter:131] FINE caricamento mappe Location, Vlt, Games.
+2012-03-26 10:29:10,336 INFO  [it.bplus.business.RetrieverInserter:134] START ciclo while, creazione lista MeterFact...
+2012-03-26 10:29:10,511 INFO  [it.bplus.business.RetrieverInserter:452] FINE retrieve. Create 14 instanze di meterfact e inserite in una lista.
+2012-03-26 10:29:10,511 INFO  [it.bplus.business.Importer:129] Inserisco lista MeterFact in Datamart
+2012-03-26 10:29:10,511 INFO  [it.bplus.business.RetrieverInserter:477] START insert in Datamart...
+2012-03-26 10:29:10,511 INFO  [it.bplus.business.RetrieverInserter:510] insert o update: 10%
+2012-03-26 10:29:11,684 INFO  [it.bplus.business.RetrieverInserter:512] insert o update: 15%
+2012-03-26 10:29:12,828 INFO  [it.bplus.business.RetrieverInserter:516] insert o update: 25%
+2012-03-26 10:29:13,945 INFO  [it.bplus.business.RetrieverInserter:518] insert o update: 30%
+2012-03-26 10:29:15,052 INFO  [it.bplus.business.RetrieverInserter:522] insert o update: 40%
+2012-03-26 10:29:16,152 INFO  [it.bplus.business.RetrieverInserter:524] insert o update: 45%
+2012-03-26 10:29:17,265 INFO  [it.bplus.business.RetrieverInserter:526] insert o update: 50%
+2012-03-26 10:29:18,384 INFO  [it.bplus.business.RetrieverInserter:530] insert o update: 60%
+2012-03-26 10:29:19,488 INFO  [it.bplus.business.RetrieverInserter:532] insert o update: 65%
+2012-03-26 10:29:20,593 INFO  [it.bplus.business.RetrieverInserter:536] insert o update: 75%
+2012-03-26 10:29:21,763 INFO  [it.bplus.business.RetrieverInserter:538] insert o update: 80%
+2012-03-26 10:29:22,947 INFO  [it.bplus.business.RetrieverInserter:542] insert o update: 90%
+2012-03-26 10:29:24,138 INFO  [it.bplus.business.RetrieverInserter:544] insert o update: 95%
+2012-03-26 10:29:25,330 INFO  [it.bplus.business.RetrieverInserter:546] insert o update: 100%
+2012-03-26 10:29:26,528 INFO  [it.bplus.business.RetrieverInserter:582] FINE insert in Datamart.
+2012-03-26 10:29:26,528 INFO  [it.bplus.business.Importer:137] Modifico esito in OK al session_log con unique_session_id(datamart): 2750, id_import_log: 1213
+2012-03-26 10:29:26,532 INFO  [it.bplus.dao.datamart.SessionLogDAO:266] Esito modificato in OK al session_log con unique_session_id(datamart): 2750, id_import_log: 1213
+2012-03-26 10:29:26,536 INFO  [it.bplus.business.Importer:143] Import completato per Session_Log con Unique_Session_ID(Datamart): 2750, id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0
+2012-03-26 10:29:28,747 INFO  [it.bplus.business.Importer:182] *********
+2012-03-26 10:29:28,748 INFO  [it.bplus.business.Importer:183] ********* FINE doImport at Mon Mar 26 10:29:28 CEST 2012 *********
+2012-03-26 10:29:28,748 INFO  [it.bplus.business.Importer:184] *********
+2012-03-26 10:31:02,893 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 10:31:02,895 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 10:31:02,895 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 10:31:02,895 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 10:31:02,896 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 10:31:02,896 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 10:31:02,896 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 10:31:02,896 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 10:31:02,896 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 10:31:13,520 INFO  [it.bplus.business.Importer:75] *********
+2012-03-26 10:31:13,520 INFO  [it.bplus.business.Importer:76] ********* START doImport at Mon Mar 26 10:31:13 CEST 2012, for period between Sun Mar 25 00:00:00 CET 2012 and Sun Mar 25 23:59:59 CEST 2012 *********
+2012-03-26 10:31:13,521 INFO  [it.bplus.business.Importer:78] ********* for location: GA048002517P
+2012-03-26 10:31:13,521 INFO  [it.bplus.business.Importer:80] *********
+2012-03-26 10:31:13,534 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Sun Mar 25 00:00:00 CET 2012, dataFine: Sun Mar 25 23:59:59 CEST 2012
+2012-03-26 10:31:13,553 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-26 10:31:13,568 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2752, corrispondente a id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0, con esito IN PROGRESS
+2012-03-26 10:31:13,572 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-26 10:31:13,572 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-26 10:31:58,990 INFO  [it.bplus.business.RetrieverInserter:112] FINE caricamento mappe dimensioni Clienti,Spazio,Tempo.
+2012-03-26 10:31:58,992 INFO  [it.bplus.dao.staging.GsMetersDAO:305] START retrieve_GsMeters_By_Data_Ora_Location. AAMS_LOCATION_ID: GA048002517P, UsID: 1451, startDate: 2012-03-25 00:00:00.0, endDate: 2012-03-25 23:59:59.0
+2012-03-26 10:31:59,334 INFO  [it.bplus.dao.staging.GsMetersDAO:372] FINE trovati GsMeters: 14 per location: GA048002517P
+2012-03-26 10:31:59,335 INFO  [it.bplus.business.RetrieverInserter:122] START caricamento mappe Location, Vlt, Games...
+2012-03-26 10:32:00,667 INFO  [it.bplus.business.RetrieverInserter:131] FINE caricamento mappe Location, Vlt, Games.
+2012-03-26 10:32:00,667 INFO  [it.bplus.business.RetrieverInserter:134] START ciclo while, creazione lista MeterFact...
+2012-03-26 10:32:00,849 INFO  [it.bplus.business.RetrieverInserter:452] FINE retrieve. Create 14 instanze di meterfact e inserite in una lista.
+2012-03-26 10:32:00,850 INFO  [it.bplus.business.Importer:129] Inserisco lista MeterFact in Datamart
+2012-03-26 10:32:00,850 INFO  [it.bplus.business.RetrieverInserter:477] START insert in Datamart...
+2012-03-26 10:32:00,850 INFO  [it.bplus.business.RetrieverInserter:510] insert o update: 10%
+2012-03-26 10:32:01,947 INFO  [it.bplus.business.RetrieverInserter:512] insert o update: 15%
+2012-03-26 10:32:03,087 INFO  [it.bplus.business.RetrieverInserter:516] insert o update: 25%
+2012-03-26 10:32:04,233 INFO  [it.bplus.business.RetrieverInserter:518] insert o update: 30%
+2012-03-26 10:32:05,381 INFO  [it.bplus.business.RetrieverInserter:522] insert o update: 40%
+2012-03-26 10:32:06,511 INFO  [it.bplus.business.RetrieverInserter:524] insert o update: 45%
+2012-03-26 10:32:07,644 INFO  [it.bplus.business.RetrieverInserter:526] insert o update: 50%
+2012-03-26 10:32:08,776 INFO  [it.bplus.business.RetrieverInserter:530] insert o update: 60%
+2012-03-26 10:32:09,890 INFO  [it.bplus.business.RetrieverInserter:532] insert o update: 65%
+2012-03-26 10:32:11,006 INFO  [it.bplus.business.RetrieverInserter:536] insert o update: 75%
+2012-03-26 10:32:12,123 INFO  [it.bplus.business.RetrieverInserter:538] insert o update: 80%
+2012-03-26 10:32:13,258 INFO  [it.bplus.business.RetrieverInserter:542] insert o update: 90%
+2012-03-26 10:32:14,392 INFO  [it.bplus.business.RetrieverInserter:544] insert o update: 95%
+2012-03-26 10:32:15,526 INFO  [it.bplus.business.RetrieverInserter:546] insert o update: 100%
+2012-03-26 10:32:16,647 INFO  [it.bplus.business.RetrieverInserter:582] FINE insert in Datamart.
+2012-03-26 10:32:16,648 INFO  [it.bplus.business.Importer:137] Modifico esito in OK al session_log con unique_session_id(datamart): 2752, id_import_log: 1213
+2012-03-26 10:32:16,651 INFO  [it.bplus.dao.datamart.SessionLogDAO:266] Esito modificato in OK al session_log con unique_session_id(datamart): 2752, id_import_log: 1213
+2012-03-26 10:32:16,653 INFO  [it.bplus.business.Importer:143] Import completato per Session_Log con Unique_Session_ID(Datamart): 2752, id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0
+2012-03-26 10:33:23,363 INFO  [it.bplus.business.Importer:182] *********
+2012-03-26 10:33:23,363 INFO  [it.bplus.business.Importer:183] ********* FINE doImport at Mon Mar 26 10:33:23 CEST 2012 *********
+2012-03-26 10:33:23,364 INFO  [it.bplus.business.Importer:184] *********
+2012-03-26 10:33:50,916 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 10:33:50,918 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 10:33:50,918 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 10:33:50,919 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 10:33:50,919 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 10:33:50,919 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 10:33:50,919 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 10:33:50,919 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 10:33:50,919 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 10:34:02,772 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 10:34:02,775 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 10:34:02,775 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 10:34:02,775 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 10:34:02,775 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 10:34:02,776 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 10:34:02,776 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 10:34:02,776 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 10:34:02,776 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 10:34:26,405 INFO  [it.bplus.business.Importer:75] *********
+2012-03-26 10:34:26,405 INFO  [it.bplus.business.Importer:76] ********* START doImport at Mon Mar 26 10:34:26 CEST 2012, for period between Sun Mar 25 00:00:00 CET 2012 and Sun Mar 25 23:59:59 CEST 2012 *********
+2012-03-26 10:34:26,405 INFO  [it.bplus.business.Importer:78] ********* for location: GA048002517P
+2012-03-26 10:34:26,405 INFO  [it.bplus.business.Importer:80] *********
+2012-03-26 10:34:26,417 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Sun Mar 25 00:00:00 CET 2012, dataFine: Sun Mar 25 23:59:59 CEST 2012
+2012-03-26 10:34:26,435 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-26 10:34:26,451 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2753, corrispondente a id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0, con esito IN PROGRESS
+2012-03-26 10:34:26,456 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-26 10:34:26,456 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-26 10:35:11,821 INFO  [it.bplus.business.RetrieverInserter:112] FINE caricamento mappe dimensioni Clienti,Spazio,Tempo.
+2012-03-26 10:35:11,824 INFO  [it.bplus.dao.staging.GsMetersDAO:305] START retrieve_GsMeters_By_Data_Ora_Location. AAMS_LOCATION_ID: GA048002517P, UsID: 1451, startDate: 2012-03-25 00:00:00.0, endDate: 2012-03-25 23:59:59.0
+2012-03-26 10:35:12,165 INFO  [it.bplus.dao.staging.GsMetersDAO:372] FINE trovati GsMeters: 14 per location: GA048002517P
+2012-03-26 10:35:12,167 INFO  [it.bplus.business.RetrieverInserter:122] START caricamento mappe Location, Vlt, Games...
+2012-03-26 10:35:13,548 INFO  [it.bplus.business.RetrieverInserter:131] FINE caricamento mappe Location, Vlt, Games.
+2012-03-26 10:35:13,548 INFO  [it.bplus.business.RetrieverInserter:134] START ciclo while, creazione lista MeterFact...
+2012-03-26 10:35:13,729 INFO  [it.bplus.business.RetrieverInserter:452] FINE retrieve. Create 14 instanze di meterfact e inserite in una lista.
+2012-03-26 10:35:13,729 INFO  [it.bplus.business.Importer:129] Inserisco lista MeterFact in Datamart
+2012-03-26 10:35:13,729 INFO  [it.bplus.business.RetrieverInserter:477] START insert in Datamart...
+2012-03-26 10:35:13,729 INFO  [it.bplus.business.RetrieverInserter:510] insert o update: 10%
+2012-03-26 10:35:15,026 INFO  [it.bplus.business.RetrieverInserter:512] insert o update: 15%
+2012-03-26 10:35:16,287 INFO  [it.bplus.business.RetrieverInserter:516] insert o update: 25%
+2012-03-26 10:35:17,547 INFO  [it.bplus.business.RetrieverInserter:518] insert o update: 30%
+2012-03-26 10:35:18,806 INFO  [it.bplus.business.RetrieverInserter:522] insert o update: 40%
+2012-03-26 10:35:20,059 INFO  [it.bplus.business.RetrieverInserter:524] insert o update: 45%
+2012-03-26 10:35:21,303 INFO  [it.bplus.business.RetrieverInserter:526] insert o update: 50%
+2012-03-26 10:35:22,494 INFO  [it.bplus.business.RetrieverInserter:530] insert o update: 60%
+2012-03-26 10:35:23,646 INFO  [it.bplus.business.RetrieverInserter:532] insert o update: 65%
+2012-03-26 10:35:24,818 INFO  [it.bplus.business.RetrieverInserter:536] insert o update: 75%
+2012-03-26 10:35:25,975 INFO  [it.bplus.business.RetrieverInserter:538] insert o update: 80%
+2012-03-26 10:35:27,119 INFO  [it.bplus.business.RetrieverInserter:542] insert o update: 90%
+2012-03-26 10:35:28,273 INFO  [it.bplus.business.RetrieverInserter:544] insert o update: 95%
+2012-03-26 10:35:29,437 INFO  [it.bplus.business.RetrieverInserter:546] insert o update: 100%
+2012-03-26 10:35:30,580 INFO  [it.bplus.business.RetrieverInserter:582] FINE insert in Datamart.
+2012-03-26 10:35:30,580 INFO  [it.bplus.business.Importer:137] Modifico esito in OK al session_log con unique_session_id(datamart): 2753, id_import_log: 1213
+2012-03-26 10:35:30,583 INFO  [it.bplus.dao.datamart.SessionLogDAO:266] Esito modificato in OK al session_log con unique_session_id(datamart): 2753, id_import_log: 1213
+2012-03-26 10:35:30,585 INFO  [it.bplus.business.Importer:143] Import completato per Session_Log con Unique_Session_ID(Datamart): 2753, id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0
+2012-03-26 10:35:33,503 INFO  [it.bplus.business.Importer:184] *********
+2012-03-26 10:35:33,503 INFO  [it.bplus.business.Importer:185] ********* FINE doImport at Mon Mar 26 10:35:33 CEST 2012 *********
+2012-03-26 10:35:33,503 INFO  [it.bplus.business.Importer:186] *********
+2012-03-26 10:36:38,096 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 10:36:38,099 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 10:36:38,099 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 10:36:38,099 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 10:36:38,099 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 10:36:38,100 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 10:36:38,100 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 10:36:38,100 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 10:36:38,100 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 10:36:45,495 INFO  [it.bplus.business.Importer:75] *********
+2012-03-26 10:36:45,495 INFO  [it.bplus.business.Importer:76] ********* START doImport at Mon Mar 26 10:36:45 CEST 2012, for period between Sun Mar 25 00:00:00 CET 2012 and Sun Mar 25 23:59:59 CEST 2012 *********
+2012-03-26 10:36:45,496 INFO  [it.bplus.business.Importer:78] ********* for location: GA048002517P
+2012-03-26 10:36:45,496 INFO  [it.bplus.business.Importer:80] *********
+2012-03-26 10:36:45,508 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Sun Mar 25 00:00:00 CET 2012, dataFine: Sun Mar 25 23:59:59 CEST 2012
+2012-03-26 10:36:45,527 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-26 10:36:45,540 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2754, corrispondente a id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0, con esito IN PROGRESS
+2012-03-26 10:36:45,544 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-26 10:36:45,544 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-26 10:36:48,682 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 10:36:48,683 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 10:36:48,683 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 10:36:48,683 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 10:36:48,683 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 10:36:48,684 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 10:36:48,684 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 10:36:48,684 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 10:36:48,684 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 10:37:05,249 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 10:37:05,251 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 10:37:05,251 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 10:37:05,251 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 10:37:05,251 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 10:37:05,251 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 10:37:05,252 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 10:37:05,252 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 10:37:05,252 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 10:37:35,272 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 10:37:35,274 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 10:37:35,274 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 10:37:35,274 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 10:37:35,274 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 10:37:35,274 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 10:37:35,274 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 10:37:35,275 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 10:37:35,275 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 10:38:07,310 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 10:38:07,312 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 10:38:07,312 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 10:38:07,312 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 10:38:07,312 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 10:38:07,313 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 10:38:07,313 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 10:38:07,313 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 10:38:07,313 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 10:40:01,074 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 10:40:01,074 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 10:40:01,074 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 10:40:01,074 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 10:40:01,074 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 10:40:01,074 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 10:40:01,074 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 10:40:01,074 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 10:40:01,074 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 10:40:41,590 INFO  [it.bplus.business.Importer:75] *********
+2012-03-26 10:40:41,591 INFO  [it.bplus.business.Importer:76] ********* START doImport at Mon Mar 26 10:40:41 CEST 2012, for period between Sun Mar 25 00:00:00 CET 2012 and Sun Mar 25 23:59:59 CEST 2012 *********
+2012-03-26 10:40:41,591 INFO  [it.bplus.business.Importer:78] ********* for location: GA048002517P
+2012-03-26 10:40:41,591 INFO  [it.bplus.business.Importer:80] *********
+2012-03-26 10:40:41,617 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Sun Mar 25 00:00:00 CET 2012, dataFine: Sun Mar 25 23:59:59 CEST 2012
+2012-03-26 10:40:41,635 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-26 10:40:41,650 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2755, corrispondente a id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0, con esito IN PROGRESS
+2012-03-26 10:40:41,654 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-26 10:40:41,654 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-26 10:41:27,473 INFO  [it.bplus.business.RetrieverInserter:112] FINE caricamento mappe dimensioni Clienti,Spazio,Tempo.
+2012-03-26 10:41:27,475 INFO  [it.bplus.dao.staging.GsMetersDAO:305] START retrieve_GsMeters_By_Data_Ora_Location. AAMS_LOCATION_ID: GA048002517P, UsID: 1451, startDate: 2012-03-25 00:00:00.0, endDate: 2012-03-25 23:59:59.0
+2012-03-26 10:41:27,805 INFO  [it.bplus.dao.staging.GsMetersDAO:372] FINE trovati GsMeters: 14 per location: GA048002517P
+2012-03-26 10:41:27,807 INFO  [it.bplus.business.RetrieverInserter:122] START caricamento mappe Location, Vlt, Games...
+2012-03-26 10:41:29,066 INFO  [it.bplus.business.RetrieverInserter:131] FINE caricamento mappe Location, Vlt, Games.
+2012-03-26 10:41:29,066 INFO  [it.bplus.business.RetrieverInserter:134] START ciclo while, creazione lista MeterFact...
+2012-03-26 10:41:29,249 INFO  [it.bplus.business.RetrieverInserter:452] FINE retrieve. Create 14 instanze di meterfact e inserite in una lista.
+2012-03-26 10:41:29,250 INFO  [it.bplus.business.Importer:129] Inserisco lista MeterFact in Datamart
+2012-03-26 10:41:29,250 INFO  [it.bplus.business.RetrieverInserter:477] START insert in Datamart...
+2012-03-26 10:41:29,250 INFO  [it.bplus.business.RetrieverInserter:510] insert o update: 10%
+2012-03-26 10:43:30,267 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 10:43:30,269 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 10:43:30,269 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 10:43:30,269 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 10:43:30,269 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 10:43:30,269 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 10:43:30,269 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 10:43:30,270 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 10:43:30,270 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 10:43:37,049 INFO  [it.bplus.business.Importer:75] *********
+2012-03-26 10:43:37,049 INFO  [it.bplus.business.Importer:76] ********* START doImport at Mon Mar 26 10:43:37 CEST 2012, for period between Sun Mar 25 00:00:00 CET 2012 and Sun Mar 25 23:59:59 CEST 2012 *********
+2012-03-26 10:43:37,049 INFO  [it.bplus.business.Importer:78] ********* for location: GA048002517P
+2012-03-26 10:43:37,050 INFO  [it.bplus.business.Importer:80] *********
+2012-03-26 10:43:37,062 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Sun Mar 25 00:00:00 CET 2012, dataFine: Sun Mar 25 23:59:59 CEST 2012
+2012-03-26 10:43:37,081 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-26 10:43:37,096 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2756, corrispondente a id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0, con esito IN PROGRESS
+2012-03-26 10:43:37,100 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-26 10:43:37,100 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-26 10:44:28,742 INFO  [it.bplus.business.RetrieverInserter:112] FINE caricamento mappe dimensioni Clienti,Spazio,Tempo.
+2012-03-26 10:44:28,742 INFO  [it.bplus.dao.staging.GsMetersDAO:305] START retrieve_GsMeters_By_Data_Ora_Location. AAMS_LOCATION_ID: GA048002517P, UsID: 1451, startDate: 2012-03-25 00:00:00.0, endDate: 2012-03-25 23:59:59.0
+2012-03-26 10:44:29,095 INFO  [it.bplus.dao.staging.GsMetersDAO:372] FINE trovati GsMeters: 14 per location: GA048002517P
+2012-03-26 10:44:29,097 INFO  [it.bplus.business.RetrieverInserter:122] START caricamento mappe Location, Vlt, Games...
+2012-03-26 10:44:30,407 INFO  [it.bplus.business.RetrieverInserter:131] FINE caricamento mappe Location, Vlt, Games.
+2012-03-26 10:44:30,407 INFO  [it.bplus.business.RetrieverInserter:134] START ciclo while, creazione lista MeterFact...
+2012-03-26 10:44:30,596 INFO  [it.bplus.business.RetrieverInserter:452] FINE retrieve. Create 14 instanze di meterfact e inserite in una lista.
+2012-03-26 10:44:30,596 INFO  [it.bplus.business.Importer:129] Inserisco lista MeterFact in Datamart
+2012-03-26 10:44:30,596 INFO  [it.bplus.business.RetrieverInserter:477] START insert in Datamart...
+2012-03-26 10:44:30,596 INFO  [it.bplus.business.RetrieverInserter:510] insert o update: 10%
+2012-03-26 11:37:22,633 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 11:37:22,635 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 11:37:22,635 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 11:37:22,635 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 11:37:22,635 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 11:37:22,636 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 11:37:22,636 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 11:37:22,636 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 11:37:22,636 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 11:37:30,357 INFO  [it.bplus.business.Importer:75] *********
+2012-03-26 11:37:30,357 INFO  [it.bplus.business.Importer:76] ********* START doImport at Mon Mar 26 11:37:30 CEST 2012, for period between Sun Mar 25 00:00:00 CET 2012 and Sun Mar 25 23:59:59 CEST 2012 *********
+2012-03-26 11:37:30,357 INFO  [it.bplus.business.Importer:78] ********* for location: GA048002517P
+2012-03-26 11:37:30,357 INFO  [it.bplus.business.Importer:80] *********
+2012-03-26 11:37:30,369 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Sun Mar 25 00:00:00 CET 2012, dataFine: Sun Mar 25 23:59:59 CEST 2012
+2012-03-26 11:37:30,386 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-26 11:37:30,400 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2757, corrispondente a id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0, con esito IN PROGRESS
+2012-03-26 11:37:30,404 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-26 11:37:30,404 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-26 11:38:16,354 INFO  [it.bplus.business.RetrieverInserter:112] FINE caricamento mappe dimensioni Clienti,Spazio,Tempo.
+2012-03-26 11:38:16,356 INFO  [it.bplus.dao.staging.GsMetersDAO:305] START retrieve_GsMeters_By_Data_Ora_Location. AAMS_LOCATION_ID: GA048002517P, UsID: 1451, startDate: 2012-03-25 00:00:00.0, endDate: 2012-03-25 23:59:59.0
+2012-03-26 11:38:16,720 INFO  [it.bplus.dao.staging.GsMetersDAO:372] FINE trovati GsMeters: 14 per location: GA048002517P
+2012-03-26 11:38:16,722 INFO  [it.bplus.business.RetrieverInserter:122] START caricamento mappe Location, Vlt, Games...
+2012-03-26 11:38:18,028 INFO  [it.bplus.business.RetrieverInserter:131] FINE caricamento mappe Location, Vlt, Games.
+2012-03-26 11:38:18,028 INFO  [it.bplus.business.RetrieverInserter:134] START ciclo while, creazione lista MeterFact...
+2012-03-26 11:38:18,490 INFO  [it.bplus.business.RetrieverInserter:452] FINE retrieve. Create 14 instanze di meterfact e inserite in una lista.
+2012-03-26 11:38:18,490 INFO  [it.bplus.business.Importer:129] Inserisco lista MeterFact in Datamart
+2012-03-26 11:38:18,490 INFO  [it.bplus.business.RetrieverInserter:477] START insert in Datamart...
+2012-03-26 11:38:18,490 INFO  [it.bplus.business.RetrieverInserter:510] insert o update: 10%
+2012-03-26 12:46:48,303 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 12:46:48,340 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 12:46:48,340 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 12:46:48,340 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 12:46:48,341 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 12:46:48,341 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 12:46:48,341 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 12:46:48,341 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 12:46:48,341 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 12:47:05,126 INFO  [it.bplus.business.Importer:75] *********
+2012-03-26 12:47:05,127 INFO  [it.bplus.business.Importer:76] ********* START doImport at Mon Mar 26 12:47:05 CEST 2012, for period between Sun Mar 25 00:00:00 CET 2012 and Sun Mar 25 23:59:59 CEST 2012 *********
+2012-03-26 12:47:05,127 INFO  [it.bplus.business.Importer:78] ********* for location: GM212001641F
+2012-03-26 12:47:05,127 INFO  [it.bplus.business.Importer:80] *********
+2012-03-26 12:47:05,147 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Sun Mar 25 00:00:00 CET 2012, dataFine: Sun Mar 25 23:59:59 CEST 2012
+2012-03-26 12:47:05,189 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-26 12:47:05,207 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2760, corrispondente a id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0, con esito IN PROGRESS
+2012-03-26 12:47:05,211 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-26 12:47:05,211 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-26 12:47:51,759 INFO  [it.bplus.business.RetrieverInserter:112] FINE caricamento mappe dimensioni Clienti,Spazio,Tempo.
+2012-03-26 12:47:51,765 INFO  [it.bplus.dao.staging.GsMetersDAO:305] START retrieve_GsMeters_By_Data_Ora_Location. AAMS_LOCATION_ID: GM212001641F, UsID: 1451, startDate: 2012-03-25 00:00:00.0, endDate: 2012-03-25 23:59:59.0
+2012-03-26 12:47:52,073 INFO  [it.bplus.dao.staging.GsMetersDAO:372] FINE trovati GsMeters: 49 per location: GM212001641F
+2012-03-26 12:47:52,075 INFO  [it.bplus.business.RetrieverInserter:122] START caricamento mappe Location, Vlt, Games...
+2012-03-26 12:47:53,365 INFO  [it.bplus.business.RetrieverInserter:131] FINE caricamento mappe Location, Vlt, Games.
+2012-03-26 12:47:53,365 INFO  [it.bplus.business.RetrieverInserter:134] START ciclo while, creazione lista MeterFact...
+2012-03-26 12:47:54,007 INFO  [it.bplus.business.RetrieverInserter:452] FINE retrieve. Create 49 instanze di meterfact e inserite in una lista.
+2012-03-26 12:47:54,007 INFO  [it.bplus.business.Importer:129] Inserisco lista MeterFact in Datamart
+2012-03-26 12:47:54,007 INFO  [it.bplus.business.RetrieverInserter:477] START insert in Datamart...
+2012-03-26 12:47:57,443 INFO  [it.bplus.business.RetrieverInserter:510] insert o update: 10%
+2012-03-26 12:48:00,846 INFO  [it.bplus.business.RetrieverInserter:512] insert o update: 15%
+2012-03-26 12:48:03,144 INFO  [it.bplus.business.RetrieverInserter:514] insert o update: 20%
+2012-03-26 12:48:06,611 INFO  [it.bplus.business.RetrieverInserter:516] insert o update: 25%
+2012-03-26 12:48:08,892 INFO  [it.bplus.business.RetrieverInserter:518] insert o update: 30%
+2012-03-26 12:48:12,332 INFO  [it.bplus.business.RetrieverInserter:520] insert o update: 35%
+2012-03-26 12:48:14,592 INFO  [it.bplus.business.RetrieverInserter:522] insert o update: 40%
+2012-03-26 12:48:17,944 INFO  [it.bplus.business.RetrieverInserter:524] insert o update: 45%
+2012-03-26 12:48:20,181 INFO  [it.bplus.business.RetrieverInserter:526] insert o update: 50%
+2012-03-26 12:48:22,401 INFO  [it.bplus.business.RetrieverInserter:528] insert o update: 55%
+2012-03-26 12:48:25,763 INFO  [it.bplus.business.RetrieverInserter:530] insert o update: 60%
+2012-03-26 12:48:27,990 INFO  [it.bplus.business.RetrieverInserter:532] insert o update: 65%
+2012-03-26 12:48:31,374 INFO  [it.bplus.business.RetrieverInserter:534] insert o update: 70%
+2012-03-26 12:48:33,602 INFO  [it.bplus.business.RetrieverInserter:536] insert o update: 75%
+2012-03-26 12:48:36,970 INFO  [it.bplus.business.RetrieverInserter:538] insert o update: 80%
+2012-03-26 12:48:39,199 INFO  [it.bplus.business.RetrieverInserter:540] insert o update: 85%
+2012-03-26 12:48:42,545 INFO  [it.bplus.business.RetrieverInserter:542] insert o update: 90%
+2012-03-26 12:48:44,799 INFO  [it.bplus.business.RetrieverInserter:544] insert o update: 95%
+2012-03-26 12:48:48,133 INFO  [it.bplus.business.RetrieverInserter:546] insert o update: 100%
+2012-03-26 12:48:49,244 INFO  [it.bplus.business.RetrieverInserter:582] FINE insert in Datamart.
+2012-03-26 12:48:49,244 INFO  [it.bplus.business.Importer:137] Modifico esito in OK al session_log con unique_session_id(datamart): 2760, id_import_log: 1213
+2012-03-26 12:48:49,247 INFO  [it.bplus.dao.datamart.SessionLogDAO:266] Esito modificato in OK al session_log con unique_session_id(datamart): 2760, id_import_log: 1213
+2012-03-26 12:48:49,250 INFO  [it.bplus.business.Importer:143] Import completato per Session_Log con Unique_Session_ID(Datamart): 2760, id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0
+2012-03-26 12:48:51,997 INFO  [it.bplus.business.Importer:80] Start Mail
+2012-03-26 12:48:52,144 INFO  [it.bplus.business.Importer:361] End Mail
+2012-03-26 12:48:52,144 INFO  [it.bplus.business.Importer:184] *********
+2012-03-26 12:48:52,145 INFO  [it.bplus.business.Importer:185] ********* FINE doImport at Mon Mar 26 12:48:52 CEST 2012 *********
+2012-03-26 12:48:52,145 INFO  [it.bplus.business.Importer:186] *********
+2012-03-26 12:50:09,193 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 12:50:09,196 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 12:50:09,196 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 12:50:09,197 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 12:50:09,197 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 12:50:09,197 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 12:50:09,197 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 12:50:09,198 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 12:50:09,198 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 12:50:24,431 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 12:50:24,433 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 12:50:24,433 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 12:50:24,433 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 12:50:24,433 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 12:50:24,433 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 12:50:24,434 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 12:50:24,434 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 12:50:24,434 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 12:50:30,935 INFO  [it.bplus.business.Importer:75] *********
+2012-03-26 12:50:30,935 INFO  [it.bplus.business.Importer:76] ********* START doImport at Mon Mar 26 12:50:30 CEST 2012, for period between Sun Mar 25 00:00:00 CET 2012 and Sun Mar 25 23:59:59 CEST 2012 *********
+2012-03-26 12:50:30,935 INFO  [it.bplus.business.Importer:78] ********* for location: GM212001641F
+2012-03-26 12:50:30,935 INFO  [it.bplus.business.Importer:80] *********
+2012-03-26 12:50:30,947 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Sun Mar 25 00:00:00 CET 2012, dataFine: Sun Mar 25 23:59:59 CEST 2012
+2012-03-26 12:50:30,966 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-26 12:50:30,981 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2761, corrispondente a id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0, con esito IN PROGRESS
+2012-03-26 12:50:30,986 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-26 12:50:30,986 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-26 12:51:17,705 INFO  [it.bplus.business.RetrieverInserter:112] FINE caricamento mappe dimensioni Clienti,Spazio,Tempo.
+2012-03-26 12:51:17,708 INFO  [it.bplus.dao.staging.GsMetersDAO:305] START retrieve_GsMeters_By_Data_Ora_Location. AAMS_LOCATION_ID: GM212001641F, UsID: 1451, startDate: 2012-03-25 00:00:00.0, endDate: 2012-03-25 23:59:59.0
+2012-03-26 12:51:18,026 INFO  [it.bplus.dao.staging.GsMetersDAO:372] FINE trovati GsMeters: 49 per location: GM212001641F
+2012-03-26 12:51:18,027 INFO  [it.bplus.business.RetrieverInserter:122] START caricamento mappe Location, Vlt, Games...
+2012-03-26 12:51:19,322 INFO  [it.bplus.business.RetrieverInserter:131] FINE caricamento mappe Location, Vlt, Games.
+2012-03-26 12:51:19,322 INFO  [it.bplus.business.RetrieverInserter:134] START ciclo while, creazione lista MeterFact...
+2012-03-26 12:51:19,975 INFO  [it.bplus.business.RetrieverInserter:452] FINE retrieve. Create 49 instanze di meterfact e inserite in una lista.
+2012-03-26 12:51:19,976 INFO  [it.bplus.business.Importer:129] Inserisco lista MeterFact in Datamart
+2012-03-26 12:51:19,976 INFO  [it.bplus.business.RetrieverInserter:477] START insert in Datamart...
+2012-03-26 12:51:23,389 INFO  [it.bplus.business.RetrieverInserter:510] insert o update: 10%
+2012-03-26 12:51:26,766 INFO  [it.bplus.business.RetrieverInserter:512] insert o update: 15%
+2012-03-26 12:51:29,019 INFO  [it.bplus.business.RetrieverInserter:514] insert o update: 20%
+2012-03-26 12:51:32,367 INFO  [it.bplus.business.RetrieverInserter:516] insert o update: 25%
+2012-03-26 12:51:34,625 INFO  [it.bplus.business.RetrieverInserter:518] insert o update: 30%
+2012-03-26 12:51:37,953 INFO  [it.bplus.business.RetrieverInserter:520] insert o update: 35%
+2012-03-26 12:51:40,195 INFO  [it.bplus.business.RetrieverInserter:522] insert o update: 40%
+2012-03-26 12:51:43,544 INFO  [it.bplus.business.RetrieverInserter:524] insert o update: 45%
+2012-03-26 12:51:45,802 INFO  [it.bplus.business.RetrieverInserter:526] insert o update: 50%
+2012-03-26 12:51:48,064 INFO  [it.bplus.business.RetrieverInserter:528] insert o update: 55%
+2012-03-26 12:51:51,412 INFO  [it.bplus.business.RetrieverInserter:530] insert o update: 60%
+2012-03-26 12:51:53,674 INFO  [it.bplus.business.RetrieverInserter:532] insert o update: 65%
+2012-03-26 12:51:57,018 INFO  [it.bplus.business.RetrieverInserter:534] insert o update: 70%
+2012-03-26 12:51:59,229 INFO  [it.bplus.business.RetrieverInserter:536] insert o update: 75%
+2012-03-26 12:52:02,586 INFO  [it.bplus.business.RetrieverInserter:538] insert o update: 80%
+2012-03-26 12:52:04,820 INFO  [it.bplus.business.RetrieverInserter:540] insert o update: 85%
+2012-03-26 12:52:08,207 INFO  [it.bplus.business.RetrieverInserter:542] insert o update: 90%
+2012-03-26 12:52:10,445 INFO  [it.bplus.business.RetrieverInserter:544] insert o update: 95%
+2012-03-26 12:52:13,803 INFO  [it.bplus.business.RetrieverInserter:546] insert o update: 100%
+2012-03-26 12:52:14,923 INFO  [it.bplus.business.RetrieverInserter:582] FINE insert in Datamart.
+2012-03-26 12:52:14,923 INFO  [it.bplus.business.Importer:137] Modifico esito in OK al session_log con unique_session_id(datamart): 2761, id_import_log: 1213
+2012-03-26 12:52:14,926 INFO  [it.bplus.dao.datamart.SessionLogDAO:266] Esito modificato in OK al session_log con unique_session_id(datamart): 2761, id_import_log: 1213
+2012-03-26 12:52:14,928 INFO  [it.bplus.business.Importer:143] Import completato per Session_Log con Unique_Session_ID(Datamart): 2761, id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0
+2012-03-26 12:52:18,934 INFO  [it.bplus.business.Importer:80] Start Mail
+2012-03-26 12:52:18,955 INFO  [it.bplus.business.Importer:366] java.lang.NullPointerException
+2012-03-26 12:52:18,956 INFO  [it.bplus.business.Importer:184] *********
+2012-03-26 12:52:18,956 INFO  [it.bplus.business.Importer:185] ********* FINE doImport at Mon Mar 26 12:52:18 CEST 2012 *********
+2012-03-26 12:52:18,956 INFO  [it.bplus.business.Importer:186] *********
+2012-03-26 12:55:43,191 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 12:55:43,191 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 12:55:43,191 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 12:55:43,191 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 12:55:43,191 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 12:55:43,191 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 12:55:43,191 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 12:55:43,191 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 12:55:43,191 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 12:55:50,823 INFO  [it.bplus.business.Importer:75] *********
+2012-03-26 12:55:50,824 INFO  [it.bplus.business.Importer:76] ********* START doImport at Mon Mar 26 12:55:50 CEST 2012, for period between Sun Mar 25 00:00:00 CET 2012 and Sun Mar 25 23:59:59 CEST 2012 *********
+2012-03-26 12:55:50,824 INFO  [it.bplus.business.Importer:78] ********* for location: GM212001641F
+2012-03-26 12:55:50,824 INFO  [it.bplus.business.Importer:80] *********
+2012-03-26 12:55:50,845 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Sun Mar 25 00:00:00 CET 2012, dataFine: Sun Mar 25 23:59:59 CEST 2012
+2012-03-26 12:55:50,868 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-26 12:55:50,886 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2762, corrispondente a id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0, con esito IN PROGRESS
+2012-03-26 12:55:50,890 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-26 12:55:50,890 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-26 12:56:37,732 INFO  [it.bplus.business.RetrieverInserter:112] FINE caricamento mappe dimensioni Clienti,Spazio,Tempo.
+2012-03-26 12:56:37,735 INFO  [it.bplus.dao.staging.GsMetersDAO:305] START retrieve_GsMeters_By_Data_Ora_Location. AAMS_LOCATION_ID: GM212001641F, UsID: 1451, startDate: 2012-03-25 00:00:00.0, endDate: 2012-03-25 23:59:59.0
+2012-03-26 12:56:38,050 INFO  [it.bplus.dao.staging.GsMetersDAO:372] FINE trovati GsMeters: 49 per location: GM212001641F
+2012-03-26 12:56:38,052 INFO  [it.bplus.business.RetrieverInserter:122] START caricamento mappe Location, Vlt, Games...
+2012-03-26 12:56:39,385 INFO  [it.bplus.business.RetrieverInserter:131] FINE caricamento mappe Location, Vlt, Games.
+2012-03-26 12:56:39,386 INFO  [it.bplus.business.RetrieverInserter:134] START ciclo while, creazione lista MeterFact...
+2012-03-26 12:56:40,029 INFO  [it.bplus.business.RetrieverInserter:452] FINE retrieve. Create 49 instanze di meterfact e inserite in una lista.
+2012-03-26 12:56:40,029 INFO  [it.bplus.business.Importer:129] Inserisco lista MeterFact in Datamart
+2012-03-26 12:56:40,030 INFO  [it.bplus.business.RetrieverInserter:477] START insert in Datamart...
+2012-03-26 12:56:43,514 INFO  [it.bplus.business.RetrieverInserter:510] insert o update: 10%
+2012-03-26 12:56:46,985 INFO  [it.bplus.business.RetrieverInserter:512] insert o update: 15%
+2012-03-26 12:56:49,250 INFO  [it.bplus.business.RetrieverInserter:514] insert o update: 20%
+2012-03-26 12:56:52,683 INFO  [it.bplus.business.RetrieverInserter:516] insert o update: 25%
+2012-03-26 12:56:54,977 INFO  [it.bplus.business.RetrieverInserter:518] insert o update: 30%
+2012-03-26 12:56:58,410 INFO  [it.bplus.business.RetrieverInserter:520] insert o update: 35%
+2012-03-26 12:57:00,704 INFO  [it.bplus.business.RetrieverInserter:522] insert o update: 40%
+2012-03-26 12:57:04,149 INFO  [it.bplus.business.RetrieverInserter:524] insert o update: 45%
+2012-03-26 12:57:06,434 INFO  [it.bplus.business.RetrieverInserter:526] insert o update: 50%
+2012-03-26 12:57:08,717 INFO  [it.bplus.business.RetrieverInserter:528] insert o update: 55%
+2012-03-26 12:57:12,142 INFO  [it.bplus.business.RetrieverInserter:530] insert o update: 60%
+2012-03-26 12:57:14,411 INFO  [it.bplus.business.RetrieverInserter:532] insert o update: 65%
+2012-03-26 12:57:17,866 INFO  [it.bplus.business.RetrieverInserter:534] insert o update: 70%
+2012-03-26 12:57:20,107 INFO  [it.bplus.business.RetrieverInserter:536] insert o update: 75%
+2012-03-26 12:57:23,482 INFO  [it.bplus.business.RetrieverInserter:538] insert o update: 80%
+2012-03-26 12:57:25,718 INFO  [it.bplus.business.RetrieverInserter:540] insert o update: 85%
+2012-03-26 12:57:29,061 INFO  [it.bplus.business.RetrieverInserter:542] insert o update: 90%
+2012-03-26 12:57:31,314 INFO  [it.bplus.business.RetrieverInserter:544] insert o update: 95%
+2012-03-26 12:57:34,656 INFO  [it.bplus.business.RetrieverInserter:546] insert o update: 100%
+2012-03-26 12:57:35,780 INFO  [it.bplus.business.RetrieverInserter:582] FINE insert in Datamart.
+2012-03-26 12:57:35,780 INFO  [it.bplus.business.Importer:137] Modifico esito in OK al session_log con unique_session_id(datamart): 2762, id_import_log: 1213
+2012-03-26 12:57:35,795 INFO  [it.bplus.dao.datamart.SessionLogDAO:266] Esito modificato in OK al session_log con unique_session_id(datamart): 2762, id_import_log: 1213
+2012-03-26 12:57:35,795 INFO  [it.bplus.business.Importer:143] Import completato per Session_Log con Unique_Session_ID(Datamart): 2762, id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0
+2012-03-26 12:57:44,491 INFO  [it.bplus.business.Importer:80] Start Mail
+2012-03-26 13:03:26,390 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 13:03:26,390 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 13:03:26,390 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 13:03:26,390 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 13:03:26,390 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 13:03:26,390 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 13:03:26,390 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 13:03:26,390 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 13:03:26,390 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 13:03:40,288 INFO  [it.bplus.business.Importer:75] *********
+2012-03-26 13:03:40,288 INFO  [it.bplus.business.Importer:76] ********* START doImport at Mon Mar 26 13:03:40 CEST 2012, for period between Sun Mar 25 00:00:00 CET 2012 and Sun Mar 25 23:59:59 CEST 2012 *********
+2012-03-26 13:03:40,288 INFO  [it.bplus.business.Importer:78] ********* for location: GL528005974K
+2012-03-26 13:03:40,288 INFO  [it.bplus.business.Importer:80] *********
+2012-03-26 13:03:40,300 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Sun Mar 25 00:00:00 CET 2012, dataFine: Sun Mar 25 23:59:59 CEST 2012
+2012-03-26 13:03:40,318 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-26 13:03:40,333 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2763, corrispondente a id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0, con esito IN PROGRESS
+2012-03-26 13:03:40,337 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-26 13:03:40,337 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-26 13:04:04,982 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 13:04:04,982 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 13:04:04,982 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 13:04:04,982 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 13:04:04,982 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 13:04:04,982 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 13:04:04,982 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 13:04:04,982 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 13:04:04,982 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 13:04:31,840 INFO  [it.bplus.business.Importer:75] *********
+2012-03-26 13:04:31,840 INFO  [it.bplus.business.Importer:76] ********* START doImport at Mon Mar 26 13:04:31 CEST 2012, for period between Sun Mar 25 00:00:00 CET 2012 and Sun Mar 25 23:59:59 CEST 2012 *********
+2012-03-26 13:04:31,841 INFO  [it.bplus.business.Importer:78] ********* for location: GL528005974K
+2012-03-26 13:04:31,841 INFO  [it.bplus.business.Importer:80] *********
+2012-03-26 13:04:31,853 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Sun Mar 25 00:00:00 CET 2012, dataFine: Sun Mar 25 23:59:59 CEST 2012
+2012-03-26 13:04:31,871 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-26 13:04:31,886 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2764, corrispondente a id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0, con esito IN PROGRESS
+2012-03-26 13:04:31,890 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-26 13:04:31,891 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-26 13:05:18,043 INFO  [it.bplus.business.RetrieverInserter:112] FINE caricamento mappe dimensioni Clienti,Spazio,Tempo.
+2012-03-26 13:05:18,046 INFO  [it.bplus.dao.staging.GsMetersDAO:305] START retrieve_GsMeters_By_Data_Ora_Location. AAMS_LOCATION_ID: GL528005974K, UsID: 1451, startDate: 2012-03-25 00:00:00.0, endDate: 2012-03-25 23:59:59.0
+2012-03-26 13:05:18,333 INFO  [it.bplus.dao.staging.GsMetersDAO:372] FINE trovati GsMeters: 16 per location: GL528005974K
+2012-03-26 13:05:18,335 INFO  [it.bplus.business.RetrieverInserter:122] START caricamento mappe Location, Vlt, Games...
+2012-03-26 13:05:19,650 INFO  [it.bplus.business.RetrieverInserter:131] FINE caricamento mappe Location, Vlt, Games.
+2012-03-26 13:05:19,650 INFO  [it.bplus.business.RetrieverInserter:134] START ciclo while, creazione lista MeterFact...
+2012-03-26 13:05:19,983 INFO  [it.bplus.business.RetrieverInserter:452] FINE retrieve. Create 16 instanze di meterfact e inserite in una lista.
+2012-03-26 13:05:19,984 INFO  [it.bplus.business.Importer:129] Inserisco lista MeterFact in Datamart
+2012-03-26 13:05:19,984 INFO  [it.bplus.business.RetrieverInserter:477] START insert in Datamart...
+2012-03-26 13:05:19,984 INFO  [it.bplus.business.RetrieverInserter:510] insert o update: 10%
+2012-03-26 13:05:21,314 INFO  [it.bplus.business.RetrieverInserter:512] insert o update: 15%
+2012-03-26 13:05:22,484 INFO  [it.bplus.business.RetrieverInserter:514] insert o update: 20%
+2012-03-26 13:05:23,768 INFO  [it.bplus.business.RetrieverInserter:516] insert o update: 25%
+2012-03-26 13:05:25,075 INFO  [it.bplus.business.RetrieverInserter:520] insert o update: 35%
+2012-03-26 13:05:26,389 INFO  [it.bplus.business.RetrieverInserter:522] insert o update: 40%
+2012-03-26 13:05:27,684 INFO  [it.bplus.business.RetrieverInserter:524] insert o update: 45%
+2012-03-26 13:05:28,801 INFO  [it.bplus.business.RetrieverInserter:526] insert o update: 50%
+2012-03-26 13:05:29,925 INFO  [it.bplus.business.RetrieverInserter:530] insert o update: 60%
+2012-03-26 13:05:31,070 INFO  [it.bplus.business.RetrieverInserter:532] insert o update: 65%
+2012-03-26 13:05:32,205 INFO  [it.bplus.business.RetrieverInserter:534] insert o update: 70%
+2012-03-26 13:05:33,340 INFO  [it.bplus.business.RetrieverInserter:536] insert o update: 75%
+2012-03-26 13:05:34,474 INFO  [it.bplus.business.RetrieverInserter:540] insert o update: 85%
+2012-03-26 13:05:35,616 INFO  [it.bplus.business.RetrieverInserter:542] insert o update: 90%
+2012-03-26 13:05:36,755 INFO  [it.bplus.business.RetrieverInserter:544] insert o update: 95%
+2012-03-26 13:05:37,914 INFO  [it.bplus.business.RetrieverInserter:546] insert o update: 100%
+2012-03-26 13:05:39,214 INFO  [it.bplus.business.RetrieverInserter:582] FINE insert in Datamart.
+2012-03-26 13:05:39,215 INFO  [it.bplus.business.Importer:137] Modifico esito in OK al session_log con unique_session_id(datamart): 2764, id_import_log: 1213
+2012-03-26 13:05:39,217 INFO  [it.bplus.dao.datamart.SessionLogDAO:266] Esito modificato in OK al session_log con unique_session_id(datamart): 2764, id_import_log: 1213
+2012-03-26 13:05:39,220 INFO  [it.bplus.business.Importer:143] Import completato per Session_Log con Unique_Session_ID(Datamart): 2764, id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0
+2012-03-26 13:05:52,733 INFO  [it.bplus.business.Importer:80] Start Mail
+2012-03-26 13:05:52,885 INFO  [it.bplus.business.Importer:361] End Mail
+2012-03-26 13:05:52,885 INFO  [it.bplus.business.Importer:182] *********
+2012-03-26 13:05:52,885 INFO  [it.bplus.business.Importer:183] ********* FINE doImport at Mon Mar 26 13:05:52 CEST 2012 *********
+2012-03-26 13:05:52,885 INFO  [it.bplus.business.Importer:184] *********
+2012-03-26 13:06:47,685 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 13:06:47,686 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 13:06:47,687 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 13:06:47,687 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 13:06:47,687 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 13:06:47,687 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 13:06:47,687 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 13:06:47,687 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 13:06:47,687 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 13:08:45,561 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 13:08:45,561 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 13:08:45,561 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 13:08:45,561 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 13:08:45,561 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 13:08:45,561 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 13:08:45,561 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 13:08:45,561 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 13:08:45,561 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 13:09:30,807 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 13:09:30,807 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 13:09:30,807 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 13:09:30,807 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 13:09:30,807 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 13:09:30,807 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 13:09:30,807 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 13:09:30,807 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 13:09:30,807 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 13:09:44,070 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 13:09:44,072 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 13:09:44,072 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 13:09:44,072 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 13:09:44,073 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 13:09:44,073 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 13:09:44,073 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 13:09:44,073 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 13:09:44,073 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 13:10:37,233 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 13:10:37,237 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 13:10:37,237 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 13:10:37,237 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 13:10:37,237 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 13:10:37,238 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 15:30:00 CEST 2012
+2012-03-26 13:10:37,238 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 13:10:37,238 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 13:10:37,239 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 19:19:32,524 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-26 19:19:32,550 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-26 19:19:32,551 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-26 19:19:32,551 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-26 19:19:32,551 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-26 19:19:32,551 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Mon Mar 26 21:30:00 CEST 2012
+2012-03-26 19:19:32,551 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-26 19:19:32,551 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-26 19:19:32,552 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-26 19:20:12,546 INFO  [it.bplus.business.Importer:75] *********
+2012-03-26 19:20:12,546 INFO  [it.bplus.business.Importer:76] ********* START doImport at Mon Mar 26 19:20:12 CEST 2012, for period between Sun Mar 25 00:00:00 CET 2012 and Sun Mar 25 23:59:59 CEST 2012 *********
+2012-03-26 19:20:12,547 INFO  [it.bplus.business.Importer:80] *********
+2012-03-26 19:20:12,586 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Sun Mar 25 00:00:00 CET 2012, dataFine: Sun Mar 25 23:59:59 CEST 2012
+2012-03-26 19:20:12,620 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-26 19:20:12,634 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2766, corrispondente a id_import_log: 1213, START DATE: 2012-03-25 00:00:00.0, END DATE: 2012-03-25 23:59:59.0, con esito IN PROGRESS
+2012-03-26 19:20:12,637 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-26 19:20:12,638 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-26 19:20:58,072 INFO  [it.bplus.business.RetrieverInserter:112] FINE caricamento mappe dimensioni Clienti,Spazio,Tempo.
+2012-03-26 19:20:58,074 INFO  [it.bplus.dao.staging.GsMetersDAO:192] START retrieve_GsMeters_By_UniqueSessionId_Data_Ora. UsID: 1451, startDate: 2012-03-25 00:00:00.0, endDate: 2012-03-25 23:59:59.0
+2012-03-26 19:20:58,366 INFO  [it.bplus.dao.staging.GsMetersDAO:271] FINE trovati GsMeters: 1458
+2012-03-26 19:20:58,368 INFO  [it.bplus.business.RetrieverInserter:122] START caricamento mappe Location, Vlt, Games...
+2012-03-26 19:20:59,753 INFO  [it.bplus.business.RetrieverInserter:131] FINE caricamento mappe Location, Vlt, Games.
+2012-03-26 19:20:59,753 INFO  [it.bplus.business.RetrieverInserter:134] START ciclo while, creazione lista MeterFact...
+2012-03-28 10:40:17,020 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-28 10:40:17,033 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-28 10:40:17,035 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-28 10:40:17,035 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-28 10:40:17,035 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-28 10:40:17,036 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Wed Mar 28 15:30:00 CEST 2012
+2012-03-28 10:40:17,036 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-28 10:40:17,036 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-28 10:40:17,036 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-28 10:40:31,332 INFO  [it.bplus.business.Importer:75] *********
+2012-03-28 10:40:31,333 INFO  [it.bplus.business.Importer:76] ********* START doImport at Wed Mar 28 10:40:31 CEST 2012, for period between Tue Mar 27 00:00:00 CEST 2012 and Tue Mar 27 23:59:59 CEST 2012 *********
+2012-03-28 10:40:31,333 INFO  [it.bplus.business.Importer:78] ********* for location: GF566002721M
+2012-03-28 10:40:31,333 INFO  [it.bplus.business.Importer:80] *********
+2012-03-28 10:40:31,362 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Tue Mar 27 00:00:00 CEST 2012, dataFine: Tue Mar 27 23:59:59 CEST 2012
+2012-03-28 10:40:31,411 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-28 10:40:31,433 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2790, corrispondente a id_import_log: 1218, START DATE: 2012-03-27 00:00:00.0, END DATE: 2012-03-27 23:59:59.0, con esito IN PROGRESS
+2012-03-28 10:40:31,438 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-28 10:40:31,438 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-28 10:41:14,087 INFO  [it.bplus.business.RetrieverInserter:112] FINE caricamento mappe dimensioni Clienti,Spazio,Tempo.
+2012-03-28 10:41:14,092 INFO  [it.bplus.dao.staging.GsMetersDAO:305] START retrieve_GsMeters_By_Data_Ora_Location. AAMS_LOCATION_ID: GF566002721M, UsID: 1472, startDate: 2012-03-27 00:00:00.0, endDate: 2012-03-27 23:59:59.0
+2012-03-28 10:41:14,433 INFO  [it.bplus.dao.staging.GsMetersDAO:372] FINE trovati GsMeters: 31 per location: GF566002721M
+2012-03-28 10:41:14,434 INFO  [it.bplus.business.RetrieverInserter:122] START caricamento mappe Location, Vlt, Games...
+2012-03-28 10:41:15,652 INFO  [it.bplus.business.RetrieverInserter:131] FINE caricamento mappe Location, Vlt, Games.
+2012-03-28 10:41:15,653 INFO  [it.bplus.business.RetrieverInserter:134] START ciclo while, creazione lista MeterFact...
+2012-03-28 10:41:16,150 INFO  [it.bplus.business.RetrieverInserter:452] FINE retrieve. Create 31 instanze di meterfact e inserite in una lista.
+2012-03-28 10:41:16,150 INFO  [it.bplus.business.Importer:129] Inserisco lista MeterFact in Datamart
+2012-03-28 10:41:16,151 INFO  [it.bplus.business.RetrieverInserter:477] START insert in Datamart...
+2012-03-28 10:41:18,928 INFO  [it.bplus.business.RetrieverInserter:510] insert o update: 10%
+2012-03-28 10:41:20,258 INFO  [it.bplus.business.RetrieverInserter:512] insert o update: 15%
+2012-03-28 10:41:22,903 INFO  [it.bplus.business.RetrieverInserter:514] insert o update: 20%
+2012-03-28 10:41:24,216 INFO  [it.bplus.business.RetrieverInserter:516] insert o update: 25%
+2012-03-28 10:41:26,810 INFO  [it.bplus.business.RetrieverInserter:518] insert o update: 30%
+2012-03-28 10:41:28,086 INFO  [it.bplus.business.RetrieverInserter:520] insert o update: 35%
+2012-03-28 10:41:30,498 INFO  [it.bplus.business.RetrieverInserter:522] insert o update: 40%
+2012-03-28 10:41:31,684 INFO  [it.bplus.business.RetrieverInserter:524] insert o update: 45%
+2012-03-28 10:41:34,315 INFO  [it.bplus.business.RetrieverInserter:526] insert o update: 50%
+2012-03-28 10:41:37,130 INFO  [it.bplus.business.RetrieverInserter:528] insert o update: 55%
+2012-03-28 10:41:38,582 INFO  [it.bplus.business.RetrieverInserter:530] insert o update: 60%
+2012-03-28 10:41:41,545 INFO  [it.bplus.business.RetrieverInserter:532] insert o update: 65%
+2012-03-28 10:41:43,019 INFO  [it.bplus.business.RetrieverInserter:534] insert o update: 70%
+2012-03-28 10:41:45,935 INFO  [it.bplus.business.RetrieverInserter:536] insert o update: 75%
+2012-03-28 10:41:47,421 INFO  [it.bplus.business.RetrieverInserter:538] insert o update: 80%
+2012-03-28 10:41:50,082 INFO  [it.bplus.business.RetrieverInserter:540] insert o update: 85%
+2012-03-28 10:41:51,395 INFO  [it.bplus.business.RetrieverInserter:542] insert o update: 90%
+2012-03-28 10:41:53,805 INFO  [it.bplus.business.RetrieverInserter:544] insert o update: 95%
+2012-03-28 10:41:56,148 INFO  [it.bplus.business.RetrieverInserter:546] insert o update: 100%
+2012-03-28 10:41:57,598 INFO  [it.bplus.business.RetrieverInserter:582] FINE insert in Datamart.
+2012-03-28 10:41:57,598 INFO  [it.bplus.business.Importer:137] Modifico esito in OK al session_log con unique_session_id(datamart): 2790, id_import_log: 1218
+2012-03-28 10:41:57,601 INFO  [it.bplus.dao.datamart.SessionLogDAO:266] Esito modificato in OK al session_log con unique_session_id(datamart): 2790, id_import_log: 1218
+2012-03-28 10:41:57,603 INFO  [it.bplus.business.Importer:143] Import completato per Session_Log con Unique_Session_ID(Datamart): 2790, id_import_log: 1218, START DATE: 2012-03-27 00:00:00.0, END DATE: 2012-03-27 23:59:59.0
+2012-03-28 10:42:00,895 INFO  [it.bplus.business.Importer:80] Start Mail
+2012-03-28 10:42:01,706 INFO  [it.bplus.business.Importer:361] End Mail
+2012-03-28 10:42:01,707 INFO  [it.bplus.business.Importer:182] *********
+2012-03-28 10:42:01,707 INFO  [it.bplus.business.Importer:183] ********* FINE doImport at Wed Mar 28 10:42:01 CEST 2012 *********
+2012-03-28 10:42:01,707 INFO  [it.bplus.business.Importer:184] *********
+2012-03-29 09:16:10,412 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-29 09:16:10,442 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-29 09:16:10,443 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-29 09:16:10,443 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-29 09:16:10,444 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-29 09:16:10,444 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Thu Mar 29 09:30:00 CEST 2012
+2012-03-29 09:16:10,444 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-29 09:16:10,444 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-29 09:16:10,444 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-29 09:16:25,524 INFO  [it.bplus.servlet.ScheduledImporter:81] *********
+2012-03-29 09:16:25,526 INFO  [it.bplus.servlet.ScheduledImporter:82] *********
+2012-03-29 09:16:25,526 INFO  [it.bplus.servlet.ScheduledImporter:83] *********
+2012-03-29 09:16:25,526 INFO  [it.bplus.servlet.ScheduledImporter:84] ********* TODATAMART: l'import automatico è abilitato 
+2012-03-29 09:16:25,527 INFO  [it.bplus.servlet.ScheduledImporter:85] *********    si ripeterà ogni: 6 ore (calcolate a partire dalle 9.30)
+2012-03-29 09:16:25,527 INFO  [it.bplus.servlet.ScheduledImporter:86] *********    data e ora del primo avvio: Thu Mar 29 09:30:00 CEST 2012
+2012-03-29 09:16:25,527 INFO  [it.bplus.servlet.ScheduledImporter:87] *********
+2012-03-29 09:16:25,527 INFO  [it.bplus.servlet.ScheduledImporter:88] *********
+2012-03-29 09:16:25,527 INFO  [it.bplus.servlet.ScheduledImporter:89] *********
+2012-03-29 09:16:33,637 INFO  [it.bplus.business.Importer:75] *********
+2012-03-29 09:16:33,637 INFO  [it.bplus.business.Importer:76] ********* START doImport at Thu Mar 29 09:16:33 CEST 2012, for period between Tue Mar 27 00:00:00 CEST 2012 and Tue Mar 27 23:59:59 CEST 2012 *********
+2012-03-29 09:16:33,637 INFO  [it.bplus.business.Importer:78] ********* for location: GB392003800L
+2012-03-29 09:16:33,637 INFO  [it.bplus.business.Importer:80] *********
+2012-03-29 09:16:33,677 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Tue Mar 27 00:00:00 CEST 2012, dataFine: Tue Mar 27 23:59:59 CEST 2012
+2012-03-29 09:16:33,707 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-29 09:16:33,744 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2794, corrispondente a id_import_log: 1218, START DATE: 2012-03-27 00:00:00.0, END DATE: 2012-03-27 23:59:59.0, con esito IN PROGRESS
+2012-03-29 09:16:33,751 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-29 09:16:33,751 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-29 09:17:15,198 INFO  [it.bplus.business.RetrieverInserter:112] FINE caricamento mappe dimensioni Clienti,Spazio,Tempo.
+2012-03-29 09:17:15,200 INFO  [it.bplus.dao.staging.GsMetersDAO:305] START retrieve_GsMeters_By_Data_Ora_Location. AAMS_LOCATION_ID: GB392003800L, UsID: 1472, startDate: 2012-03-27 00:00:00.0, endDate: 2012-03-27 23:59:59.0
+2012-03-29 09:17:15,562 INFO  [it.bplus.dao.staging.GsMetersDAO:372] FINE trovati GsMeters: 34 per location: GB392003800L
+2012-03-29 09:17:15,564 INFO  [it.bplus.business.RetrieverInserter:122] START caricamento mappe Location, Vlt, Games...
+2012-03-29 09:17:16,884 INFO  [it.bplus.business.RetrieverInserter:131] FINE caricamento mappe Location, Vlt, Games.
+2012-03-29 09:17:16,885 INFO  [it.bplus.business.RetrieverInserter:134] START ciclo while, creazione lista MeterFact...
+2012-03-29 09:17:17,519 INFO  [it.bplus.business.RetrieverInserter:452] FINE retrieve. Create 34 instanze di meterfact e inserite in una lista.
+2012-03-29 09:17:17,519 INFO  [it.bplus.business.Importer:129] Inserisco lista MeterFact in Datamart
+2012-03-29 09:17:17,519 INFO  [it.bplus.business.RetrieverInserter:477] START insert in Datamart...
+2012-03-29 09:17:20,170 INFO  [it.bplus.business.RetrieverInserter:510] insert o update: 10%
+2012-03-29 09:17:22,802 INFO  [it.bplus.business.RetrieverInserter:512] insert o update: 15%
+2012-03-29 09:17:24,119 INFO  [it.bplus.business.RetrieverInserter:514] insert o update: 20%
+2012-03-29 09:17:26,721 INFO  [it.bplus.business.RetrieverInserter:516] insert o update: 25%
+2012-03-29 09:17:29,364 INFO  [it.bplus.business.RetrieverInserter:518] insert o update: 30%
+2012-03-29 09:17:30,695 INFO  [it.bplus.business.RetrieverInserter:520] insert o update: 35%
+2012-03-29 09:17:33,187 INFO  [it.bplus.business.RetrieverInserter:522] insert o update: 40%
+2012-03-29 09:17:35,451 INFO  [it.bplus.business.RetrieverInserter:524] insert o update: 45%
+2012-03-29 09:17:37,752 INFO  [it.bplus.business.RetrieverInserter:526] insert o update: 50%
+2012-03-29 09:17:38,900 INFO  [it.bplus.business.RetrieverInserter:528] insert o update: 55%
+2012-03-29 09:17:41,354 INFO  [it.bplus.business.RetrieverInserter:530] insert o update: 60%
+2012-03-29 09:17:43,987 INFO  [it.bplus.business.RetrieverInserter:532] insert o update: 65%
+2012-03-29 09:17:45,123 INFO  [it.bplus.business.RetrieverInserter:534] insert o update: 70%
+2012-03-29 09:17:47,404 INFO  [it.bplus.business.RetrieverInserter:536] insert o update: 75%
+2012-03-29 09:17:49,720 INFO  [it.bplus.business.RetrieverInserter:538] insert o update: 80%
+2012-03-29 09:17:50,859 INFO  [it.bplus.business.RetrieverInserter:540] insert o update: 85%
+2012-03-29 09:17:53,142 INFO  [it.bplus.business.RetrieverInserter:542] insert o update: 90%
+2012-03-29 09:17:55,435 INFO  [it.bplus.business.RetrieverInserter:544] insert o update: 95%
+2012-03-29 09:17:57,868 INFO  [it.bplus.business.RetrieverInserter:546] insert o update: 100%
+2012-03-29 09:17:59,160 INFO  [it.bplus.business.RetrieverInserter:582] FINE insert in Datamart.
+2012-03-29 09:17:59,160 INFO  [it.bplus.business.Importer:137] Modifico esito in OK al session_log con unique_session_id(datamart): 2794, id_import_log: 1218
+2012-03-29 09:17:59,163 INFO  [it.bplus.dao.datamart.SessionLogDAO:266] Esito modificato in OK al session_log con unique_session_id(datamart): 2794, id_import_log: 1218
+2012-03-29 09:17:59,165 INFO  [it.bplus.business.Importer:143] Import completato per Session_Log con Unique_Session_ID(Datamart): 2794, id_import_log: 1218, START DATE: 2012-03-27 00:00:00.0, END DATE: 2012-03-27 23:59:59.0
+2012-03-29 09:18:12,413 INFO  [it.bplus.business.Importer:80] Start Mail
+2012-03-29 09:18:12,602 INFO  [it.bplus.business.Importer:361] End Mail
+2012-03-29 09:18:12,602 INFO  [it.bplus.business.Importer:182] *********
+2012-03-29 09:18:12,602 INFO  [it.bplus.business.Importer:183] ********* FINE doImport at Thu Mar 29 09:18:12 CEST 2012 *********
+2012-03-29 09:18:12,602 INFO  [it.bplus.business.Importer:184] *********
+2012-03-29 09:30:00,540 INFO  [it.bplus.business.Importer:75] *********
+2012-03-29 09:30:00,541 INFO  [it.bplus.business.Importer:76] ********* START doImport at Thu Mar 29 09:30:00 CEST 2012, for period between Wed Mar 28 00:00:00 CEST 2012 and Wed Mar 28 23:59:59 CEST 2012 *********
+2012-03-29 09:30:00,541 INFO  [it.bplus.business.Importer:80] *********
+2012-03-29 09:30:00,541 INFO  [it.bplus.dao.datamart.SessionLogDAO:81] start getIdImportLogStagingProcessed
+2012-03-29 09:30:00,630 INFO  [it.bplus.dao.staging.ImportLogDAO:118] retrieveNewImportLogsByIdImportLog ______ dataInizio: Wed Mar 28 00:00:00 CEST 2012, dataFine: Wed Mar 28 23:59:59 CEST 2012
+2012-03-29 09:30:00,725 INFO  [it.bplus.dao.staging.ImportLogDAO:139] retrieveNewImportLogsByIdImportLog: sono stati trovati 1 record di ImportLog con id che non erano tra quelli già importati.
+2012-03-29 09:30:00,742 INFO  [it.bplus.dao.datamart.SessionLogDAO:184] Inserito record in session_log con unique_session_id(datamart): 2796, corrispondente a id_import_log: 1223, START DATE: 2012-03-28 00:00:00.0, END DATE: 2012-03-28 23:59:59.0, con esito IN PROGRESS
+2012-03-29 09:30:00,743 INFO  [it.bplus.business.RetrieverInserter:103] START retrieve...
+2012-03-29 09:30:00,743 INFO  [it.bplus.business.RetrieverInserter:105] START caricamento mappe dimensioni Clienti,Spazio,Tempo...
+2012-03-29 09:30:00,743 INFO  [it.bplus.business.RetrieverInserter:112] FINE caricamento mappe dimensioni Clienti,Spazio,Tempo.
+2012-03-29 09:30:00,744 INFO  [it.bplus.dao.staging.GsMetersDAO:192] START retrieve_GsMeters_By_UniqueSessionId_Data_Ora. UsID: 1477, startDate: 2012-03-28 00:00:00.0, endDate: 2012-03-28 23:59:59.0
+2012-03-29 09:30:03,099 INFO  [it.bplus.dao.staging.GsMetersDAO:271] FINE trovati GsMeters: 14706
+2012-03-29 09:30:03,107 INFO  [it.bplus.business.RetrieverInserter:122] START caricamento mappe Location, Vlt, Games...
+2012-03-29 09:30:03,107 INFO  [it.bplus.business.RetrieverInserter:131] FINE caricamento mappe Location, Vlt, Games.
+2012-03-29 09:30:03,107 INFO  [it.bplus.business.RetrieverInserter:134] START ciclo while, creazione lista MeterFact...
+2012-03-29 09:33:08,734 INFO  [it.bplus.business.RetrieverInserter:452] FINE retrieve. Create 14706 instanze di meterfact e inserite in una lista.
+2012-03-29 09:33:08,735 INFO  [it.bplus.business.Importer:129] Inserisco lista MeterFact in Datamart
+2012-03-29 09:33:08,735 INFO  [it.bplus.business.RetrieverInserter:477] START insert in Datamart...
